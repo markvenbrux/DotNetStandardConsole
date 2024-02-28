@@ -8,7 +8,10 @@ For testing and debugging under Windows simply open DotNetStandardConsole.sln.
 
 Checking "Use the WSL 2 based engine" in Docker Desktop will make sure that the project runs under Linux.
 
-Convenient docker commands to experiment with this setup:
+This project is based on:
+https://github.com/dotnet/dotnet-docker/blob/main/samples/build-in-sdk-container.md
+
+Convenient docker commands to experiment with this setup: (run in root of archive)
 
 # Create image
 docker build -t counter-image -f DockerfileSln .
