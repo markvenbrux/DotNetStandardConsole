@@ -1,0 +1,3631 @@
+<root>
+  <schema id="root">
+    <import namespace="http://www.w3.org/XML/1998/namespace" />
+    <element name="root" IsDataSet="true">
+      <complexType>
+        <choice maxOccurs="unbounded">
+          <element name="metadata">
+            <complexType>
+              <sequence>
+                <element name="value" type="xsd:string" minOccurs="0" />
+              </sequence>
+              <attribute name="name" use="required" type="xsd:string" />
+              <attribute name="type" type="xsd:string" />
+              <attribute name="mimetype" type="xsd:string" />
+              <attribute ref="xml:space" />
+            </complexType>
+          </element>
+          <element name="assembly">
+            <complexType>
+              <attribute name="alias" type="xsd:string" />
+              <attribute name="name" type="xsd:string" />
+            </complexType>
+          </element>
+          <element name="data">
+            <complexType>
+              <sequence>
+                <element name="value" type="xsd:string" minOccurs="0" Ordinal="1" />
+                <element name="comment" type="xsd:string" minOccurs="0" Ordinal="2" />
+              </sequence>
+              <attribute name="name" type="xsd:string" use="required" Ordinal="1" />
+              <attribute name="type" type="xsd:string" Ordinal="3" />
+              <attribute name="mimetype" type="xsd:string" Ordinal="4" />
+              <attribute ref="xml:space" />
+            </complexType>
+          </element>
+          <element name="resheader">
+            <complexType>
+              <sequence>
+                <element name="value" type="xsd:string" minOccurs="0" Ordinal="1" />
+              </sequence>
+              <attribute name="name" type="xsd:string" use="required" />
+            </complexType>
+          </element>
+        </choice>
+      </complexType>
+    </element>
+  </schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="Abdomen">
+    <value>Abdomen</value>
+  </data>
+  <data name="AcceptTissue">
+    <value>Acceptér væv</value>
+  </data>
+  <data name="AcceptTissueToolTip">
+    <value>Acceptér væv</value>
+  </data>
+  <data name="ActivityConcentrationUnitsBQML">
+    <value>Bq/ml</value>
+  </data>
+  <data name="ActivityConcentrationUnitsNCIML">
+    <value>nCi/ml</value>
+  </data>
+  <data name="AdcUnit">
+    <value>10⁻³ mm²/s</value>
+  </data>
+  <data name="AddSeriesToPrintComposer">
+    <value>Tilføj serie til udskrivningsprogrammet</value>
+  </data>
+  <data name="AddSeriesToPrintComposerTooltip">
+    <value>Tilføj den valgte serie til udskrivningsprogrammet.</value>
+  </data>
+  <data name="AddToAccumulation">
+    <value>Tilføj til akkumulator</value>
+  </data>
+  <data name="AddToAccumulationTooltip">
+    <value>Tilføj en ny del til en segmenteret sektion af et volumen.</value>
+  </data>
+  <data name="AlignViewToMeasurement">
+    <value>Juster visning efter måling</value>
+  </data>
+  <data name="AlphaBlending">
+    <value>Opacitet</value>
+  </data>
+  <data name="AlphaBlendingInteractionTooltip">
+    <value>Opacitet</value>
+  </data>
+  <data name="AlphaBlendingPercentagePrefix">
+    <value>Alpha</value>
+  </data>
+  <data name="AlphaBlendingToolTip">
+    <value>Opacitet</value>
+  </data>
+  <data name="AlternateWindow">
+    <value>Skift vindue</value>
+  </data>
+  <data name="AlternateWindowToolTip">
+    <value>Skift vindue</value>
+  </data>
+  <data name="AnnotationAddLateralDisplacementPoint">
+    <value>Lateralt forskydningspunkt</value>
+  </data>
+  <data name="AnnotationAddLateralDisplacementPointToolTip">
+    <value>Tilføj et lateralt forskydningspunkt</value>
+  </data>
+  <data name="AnnotationAngle">
+    <value>Vinkel</value>
+  </data>
+  <data name="AnnotationAngleToolTip">
+    <value>Vinkel</value>
+  </data>
+  <data name="AnnotationArrowText">
+    <value>Pil + tekstanmærkning</value>
+  </data>
+  <data name="AnnotationArrowTextToolTip">
+    <value>Pil + tekstanmærkning</value>
+  </data>
+  <data name="AnnotationAutoContour">
+    <value>Autokontur</value>
+  </data>
+  <data name="AnnotationAutoContourToolTip">
+    <value>Autokontur</value>
+  </data>
+  <data name="AnnotationCalibrationLine">
+    <value>Kalibrering af pixelstørrelse</value>
+  </data>
+  <data name="AnnotationCalibrationLine100">
+    <value>Kalibrering af pixelstørrelse (100 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine100ToolTip">
+    <value>Kalibrering af pixelstørrelse (100 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine150">
+    <value>Kalibrering af pixelstørrelse (150 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine150ToolTip">
+    <value>Kalibrering af pixelstørrelse (150 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine200">
+    <value>Kalibrering af pixelstørrelse (200 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine200ToolTip">
+    <value>Kalibrering af pixelstørrelse (200 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLineToolTip">
+    <value>Kalibrering af pixelstørrelse</value>
+  </data>
+  <data name="AnnotationCircle">
+    <value>Cirkel</value>
+  </data>
+  <data name="AnnotationCircleToolTip">
+    <value>Cirkel</value>
+  </data>
+  <data name="AnnotationDeleteAllGraphics">
+    <value>Slet al grafik</value>
+  </data>
+  <data name="AnnotationDeleteAllGraphicsToolTip">
+    <value>Slet al grafik</value>
+  </data>
+  <data name="AnnotationDoubleCobbAngle">
+    <value>Dobbelt Cobb-vinkel</value>
+  </data>
+  <data name="AnnotationDoubleCobbAngleToolTip">
+    <value>Opret en dobbelt Cobb-vinkel</value>
+  </data>
+  <data name="AnnotationDoubleLine">
+    <value>Dobbelt linje</value>
+  </data>
+  <data name="AnnotationDoubleLineLengthRatio">
+    <value>Dobbelt linjelængdeforhold</value>
+  </data>
+  <data name="AnnotationDoubleLineLengthRatioToolTip">
+    <value>Opret en anmærkning om dobbelt linjelængdeforhold</value>
+  </data>
+  <data name="AnnotationDoubleLineToolTip">
+    <value>Dobbelt linje</value>
+  </data>
+  <data name="AnnotationEdgeFinder">
+    <value>Kantfinder</value>
+  </data>
+  <data name="AnnotationEdgeFinderToolTip">
+    <value>Kantfinder</value>
+  </data>
+  <data name="AnnotationEllipse">
+    <value>Ellipse</value>
+  </data>
+  <data name="AnnotationEllipseToolTip">
+    <value>Ellipse</value>
+  </data>
+  <data name="AnnotationFemoralHeightDifference">
+    <value>Højdeforskel på femurhoved</value>
+  </data>
+  <data name="AnnotationFemoralHeightDifferenceToolTip">
+    <value>Opret en annotation for højdeforskel på femurhovedet.</value>
+  </data>
+  <data name="AnnotationFlexiContour">
+    <value>Flexi Contour</value>
+  </data>
+  <data name="AnnotationFlexiContourToolTip">
+    <value>Flexi Contour</value>
+  </data>
+  <data name="AnnotationFreehand">
+    <value>Frihåndslinje</value>
+  </data>
+  <data name="AnnotationFreehandContour">
+    <value>Frihåndskontur</value>
+  </data>
+  <data name="AnnotationFreehandContourToolTip">
+    <value>Frihåndskontur</value>
+  </data>
+  <data name="AnnotationFreehandToolTip">
+    <value>Frihåndslinje</value>
+  </data>
+  <data name="AnnotationGrid">
+    <value>Gitter</value>
+  </data>
+  <data name="AnnotationGridToolTip">
+    <value>Gitter</value>
+  </data>
+  <data name="AnnotationGridTypeBottomLeft">
+    <value>Gittertype nederst til venstre</value>
+  </data>
+  <data name="AnnotationGridTypeISOCenter">
+    <value>Gittertype isocenter</value>
+  </data>
+  <data name="AnnotationGridTypeImageCenter">
+    <value>Gittertype billedcentrum</value>
+  </data>
+  <data name="AnnotationGridTypeViewportCenter">
+    <value>Gittertype i midten af visningsfeltet</value>
+  </data>
+  <data name="AnnotationHideAllGraphics">
+    <value>Skjul al grafik</value>
+  </data>
+  <data name="AnnotationHideAllGraphicsToolTip">
+    <value>Skjul anmærkninger</value>
+  </data>
+  <data name="AnnotationLine">
+    <value>Afstand</value>
+  </data>
+  <data name="AnnotationLineToolTip">
+    <value>Afstand</value>
+  </data>
+  <data name="AnnotationOpenAngle">
+    <value>Åben vinkel</value>
+  </data>
+  <data name="AnnotationOpenAngleToolTip">
+    <value>Åben vinkel</value>
+  </data>
+  <data name="AnnotationPixelValue">
+    <value>Pixelværdi</value>
+  </data>
+  <data name="AnnotationPixelValueToolTip">
+    <value>Pixelværdi</value>
+  </data>
+  <data name="AnnotationPolyLine">
+    <value>Polylinje</value>
+  </data>
+  <data name="AnnotationPolyLineToolTip">
+    <value>Polylinje</value>
+  </data>
+  <data name="AnnotationPolygon">
+    <value>Polygon</value>
+  </data>
+  <data name="AnnotationPolygonToolTip">
+    <value>Polygon</value>
+  </data>
+  <data name="AnnotationPredefinedArrowText">
+    <value>Pil + forudindstillet tekst</value>
+  </data>
+  <data name="AnnotationPredefinedArrowTextToolTip">
+    <value>Pil + forudindstillet tekst</value>
+  </data>
+  <data name="AnnotationPredefinedCategory">
+    <value>Tilføj ny...</value>
+  </data>
+  <data name="AnnotationPredefinedText">
+    <value>Forudindstillet tekst</value>
+  </data>
+  <data name="AnnotationPredefinedTextToolTip">
+    <value>Forudindstillet tekst</value>
+  </data>
+  <data name="AnnotationRectangle">
+    <value>Rektangel</value>
+  </data>
+  <data name="AnnotationRectangleToolTip">
+    <value>Rektangel</value>
+  </data>
+  <data name="AnnotationRemoveAllGraphics">
+    <value>Fjern al grafik</value>
+  </data>
+  <data name="AnnotationRemoveAllGraphicsToolTip">
+    <value>Fjern al grafik</value>
+  </data>
+  <data name="AnnotationRemoveFromGroup">
+    <value>Fjern fra gruppen</value>
+  </data>
+  <data name="AnnotationRemoveGraphicsFromSelectedImages">
+    <value>Fjern grafik fra valgte billeder</value>
+  </data>
+  <data name="AnnotationRemoveGraphicsFromSelectedImagesToolTip">
+    <value>Fjern grafik fra valgte billeder</value>
+  </data>
+  <data name="AnnotationShowAllGraphics">
+    <value>Vis al grafik</value>
+  </data>
+  <data name="AnnotationShowAllGraphicsToolTip">
+    <value>Vis al grafik</value>
+  </data>
+  <data name="AnnotationShowAngle">
+    <value>Vinkel</value>
+  </data>
+  <data name="AnnotationSpineLateralDisplacement">
+    <value>Lodret justering</value>
+  </data>
+  <data name="AnnotationSpineLateralDisplacementToolTip">
+    <value>Opret en anmærkning om lateral forskydning</value>
+  </data>
+  <data name="AnnotationSpline">
+    <value>Udglattet polylinje</value>
+  </data>
+  <data name="AnnotationSplineContour">
+    <value>Udglattet polygon</value>
+  </data>
+  <data name="AnnotationSplineContourToolTip">
+    <value>Udglattet polygon</value>
+  </data>
+  <data name="AnnotationSplineToolTip">
+    <value>Udglattet polylinje</value>
+  </data>
+  <data name="AnnotationStenosis">
+    <value>Stenose</value>
+  </data>
+  <data name="AnnotationStenosisToolTip">
+    <value>Opret en stenoseanmærkning</value>
+  </data>
+  <data name="AnnotationText">
+    <value>Tekstanmærkning</value>
+  </data>
+  <data name="AnnotationTextToolTip">
+    <value>Tekstanmærkning</value>
+  </data>
+  <data name="AnnotationsMenu_Copy">
+    <value>Kopier</value>
+  </data>
+  <data name="AnnotationsMenu_CopyToAll">
+    <value>Kopier til alle</value>
+  </data>
+  <data name="AnnotationsMenu_Cut">
+    <value>Klip</value>
+  </data>
+  <data name="AnnotationsMenu_Delete">
+    <value>Slet</value>
+  </data>
+  <data name="AnnotationsMenu_DeleteGroup">
+    <value>Slet gruppe</value>
+  </data>
+  <data name="AnnotationsMenu_GroupAnnotations">
+    <value>Billedtekster</value>
+  </data>
+  <data name="AnnotationsMenu_Hide">
+    <value>Skjul</value>
+  </data>
+  <data name="AnnotationsMenu_Paste">
+    <value>Indsæt grafik</value>
+  </data>
+  <data name="AnnotationsMenu_PasteToSelection">
+    <value>Indsæt grafik i det markerede</value>
+  </data>
+  <data name="AnnotationsTool.Graph">
+    <value>Graf</value>
+  </data>
+  <data name="AnnotationsTool.OthersGroup">
+    <value>Andre</value>
+  </data>
+  <data name="AnnotationsTool.ROIToolsGroup">
+    <value>ROI</value>
+  </data>
+  <data name="AnnotationsTool.Rotate">
+    <value>Roter</value>
+  </data>
+  <data name="AnnotationsTool.ToolsGroup">
+    <value>Anmærkninger</value>
+  </data>
+  <data name="ApplyColorMap">
+    <value>Farvekort</value>
+  </data>
+  <data name="ApplyfMRIColorMap">
+    <value>fMRI-farvekort</value>
+  </data>
+  <data name="ArcballRegistrationInteractionTooltip">
+    <value>ArcBall til registrering</value>
+  </data>
+  <data name="ArrowDown">
+    <value>Pil ned</value>
+  </data>
+  <data name="ArrowLeft">
+    <value>Venstrepil</value>
+  </data>
+  <data name="ArrowRight">
+    <value>Højrepil</value>
+  </data>
+  <data name="ArrowUp">
+    <value>Pil op</value>
+  </data>
+  <data name="AutoContour_ThresholdContourErrMsg">
+    <value>Konturens tærskelmidte er ikke inden for et gyldigt blodkarområde.</value>
+  </data>
+  <data name="AutoLayout">
+    <value>Auto-layout</value>
+  </data>
+  <data name="AutoLayoutTooltip">
+    <value>Auto-layout</value>
+  </data>
+  <data name="AutomaticReferenceLines">
+    <value>Automatiske referencelinjer</value>
+  </data>
+  <data name="AverageAbsoluteDeviationProperty_AAD">
+    <value>AAD: {0}{1}</value>
+  </data>
+  <data name="AverageAbsoluteDeviationProperty_AAD_Invalid">
+    <value>AAD: ***</value>
+  </data>
+  <data name="AxialFeetOrientationTooltip">
+    <value>Aks. fødder</value>
+  </data>
+  <data name="AxialHeadOrientationTooltip">
+    <value>Aksial hoved</value>
+  </data>
+  <data name="Backward">
+    <value>Baglæns</value>
+  </data>
+  <data name="BaseCurveController_DefaultCurveName">
+    <value>Kurve</value>
+  </data>
+  <data name="Batch2DTool.PreviewCommand">
+    <value>Vis udskrift</value>
+  </data>
+  <data name="Batch2DTool.SaveAsBatch">
+    <value>Tilføj batch</value>
+  </data>
+  <data name="BatchBValues">
+    <value>b-værdier</value>
+  </data>
+  <data name="BatchClear">
+    <value>Ryd batch</value>
+  </data>
+  <data name="BatchDiffusionDirections">
+    <value>Diffusionsretninger</value>
+  </data>
+  <data name="BatchDynamics">
+    <value>Dynamik</value>
+  </data>
+  <data name="BatchFlip">
+    <value>Vend batch</value>
+  </data>
+  <data name="BatchFollowing">
+    <value>Følgende</value>
+  </data>
+  <data name="BatchImageAnnotator.BATCH">
+    <value>BATCH</value>
+  </data>
+  <data name="BatchImageTypes">
+    <value>Billedtyper</value>
+  </data>
+  <data name="BatchMode">
+    <value>Batch</value>
+  </data>
+  <data name="BatchModeToolTip">
+    <value>Batch</value>
+  </data>
+  <data name="BatchPhases">
+    <value>Faser</value>
+  </data>
+  <data name="BatchPreceding">
+    <value>Foregående</value>
+  </data>
+  <data name="BatchRangeEnd">
+    <value>Afslut:</value>
+  </data>
+  <data name="BatchRangeStart">
+    <value>Start:</value>
+  </data>
+  <data name="BatchSaveTool.DialogTitle">
+    <value>Gem batch som...</value>
+  </data>
+  <data name="BatchStations">
+    <value>Stationer</value>
+  </data>
+  <data name="BatchTypeParallel">
+    <value>Parallel</value>
+  </data>
+  <data name="BatchTypeRadial">
+    <value>Radial</value>
+  </data>
+  <data name="Bone">
+    <value>Knogle</value>
+  </data>
+  <data name="BoneRemovalTool.RemoveClutter">
+    <value>Fjern rod</value>
+  </data>
+  <data name="BoneRemovalTool_GroupName">
+    <value>Værktøjer til fjernelse af knogle</value>
+  </data>
+  <data name="BothSidesLabel">
+    <value>Begge sider</value>
+  </data>
+  <data name="BoundingTool.BoundingBox">
+    <value>Målvolumen</value>
+  </data>
+  <data name="BoundingTool.BoundingCube">
+    <value>Afgrænsende terning</value>
+  </data>
+  <data name="BoundingTool.BoundingSphere">
+    <value>Afgrænsende kugle</value>
+  </data>
+  <data name="BoundingTool.ClippingPlane">
+    <value>Beskæringsplan</value>
+  </data>
+  <data name="BoundingTool.Group">
+    <value>Afgrænsende værktøjer</value>
+  </data>
+  <data name="BoundingTool.Hide">
+    <value>Skjul/vis</value>
+  </data>
+  <data name="BoundingTool.Lock">
+    <value>Lås volumen</value>
+  </data>
+  <data name="BoundingTool.LockPlane">
+    <value>Lås plan på skærmen</value>
+  </data>
+  <data name="BoundingTool.Reset">
+    <value>Nulstil</value>
+  </data>
+  <data name="Brain">
+    <value>Hjerne</value>
+  </data>
+  <data name="BrainEnhanceMentTool.PresetName.medium">
+    <value>Medium</value>
+  </data>
+  <data name="BrainEnhanceMentTool.PresetName.soft">
+    <value>Blød</value>
+  </data>
+  <data name="BrainEnhanceMentTool.PresetName.strong">
+    <value>Stærk</value>
+  </data>
+  <data name="BrainEnhancementTool.GroupName">
+    <value>Hjernebehandlingsalgoritme</value>
+  </data>
+  <data name="BrainEnhancementTool.OnOffAction">
+    <value>Hjernebehandlingsalgoritme</value>
+  </data>
+  <data name="Calculate">
+    <value>Beregn</value>
+  </data>
+  <data name="CalculateThresholdedTissue">
+    <value>Beregn tærskelvæv</value>
+  </data>
+  <data name="CalculateThresholdedTissueToolTip">
+    <value>Beregn tærskelvæv</value>
+  </data>
+  <data name="CalculateVolume">
+    <value>Beregn volumen</value>
+  </data>
+  <data name="CalibrationCatheterNameLabelText">
+    <value>Kateternavn (valgfrit)</value>
+  </data>
+  <data name="CalibrationLengthLabelText">
+    <value>Længde (mm)</value>
+  </data>
+  <data name="CalibrationLineSettings">
+    <value>Kalibrering</value>
+  </data>
+  <data name="CalibrationTooltip">
+    <value>Kalibrering af pixelstørrelse</value>
+  </data>
+  <data name="CancelRoiIntensityVolume">
+    <value>Annuller</value>
+  </data>
+  <data name="CaptureScreen">
+    <value>Optag skærm</value>
+  </data>
+  <data name="CaptureScreenTooltip">
+    <value>Optag skærm: opret et skærmbillede af visningsområdet.</value>
+  </data>
+  <data name="Cardiac">
+    <value>Hjerte</value>
+  </data>
+  <data name="Center_cursor">
+    <value>Midtermarkør</value>
+  </data>
+  <data name="CineTool.CineGroup">
+    <value>Cine</value>
+  </data>
+  <data name="CineTool.WholeCurve">
+    <value>Hel kurve</value>
+  </data>
+  <data name="CineTool.WholeStudy">
+    <value>Hele studiet</value>
+  </data>
+  <data name="CircularShutter">
+    <value>Cirkulær lukker</value>
+  </data>
+  <data name="CircularShutterToolTip">
+    <value>Cirkulær lukker</value>
+  </data>
+  <data name="CloseAllViewPorts">
+    <value>Luk alle visningsfelter</value>
+  </data>
+  <data name="CloseBracket">
+    <value>)</value>
+  </data>
+  <data name="CollapsedRuns">
+    <value>Skjulte kørsler</value>
+  </data>
+  <data name="Colon">
+    <value>Colon</value>
+  </data>
+  <data name="ColorBlue">
+    <value>Blå</value>
+  </data>
+  <data name="ColorGreen">
+    <value>Grøn</value>
+  </data>
+  <data name="ColorMagenta">
+    <value>Magenta</value>
+  </data>
+  <data name="ColorOrange">
+    <value>Orange</value>
+  </data>
+  <data name="ColorRed">
+    <value>Rød</value>
+  </data>
+  <data name="ColorScale">
+    <value>Farveskala</value>
+  </data>
+  <data name="ColorScaleAptw">
+    <value>APT</value>
+  </data>
+  <data name="ColorScaleAutumn">
+    <value>Efterår</value>
+  </data>
+  <data name="ColorScaleBlueToRed">
+    <value>Blå til rød</value>
+  </data>
+  <data name="ColorScaleCardiac">
+    <value>Cardiac</value>
+  </data>
+  <data name="ColorScaleClear">
+    <value>Ryd farveskala</value>
+  </data>
+  <data name="ColorScaleContour">
+    <value>Kontur</value>
+  </data>
+  <data name="ColorScaleCool">
+    <value>Cool</value>
+  </data>
+  <data name="ColorScaleCustom">
+    <value>Brugerdefineret</value>
+  </data>
+  <data name="ColorScaleFusion">
+    <value>Fusion</value>
+  </data>
+  <data name="ColorScaleGeneral">
+    <value>Generel</value>
+  </data>
+  <data name="ColorScaleGrayscale">
+    <value>Original gråtone</value>
+  </data>
+  <data name="ColorScaleHide">
+    <value>Skjul farveskala</value>
+  </data>
+  <data name="ColorScaleHotmetal">
+    <value>Varm metal</value>
+  </data>
+  <data name="ColorScaleHotmetal2">
+    <value>Varm metal 2</value>
+  </data>
+  <data name="ColorScaleIce">
+    <value>Is</value>
+  </data>
+  <data name="ColorScaleInvertedGrayscale">
+    <value>Omvendt gråtone</value>
+  </data>
+  <data name="ColorScaleJet">
+    <value>Jet</value>
+  </data>
+  <data name="ColorScaleMreStiffness">
+    <value>MRE-stivhed</value>
+  </data>
+  <data name="ColorScaleMreWave">
+    <value>MRE-bølge</value>
+  </data>
+  <data name="ColorScaleRainbow1">
+    <value>Regnbue 1</value>
+  </data>
+  <data name="ColorScaleRainbow2">
+    <value>Regnbue 2</value>
+  </data>
+  <data name="ColorScaleRainbow3">
+    <value>Regnbue 3</value>
+  </data>
+  <data name="ColorScaleRedTemperature">
+    <value>Rød temperatur</value>
+  </data>
+  <data name="ColorScaleShow">
+    <value>Vis farveskala</value>
+  </data>
+  <data name="ColorScaleSmart">
+    <value>Smart</value>
+  </data>
+  <data name="ColorScaleSuv1">
+    <value>SUV 1</value>
+  </data>
+  <data name="ColorScaleSuv2">
+    <value>SUV 2</value>
+  </data>
+  <data name="ColorScaleSuv3">
+    <value>SUV 3</value>
+  </data>
+  <data name="ColorScaleTenband">
+    <value>Ti bånd</value>
+  </data>
+  <data name="ColorScaleThermal">
+    <value>Termisk</value>
+  </data>
+  <data name="ColorScaleWarm">
+    <value>Varm</value>
+  </data>
+  <data name="ColorWhite">
+    <value>Hvid</value>
+  </data>
+  <data name="ColorYellow">
+    <value>Gul</value>
+  </data>
+  <data name="Colors">
+    <value>Farver</value>
+  </data>
+  <data name="CombineTool.CombineNone">
+    <value>Ingen</value>
+  </data>
+  <data name="CombineTool_NoImage">
+    <value>Intet billede</value>
+  </data>
+  <data name="CompressionQualityAnnotation">
+    <value>K {0}</value>
+  </data>
+  <data name="ContinuousScrollConfiguratorTool.DecreaseSpeed">
+    <value>Nedsæt hastighed</value>
+  </data>
+  <data name="ContinuousScrollConfiguratorTool.IncreaseSpeed">
+    <value>Øg hastighed</value>
+  </data>
+  <data name="ContrastStretch">
+    <value>Kontraststrækning</value>
+  </data>
+  <data name="ContrastStretchTooltip">
+    <value>Kontraststrækning</value>
+  </data>
+  <data name="ControlShift">
+    <value>Ctrl+Shift+</value>
+  </data>
+  <data name="Copy">
+    <value>Kopier</value>
+  </data>
+  <data name="CopyTooltip">
+    <value>Kopier</value>
+  </data>
+  <data name="CoronalBackOrientationTooltip">
+    <value>Koronal ryg</value>
+  </data>
+  <data name="CoronalFrontOrientationTooltip">
+    <value>Koronal front</value>
+  </data>
+  <data name="Create">
+    <value>Opret</value>
+  </data>
+  <data name="CreateAngleTooltip">
+    <value>Måler vinklen mellem to linjer</value>
+  </data>
+  <data name="CreateArrowTextTooltip">
+    <value>Tilføj en anmærkning med en pil til billedet</value>
+  </data>
+  <data name="CreateCircleTooltip">
+    <value>Cirkel</value>
+  </data>
+  <data name="CreateCircularShutterTooltip">
+    <value>Opret en cirkulær lukker</value>
+  </data>
+  <data name="CreateEllipseTooltip">
+    <value>Ellipse</value>
+  </data>
+  <data name="CreateEllipticalShutterTooltip">
+    <value>Opret en elliptisk lukker</value>
+  </data>
+  <data name="CreateFreehandContourTooltip">
+    <value>Frihåndskontur</value>
+  </data>
+  <data name="CreateFreehandPolyLineTooltip">
+    <value>Åben kontur</value>
+  </data>
+  <data name="CreateLeftTextTooltip">
+    <value>Tilføj en markør for at angive venstre side af billedet</value>
+  </data>
+  <data name="CreateLineTooltip">
+    <value>Linje</value>
+  </data>
+  <data name="CreatePointTooltip">
+    <value>Punkt</value>
+  </data>
+  <data name="CreatePolyLineTooltip">
+    <value>Polylinje</value>
+  </data>
+  <data name="CreatePolygonTooltip">
+    <value>Polygon</value>
+  </data>
+  <data name="CreateRectangleTooltip">
+    <value>Rektangel</value>
+  </data>
+  <data name="CreateRectangularShutterTooltip">
+    <value>Opret en rektangulær lukker</value>
+  </data>
+  <data name="CreateRightTextTooltip">
+    <value>Tilføj en markør for at angive højre side af billedet</value>
+  </data>
+  <data name="CreateTextTooltip">
+    <value>Tilføj en anmærkning til billedet</value>
+  </data>
+  <data name="CurrentAsMask">
+    <value>Nuværende billede som maske</value>
+  </data>
+  <data name="CurrentAsMaskTooltip">
+    <value>Nuværende billede som maske</value>
+  </data>
+  <data name="Cut">
+    <value>Klip</value>
+  </data>
+  <data name="CutTooltip">
+    <value>Klip</value>
+  </data>
+  <data name="CycleExam">
+    <value>Cyklus af undersøgelse</value>
+  </data>
+  <data name="CycleExamToolTip">
+    <value>Cyklus af undersøgelse</value>
+  </data>
+  <data name="CycleRun">
+    <value>Cykluskørsel</value>
+  </data>
+  <data name="CycleRunToolTip">
+    <value>Cykluskørsel</value>
+  </data>
+  <data name="CycleStudy">
+    <value>Cyklusundersøgelse</value>
+  </data>
+  <data name="CycleStudyToolTip">
+    <value>Cyklusundersøgelse</value>
+  </data>
+  <data name="DataCorruptError">
+    <value>Fejl ved indlæsning af data.</value>
+  </data>
+  <data name="DateAndTime">
+    <value>Dato og klokkeslæt</value>
+  </data>
+  <data name="DateOfBirth">
+    <value>Født:</value>
+  </data>
+  <data name="Delete">
+    <value>Slet</value>
+  </data>
+  <data name="DeleteCategory">
+    <value>Slet kategorien "{0}" og alle dens annotationer?</value>
+  </data>
+  <data name="DeletePreset">
+    <value>Slet forudindstilling</value>
+  </data>
+  <data name="DeleteToolTip">
+    <value>Slet</value>
+  </data>
+  <data name="Description">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="DeselectAllImages">
+    <value>Fravælg alle</value>
+  </data>
+  <data name="DetectorSensitivityValue">
+    <value>S:{0}</value>
+  </data>
+  <data name="DicomInformation">
+    <value>DICOM-information</value>
+  </data>
+  <data name="DicomInformationToolTip">
+    <value>DICOM-information</value>
+  </data>
+  <data name="Difference">
+    <value>Forskel:</value>
+  </data>
+  <data name="Dilate">
+    <value>Udvid</value>
+  </data>
+  <data name="DilateTooltip">
+    <value>Udvid en segmenteret sektion af et volumen.</value>
+  </data>
+  <data name="DirectionalColors">
+    <value>Retningsfarver</value>
+  </data>
+  <data name="DisplayImageNumbers">
+    <value>Vis billednumre</value>
+  </data>
+  <data name="DisplayMode">
+    <value>Visningstilstand</value>
+  </data>
+  <data name="DisplayModeBySequence">
+    <value>Vis efter sekvens</value>
+  </data>
+  <data name="DisplayModeByStage">
+    <value>Vis efter trin</value>
+  </data>
+  <data name="DisplayModeByView">
+    <value>Vis efter visninger</value>
+  </data>
+  <data name="DisplaySaveTool.DialogTitle">
+    <value>Gem skærmbillede som...</value>
+  </data>
+  <data name="DoNotMeasureAnnotation">
+    <value>MÅL IKKE</value>
+  </data>
+  <data name="DrawCurveTool.DrawCurve">
+    <value>Tegn kurve</value>
+  </data>
+  <data name="DrawCurveTool.EditControlPoints">
+    <value>Rediger kontrolpunkter</value>
+  </data>
+  <data name="DrawCurveTool.ShowPath">
+    <value>Vis kurve</value>
+  </data>
+  <data name="DrawCurveTool_MoveCurve">
+    <value>Flyt kurve</value>
+  </data>
+  <data name="DrawRoiIntensityFill">
+    <value>ROI-intensitetsudfyldning</value>
+  </data>
+  <data name="DrawRoiIntensityVolume">
+    <value>ROI-intensitetsvolumen</value>
+  </data>
+  <data name="DualMode">
+    <value>Dual Mode</value>
+  </data>
+  <data name="EdgeEnhancementInteraction">
+    <value>Kantforøgelse</value>
+  </data>
+  <data name="EdgeEnhancementInteractionTooltip">
+    <value>Randøgning</value>
+  </data>
+  <data name="Ediam_ED">
+    <value>ED: </value>
+  </data>
+  <data name="EnableAutomaticReferenceLinesTooltip">
+    <value>Aktiver Automatiske referencelinjer</value>
+  </data>
+  <data name="EnablePredefinedTextAnnotations">
+    <value>Aktiver foruddefinerede tekstanmærkninger</value>
+  </data>
+  <data name="EnableSmartLinkingTooltip">
+    <value>Link</value>
+  </data>
+  <data name="EnableUserPredefinedTextAnnotations">
+    <value>Aktiver brugerdefinerede tekstanmærkninger</value>
+  </data>
+  <data name="EndoNavigationTool_GroupName">
+    <value>Værktøjer til endonavigering</value>
+  </data>
+  <data name="EndoPresets_Normal">
+    <value>Normal</value>
+  </data>
+  <data name="EnhanceTool.EnhanceAction">
+    <value>Forstærk</value>
+  </data>
+  <data name="EnhanceTool.Group">
+    <value>Forstærkning</value>
+  </data>
+  <data name="EnhanceTool.NoEnhanceAction">
+    <value>Ingen forstærkning</value>
+  </data>
+  <data name="EnhancedBrainContrastTitle">
+    <value>Hjernebehandlingsalgoritme</value>
+  </data>
+  <data name="EntireVolume">
+    <value>Hele volumen</value>
+  </data>
+  <data name="Erode">
+    <value>Udhul</value>
+  </data>
+  <data name="ErodeTooltip">
+    <value>Reducer en segmenteret sektion af et volumen.</value>
+  </data>
+  <data name="ExpandedRuns">
+    <value>Udvidede kørsler</value>
+  </data>
+  <data name="ExportImagesToFilm">
+    <value>Tilføj billeder, der skal udskrives</value>
+  </data>
+  <data name="ExportImagesToFilmToolTip">
+    <value>Send de valgte billeder til udskrivningsapplikationen.</value>
+  </data>
+  <data name="ExportSeriesToFilm">
+    <value>Tilføj serie til udskrift</value>
+  </data>
+  <data name="ExportSeriesToFilmToolTip">
+    <value>Tilføj serie til udskrift</value>
+  </data>
+  <data name="Fill">
+    <value>Fyld</value>
+  </data>
+  <data name="FillMode1DAll">
+    <value>Alle billeder (sekventielt)</value>
+  </data>
+  <data name="FillMode1DAllToolTip">
+    <value>Alle billeder (sekventielt)</value>
+  </data>
+  <data name="FillMode1DStacked">
+    <value>1 dimension</value>
+  </data>
+  <data name="FillMode1DStackedFreePositions">
+    <value>1 dimension stakket fri position</value>
+  </data>
+  <data name="FillMode1DStackedToolTip">
+    <value>1 dimension</value>
+  </data>
+  <data name="FillModeMatrix">
+    <value>2 dimensioner (matrix-layout)</value>
+  </data>
+  <data name="FillModeMatrixToolTip">
+    <value>2 dimensioner (matrix-layout)</value>
+  </data>
+  <data name="FillTooltip">
+    <value>Fyld</value>
+  </data>
+  <data name="FitToView">
+    <value>Tilpas til visning</value>
+  </data>
+  <data name="FitToViewTooltip">
+    <value>Tilpas til visning</value>
+  </data>
+  <data name="FlexiRenderTool_AddToAllViewersInTaskAction">
+    <value>Tilføj til alle fremvisere i opgaven</value>
+  </data>
+  <data name="FlexiRenderTool_NewConfigAction">
+    <value>Indstil ny bredde/højde</value>
+  </data>
+  <data name="Flip">
+    <value>Vend</value>
+  </data>
+  <data name="FlipToolTip">
+    <value>Vend det aktuelt valgte billede over en vandret akse</value>
+  </data>
+  <data name="Font">
+    <value>Font</value>
+  </data>
+  <data name="FontColor">
+    <value>Skrifttypefarve</value>
+  </data>
+  <data name="FontSize">
+    <value>Skrifttypestørrelse </value>
+  </data>
+  <data name="FontStyleBold">
+    <value>Fed</value>
+  </data>
+  <data name="FontStyleItalic">
+    <value>Kursiv</value>
+  </data>
+  <data name="FontStyleUnderline">
+    <value>Understreget</value>
+  </data>
+  <data name="Forward">
+    <value>Frem</value>
+  </data>
+  <data name="GLWCenter">
+    <value>VN</value>
+  </data>
+  <data name="GLWWidth">
+    <value>VB</value>
+  </data>
+  <data name="GenderFemaleShort">
+    <value>K </value>
+  </data>
+  <data name="GenderMaleShort">
+    <value>M</value>
+  </data>
+  <data name="GenderOtherShort">
+    <value>A</value>
+  </data>
+  <data name="GenderUnknown">
+    <value>Ukendt</value>
+  </data>
+  <data name="GeneralPredefinedTextAnnotationsCategory">
+    <value>Generel</value>
+  </data>
+  <data name="Generate">
+    <value>Generér</value>
+  </data>
+  <data name="GenerateReferenceViews">
+    <value>Generér referencevisninger</value>
+  </data>
+  <data name="GenerateSecondaryCapture">
+    <value>Opret Secondary Capture</value>
+  </data>
+  <data name="GeometryCorrection">
+    <value>Geokorr</value>
+  </data>
+  <data name="GrayLevelInteraction">
+    <value>Gråtoneniveau</value>
+  </data>
+  <data name="GrayLevelInteractionTooltip">
+    <value>Gråtone</value>
+  </data>
+  <data name="HideHistogram">
+    <value>Skjul histogram</value>
+  </data>
+  <data name="HideRotationCenter">
+    <value>Skjul rotationspunkt</value>
+  </data>
+  <data name="HideRotationCenterToolTip">
+    <value>Skjul rotationspunkt</value>
+  </data>
+  <data name="HistogramLabelName">
+    <value>Histogram {0:F1} mm²</value>
+  </data>
+  <data name="HistogramTitle">
+    <value>Histogram</value>
+  </data>
+  <data name="HistogramValue">
+    <value>Værdi</value>
+  </data>
+  <data name="HorizontalFlip">
+    <value>Drej 180° vandret</value>
+  </data>
+  <data name="IAC">
+    <value>IAC</value>
+  </data>
+  <data name="ImageInfoCompressionLossy">
+    <value>Lossy Q{0}</value>
+  </data>
+  <data name="ImageInfoGateDelayTime">
+    <value>Gd</value>
+  </data>
+  <data name="ImageInfoLevelsTooltip">
+    <value>Billed-info-niveauer</value>
+  </data>
+  <data name="ImageInfoTextCaudal">
+    <value>Kaudal</value>
+  </data>
+  <data name="ImageInfoTextChemicalShiftNumber">
+    <value>CS</value>
+  </data>
+  <data name="ImageInfoTextContrast">
+    <value>Kontrast</value>
+  </data>
+  <data name="ImageInfoTextCranial">
+    <value>Kranial</value>
+  </data>
+  <data name="ImageInfoTextDiffusionBValueNumber">
+    <value>b</value>
+  </data>
+  <data name="ImageInfoTextDynamicScanBeginTime">
+    <value>Dt</value>
+  </data>
+  <data name="ImageInfoTextEchoNumber">
+    <value>Ec</value>
+  </data>
+  <data name="ImageInfoTextEchoTime">
+    <value>TE</value>
+  </data>
+  <data name="ImageInfoTextFlipAngle">
+    <value>Vendevinkel</value>
+  </data>
+  <data name="ImageInfoTextFov">
+    <value>FOV</value>
+  </data>
+  <data name="ImageInfoTextFrame">
+    <value>Ramme</value>
+  </data>
+  <data name="ImageInfoTextFrameRate">
+    <value>Rammehastighed</value>
+  </data>
+  <data name="ImageInfoTextFrontal">
+    <value>Frontal</value>
+  </data>
+  <data name="ImageInfoTextImage">
+    <value>Billede</value>
+  </data>
+  <data name="ImageInfoTextIndex">
+    <value>Indeks</value>
+  </data>
+  <data name="ImageInfoTextInversionDelayFormatString">
+    <value>TI{0} (TI = {1}ms)</value>
+  </data>
+  <data name="ImageInfoTextLao">
+    <value>VAO</value>
+  </data>
+  <data name="ImageInfoTextLateral">
+    <value>Lateral</value>
+  </data>
+  <data name="ImageInfoTextLowerLevel">
+    <value>NN</value>
+  </data>
+  <data name="ImageInfoTextMaskImage">
+    <value>Maskebillednummer</value>
+  </data>
+  <data name="ImageInfoTextMechanicalIndex">
+    <value>MI</value>
+  </data>
+  <data name="ImageInfoTextNegativeIntegral">
+    <value>NI</value>
+  </data>
+  <data name="ImageInfoTextOrientationCoronal">
+    <value>Koronal</value>
+  </data>
+  <data name="ImageInfoTextOrientationSagittal">
+    <value>Sagittal</value>
+  </data>
+  <data name="ImageInfoTextOrientationTransversal">
+    <value>Transversal</value>
+  </data>
+  <data name="ImageInfoTextPitch">
+    <value>Pitch</value>
+  </data>
+  <data name="ImageInfoTextPixelToPixel">
+    <value>Pixel-til-pixel</value>
+  </data>
+  <data name="ImageInfoTextPosAlongCl">
+    <value>Pos. langs CL</value>
+  </data>
+  <data name="ImageInfoTextProtocolName">
+    <value>Protokol</value>
+  </data>
+  <data name="ImageInfoTextRao">
+    <value>HAO</value>
+  </data>
+  <data name="ImageInfoTextRepetitionTime">
+    <value>TR</value>
+  </data>
+  <data name="ImageInfoTextRun">
+    <value>Kørsel</value>
+  </data>
+  <data name="ImageInfoTextSid">
+    <value>SID</value>
+  </data>
+  <data name="ImageInfoTextSlicePos">
+    <value>Skivepos</value>
+  </data>
+  <data name="ImageInfoTextStage">
+    <value>Trin</value>
+  </data>
+  <data name="ImageInfoTextThermalIndex">
+    <value>TI</value>
+  </data>
+  <data name="ImageInfoTextThickness">
+    <value>Tykkelse</value>
+  </data>
+  <data name="ImageInfoTextThicknessAbbreviated">
+    <value>Tykkelse</value>
+  </data>
+  <data name="ImageInfoTextTilt">
+    <value>Vipning</value>
+  </data>
+  <data name="ImageInfoTextTriggerTime">
+    <value>Td</value>
+  </data>
+  <data name="ImageInfoTextUpperLevel">
+    <value>ØN</value>
+  </data>
+  <data name="ImageInfoTextVelocityEncoding">
+    <value>Venc</value>
+  </data>
+  <data name="ImageInfoTextView">
+    <value>Visning</value>
+  </data>
+  <data name="ImageInfoTextViewerFov">
+    <value>FOV-fremviser</value>
+  </data>
+  <data name="ImageInfoTextWindowLevel">
+    <value>L</value>
+  </data>
+  <data name="ImageInfoTextWindowWidth">
+    <value>B</value>
+  </data>
+  <data name="ImageInformation">
+    <value>Billedoplysninger</value>
+  </data>
+  <data name="ImageInformationCustom">
+    <value>Brugerdefinerede billedoplysninger</value>
+  </data>
+  <data name="ImageInformationEditableOnly">
+    <value>Kun redigerbare billedoplysninger</value>
+  </data>
+  <data name="ImageInformationFull">
+    <value>Fulde billedoplysninger</value>
+  </data>
+  <data name="ImageInformationFullTooltip">
+    <value>Fulde billedoplysninger</value>
+  </data>
+  <data name="ImageInformationInteractiveOnly">
+    <value>Kun redigerbare billedoplysninger</value>
+  </data>
+  <data name="ImageInformationIntermediate">
+    <value>Medium billedoplysninger</value>
+  </data>
+  <data name="ImageInformationIntermediateTooltip">
+    <value>Medium billedoplysninger</value>
+  </data>
+  <data name="ImageInformationLevels">
+    <value>Billed-info-niveauer</value>
+  </data>
+  <data name="ImageInformationLimited">
+    <value>Begrænsede billedoplysninger</value>
+  </data>
+  <data name="ImageInformationLimitedTooltip">
+    <value>Viser begrænsede billedoplysninger</value>
+  </data>
+  <data name="ImageInformationNone">
+    <value>Ingen billedoplysninger</value>
+  </data>
+  <data name="ImageInformationNoneTooltip">
+    <value>Ingen billedoplysninger</value>
+  </data>
+  <data name="ImagesSaveTool.SaveAsAction">
+    <value>Gem valgte billeder som...</value>
+  </data>
+  <data name="InjectionTime">
+    <value>Injektionstid:</value>
+  </data>
+  <data name="InjectionTool.Group">
+    <value>Injektion</value>
+  </data>
+  <data name="InjectionTool_GroupName">
+    <value>Injektionsværktøjer</value>
+  </data>
+  <data name="InnerLayout">
+    <value>Indre layout</value>
+  </data>
+  <data name="InteractiveSegmentationTool.AddBalloon">
+    <value>Tilføj smart ROI til væv (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.AddBrush">
+    <value>Tilføj pensel til væv (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.CreateAutocenterBrush">
+    <value>Tegn med auto-centreret pensel (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.CreateBalloon">
+    <value>Tegn smart ROI (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.CreateBrush">
+    <value>Tegn smart pensel (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.RemoveAutocenterBrush">
+    <value>Træk auto-centreret pensel fra væv (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.RemoveBalloon">
+    <value>Træk smart ROI fra væv (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.RemoveBrush">
+    <value>Træk pensel fra væv (3D)</value>
+  </data>
+  <data name="Invert">
+    <value>Invertér</value>
+  </data>
+  <data name="InvertGrayLevel">
+    <value>Inverter gråtone</value>
+  </data>
+  <data name="InvertGrayLevelTooltip">
+    <value>Inverter gråtoneniveau</value>
+  </data>
+  <data name="InvertToolTip">
+    <value>Invertere gråtone</value>
+  </data>
+  <data name="KeyImageNotesExporter_Saving">
+    <value>Gemmer nøglebilleder</value>
+  </data>
+  <data name="KeyImageTitle_ForConference">
+    <value>Til konference</value>
+  </data>
+  <data name="KeyImageTitle_ForPatient">
+    <value>Til patient</value>
+  </data>
+  <data name="KeyImageTitle_ForPeerReview">
+    <value>Til samarbejde</value>
+  </data>
+  <data name="KeyImageTitle_ForPrinting">
+    <value>Til udskrivning</value>
+  </data>
+  <data name="KeyImageTitle_ForReferringProvider">
+    <value>Til henvisende læge</value>
+  </data>
+  <data name="KeyImageTitle_ForReportAttachment">
+    <value>Til rapport</value>
+  </data>
+  <data name="KeyImageTitle_ForResearch">
+    <value>Til forskning</value>
+  </data>
+  <data name="KeyImageTitle_ForSurgery">
+    <value>Til operation</value>
+  </data>
+  <data name="KeyImageTitle_ForTeaching">
+    <value>Til undervisning</value>
+  </data>
+  <data name="KeyImageTitle_ForTherapy">
+    <value>Til behandling</value>
+  </data>
+  <data name="KeyImageTitle_OfInterest">
+    <value>Af interesse</value>
+  </data>
+  <data name="KeyImagesTool_AddDisplay">
+    <value>Nøglevisningsbillede</value>
+  </data>
+  <data name="KeyImagesTool_AddingKeyImages">
+    <value>Optager nøglebilleder</value>
+  </data>
+  <data name="KeyImagesTool_ClearAllAction">
+    <value>Ryd alt</value>
+  </data>
+  <data name="KeyImagesTool_ClearSelectedAction">
+    <value>Ryd markerede</value>
+  </data>
+  <data name="KeyImagesTool_GroupName">
+    <value>Nøglebilleder</value>
+  </data>
+  <data name="KeyImagesTool_SaveAction">
+    <value>Gem nøglebilleder</value>
+  </data>
+  <data name="KeyImagesTool_SaveSelectedAction">
+    <value>Gem valgte nøglebilleder</value>
+  </data>
+  <data name="KeyImagesTool_TooManyImagesCaption">
+    <value>Advarsel om stort antal nøglebilleder</value>
+  </data>
+  <data name="KeyImagesTool_TooManyImagesWarning">
+    <value>Det er ikke muligt at sende mere end 50 billeder til nøglebilledbeholderen. Markér nøglebilleder igen, og send dem igen.</value>
+  </data>
+  <data name="KeyImagesTool_TooManyImagesWarning1">
+    <value>Antallet af nøglebilleder i beholderen må ikke overstige 100. Gem det aktuelle indhold, og ryd beholderen, før du tilføjer flere billeder.</value>
+  </data>
+  <data name="Keyboard">
+    <value>Tastatur</value>
+  </data>
+  <data name="KeyboardControlShiftUpDownArrowKeys">
+    <value>Tastatur: Ctrl + Shift + op/ned piltaster</value>
+  </data>
+  <data name="KeyboardLeftRightArrowKeys">
+    <value>Tastatur: Venstre/højre piletast</value>
+  </data>
+  <data name="KeyboardUpDownArrowKeys">
+    <value>Tastatur: Op/ned piletast</value>
+  </data>
+  <data name="KnownPresetsAutomatic">
+    <value>Automatisk</value>
+  </data>
+  <data name="KnownPresetsDefault">
+    <value>Standard</value>
+  </data>
+  <data name="KnownPresetsModified">
+    <value>Ændret</value>
+  </data>
+  <data name="LandmarkingInteractionTooltip">
+    <value>Landemærkning</value>
+  </data>
+  <data name="Layout">
+    <value>Layout</value>
+  </data>
+  <data name="Layout1x1">
+    <value>1x1</value>
+  </data>
+  <data name="Layout1x1ToolTip">
+    <value>Layout 1x1</value>
+  </data>
+  <data name="Layout1x2">
+    <value>1x2</value>
+  </data>
+  <data name="Layout1x2ToolTip">
+    <value>Layout 1x2</value>
+  </data>
+  <data name="Layout1x3">
+    <value>1x3</value>
+  </data>
+  <data name="Layout1x3ToolTip">
+    <value>Layout 1x3</value>
+  </data>
+  <data name="Layout1x4">
+    <value>1x4</value>
+  </data>
+  <data name="Layout1x4ToolTip">
+    <value>Layout 1x4</value>
+  </data>
+  <data name="Layout2x1">
+    <value>2x1</value>
+  </data>
+  <data name="Layout2x1ToolTip">
+    <value>Layout 2x1</value>
+  </data>
+  <data name="Layout2x2">
+    <value>2x2</value>
+  </data>
+  <data name="Layout2x2ToolTip">
+    <value>Layout 2x2</value>
+  </data>
+  <data name="Layout2x3">
+    <value>2x3</value>
+  </data>
+  <data name="Layout2x3ToolTip">
+    <value>Layout 2x3</value>
+  </data>
+  <data name="Layout2x4">
+    <value>2x4</value>
+  </data>
+  <data name="Layout2x4ToolTip">
+    <value>Layout 2x4</value>
+  </data>
+  <data name="Layout3x1">
+    <value>3x1</value>
+  </data>
+  <data name="Layout3x1ToolTip">
+    <value>Layout 3x1</value>
+  </data>
+  <data name="Layout3x2">
+    <value>3x2</value>
+  </data>
+  <data name="Layout3x2ToolTip">
+    <value>Layout 3x2</value>
+  </data>
+  <data name="Layout3x3">
+    <value>3x3</value>
+  </data>
+  <data name="Layout3x3ToolTip">
+    <value>Layout 3x3</value>
+  </data>
+  <data name="Layout3x4">
+    <value>3x4</value>
+  </data>
+  <data name="Layout3x4ToolTip">
+    <value>Layout 3x4</value>
+  </data>
+  <data name="Layout4x4">
+    <value>4x4</value>
+  </data>
+  <data name="Layout4x4ToolTip">
+    <value>Layout 4x4</value>
+  </data>
+  <data name="LayoutAddColumn">
+    <value>Tilføj kolonne</value>
+  </data>
+  <data name="LayoutAddColumnTooltip">
+    <value>Tilføj kolonne</value>
+  </data>
+  <data name="LayoutAddRow">
+    <value>Tilføj række</value>
+  </data>
+  <data name="LayoutAddRowTooltip">
+    <value>Tilføj række</value>
+  </data>
+  <data name="LayoutReferencesAtBottom">
+    <value>Referencer i bunden</value>
+  </data>
+  <data name="LayoutReferencesOnRight">
+    <value>Referencer til højre</value>
+  </data>
+  <data name="LayoutRemoveColumn">
+    <value>Fjern kolonne</value>
+  </data>
+  <data name="LayoutRemoveColumnTooltip">
+    <value>Fjern kolonne</value>
+  </data>
+  <data name="LayoutRemoveRow">
+    <value>Fjern række </value>
+  </data>
+  <data name="LayoutRemoveRowTooltip">
+    <value>Fjern række</value>
+  </data>
+  <data name="LeafSelectTool.ContinuousScrollAction">
+    <value>Kontinuerlig rulning (langsommere: F10, hurtigere: F11)</value>
+  </data>
+  <data name="LeafSelectTool.LeafSelectAction">
+    <value>Rul (snit springes muligvis over)</value>
+  </data>
+  <data name="LeftTextLabel">
+    <value>Venstre</value>
+  </data>
+  <data name="Length">
+    <value>Længde:</value>
+  </data>
+  <data name="Light1">
+    <value>Lys 1</value>
+  </data>
+  <data name="Light2">
+    <value>Lys 2</value>
+  </data>
+  <data name="Light3">
+    <value>Lys 3</value>
+  </data>
+  <data name="LightSource">
+    <value>Lyskilde</value>
+  </data>
+  <data name="LineAccumulationPrefix">
+    <value>Linje</value>
+  </data>
+  <data name="LineColor">
+    <value>Linjefarve</value>
+  </data>
+  <data name="LineProfileHidden">
+    <value>Gem profil</value>
+  </data>
+  <data name="LineProfileTitle">
+    <value>Linjeprofil</value>
+  </data>
+  <data name="LineProfileVisible">
+    <value>Vis profil</value>
+  </data>
+  <data name="LineProfileXAxis">
+    <value>Millimeter</value>
+  </data>
+  <data name="LineProfileYAxis">
+    <value>Pixelværdi</value>
+  </data>
+  <data name="LineStyle">
+    <value>Linjetype</value>
+  </data>
+  <data name="LineStyleDashed">
+    <value>Streg</value>
+  </data>
+  <data name="LineStyleDashedDotted">
+    <value>Streg prik</value>
+  </data>
+  <data name="LineStyleDotted">
+    <value>Prik</value>
+  </data>
+  <data name="LineStyleSolid">
+    <value>Fuldt optrukken</value>
+  </data>
+  <data name="LineThickness">
+    <value>Linjetykkelse</value>
+  </data>
+  <data name="LineThicknessOnePoint">
+    <value>1 pkt</value>
+  </data>
+  <data name="LineThicknessOnePointFivePoints">
+    <value>1,5 pkt</value>
+  </data>
+  <data name="Liver">
+    <value>Lever</value>
+  </data>
+  <data name="LnaMarkSeedTool_GroupName">
+    <value>Værktøjer til markering af udspring</value>
+  </data>
+  <data name="LoadFibers">
+    <value>Indlæs fibre</value>
+  </data>
+  <data name="LoadImageViewingSettings">
+    <value>Indlæs billedvisningsindstillinger</value>
+  </data>
+  <data name="LoadImageViewingSettingsTooltip">
+    <value>Indlæs billedvisningsindstillinger</value>
+  </data>
+  <data name="LoadPresentationStateAsAcquired">
+    <value>Visningstilstand Som optaget</value>
+  </data>
+  <data name="LoadPresentationStateAsAcquiredToolTip">
+    <value>Nulstil til visningstilstanden Som optaget</value>
+  </data>
+  <data name="LoadPresentationStateAsLastSeen">
+    <value>Visningstilstand Som sidst set</value>
+  </data>
+  <data name="LoadPresentationStateAsLastSeenToolTip">
+    <value>Nulstil til visningstilstanden Som sidst set</value>
+  </data>
+  <data name="LoadPresentationStateToScopeAsAcquired">
+    <value>Visningstilstand Som optaget</value>
+  </data>
+  <data name="LoadPresentationStateToScopeAsAcquiredToolTip">
+    <value>Nulstil billederne i det aktuelle udbredelsesområde til visningstilstanden Som optaget.</value>
+  </data>
+  <data name="Loading">
+    <value>Indlæser...</value>
+  </data>
+  <data name="LocationTime">
+    <value>Placering/klokkeslæt</value>
+  </data>
+  <data name="LocationTimeToolTip">
+    <value>Placering/klokkeslæt</value>
+  </data>
+  <data name="Lung">
+    <value>Lunge</value>
+  </data>
+  <data name="MBq">
+    <value>MBq</value>
+  </data>
+  <data name="MakingFinalImage">
+    <value>Opretter endeligt billede</value>
+  </data>
+  <data name="ManualLinkOnGrayLevel">
+    <value>Vindueslink</value>
+  </data>
+  <data name="ManualLinkOnGrayLevelToolTip">
+    <value>Vindueslink</value>
+  </data>
+  <data name="ManualSelection">
+    <value>Manuelt valg</value>
+  </data>
+  <data name="Masking">
+    <value>Maskering</value>
+  </data>
+  <data name="MeasurementLabelAngle">
+    <value>Vinkel:</value>
+  </data>
+  <data name="MeasurementLabelArea">
+    <value>Område:</value>
+  </data>
+  <data name="MeasurementLabelDiffInTime">
+    <value>Tid</value>
+  </data>
+  <data name="MeasurementLabelLength">
+    <value>Længde:</value>
+  </data>
+  <data name="MeasurementLabelMaxPixelValue">
+    <value>Maks:</value>
+  </data>
+  <data name="MeasurementLabelMeanPixelValue">
+    <value>Gennemsnit:</value>
+  </data>
+  <data name="MeasurementLabelMinPixelValue">
+    <value>Min:</value>
+  </data>
+  <data name="MeasurementLabelPerimeter">
+    <value>Omkreds</value>
+  </data>
+  <data name="MeasurementLabelPixelStandardDeviation">
+    <value>Std.afv.:</value>
+  </data>
+  <data name="MeasurementLabelVelEnd">
+    <value>Hastighed2</value>
+  </data>
+  <data name="MeasurementLabelVelStart">
+    <value>Hastighed1</value>
+  </data>
+  <data name="MemoryError">
+    <value>Ikke mere hukommelse.</value>
+  </data>
+  <data name="MenuAnnotationPropertyAverageAbsoluteDeviation">
+    <value>Gennemsnitlig absolut afvigelse</value>
+  </data>
+  <data name="MenuAnnotationPropertyLongShortAxes">
+    <value>Lange/korte akser</value>
+  </data>
+  <data name="MenuAnnotationPropertyLongShortAxesViaCentroid">
+    <value>Lange/korte akser, der anvender Centroid</value>
+  </data>
+  <data name="MenuAnnotationPropertyMaxMinDiameter">
+    <value>Maks./min. diameter</value>
+  </data>
+  <data name="Menu_AnnotProperties">
+    <value>Egenskaber</value>
+  </data>
+  <data name="Menu_AnnotProperties_Length">
+    <value>Længde</value>
+  </data>
+  <data name="Menu_AnnotProperties_ShowDiamDiff">
+    <value>Diam.forskel: </value>
+  </data>
+  <data name="Menu_AnnotProperties_ShowText">
+    <value>Vis tekst</value>
+  </data>
+  <data name="Menu_Color">
+    <value>Farve</value>
+  </data>
+  <data name="Menu_Color_Blue">
+    <value>Blå</value>
+  </data>
+  <data name="Menu_Color_Green">
+    <value>Grøn</value>
+  </data>
+  <data name="Menu_Color_Red">
+    <value>Rød</value>
+  </data>
+  <data name="Menu_Color_White">
+    <value>Hvid</value>
+  </data>
+  <data name="Menu_Color_Yellow">
+    <value>Gul</value>
+  </data>
+  <data name="Menu_EditText">
+    <value>Rediger</value>
+  </data>
+  <data name="Menu_ExportValues">
+    <value>Eksporter værdier</value>
+  </data>
+  <data name="Menu_ExtendCurve">
+    <value>Forlæng kurve</value>
+  </data>
+  <data name="Menu_FillColor">
+    <value>Fyldfarve</value>
+  </data>
+  <data name="Menu_FillColor_Gray">
+    <value>Grå</value>
+  </data>
+  <data name="Menu_FillColor_NoFill">
+    <value>Ingen udfyldning</value>
+  </data>
+  <data name="Menu_FillColor_Red">
+    <value>Rød</value>
+  </data>
+  <data name="Menu_FillColor_White">
+    <value>Hvid</value>
+  </data>
+  <data name="Menu_FontSize">
+    <value>Skrifttypestørrelse </value>
+  </data>
+  <data name="Menu_FontSize_Large">
+    <value>Stor</value>
+  </data>
+  <data name="Menu_FontSize_Regular">
+    <value>Normal</value>
+  </data>
+  <data name="Menu_FontSize_Small">
+    <value>Lille</value>
+  </data>
+  <data name="Menu_GraphicsProperties">
+    <value>Grafikegenskaber</value>
+  </data>
+  <data name="Menu_HideText">
+    <value>Skjul</value>
+  </data>
+  <data name="Menu_LineWidth">
+    <value>Linjebredde</value>
+  </data>
+  <data name="Menu_LineWidth_Bold">
+    <value>Tyk</value>
+  </data>
+  <data name="Menu_LineWidth_Regular">
+    <value>Medium</value>
+  </data>
+  <data name="Menu_LineWidth_Thin">
+    <value>Tynd</value>
+  </data>
+  <data name="Menu_ShowDiameters">
+    <value>Vis diametre</value>
+  </data>
+  <data name="Menu_Subtract">
+    <value>Subtraher</value>
+  </data>
+  <data name="Menu_Sum">
+    <value>Vis tekstsum</value>
+  </data>
+  <data name="Menu_Ticks">
+    <value>Vis flueben</value>
+  </data>
+  <data name="MergeStacks">
+    <value>Flet stabler</value>
+  </data>
+  <data name="MergeStacksToolTip">
+    <value>Flet stabler</value>
+  </data>
+  <data name="MetalReduction">
+    <value>Reduktion af metalartefakt</value>
+  </data>
+  <data name="Mirror">
+    <value>Spejlvend</value>
+  </data>
+  <data name="MirrorToolTip">
+    <value>Spejlvend</value>
+  </data>
+  <data name="Modality">
+    <value>Modalitet</value>
+  </data>
+  <data name="Mouse">
+    <value>Mus</value>
+  </data>
+  <data name="MoveDown">
+    <value>Flyt ned</value>
+  </data>
+  <data name="MoveUp">
+    <value>Flyt op</value>
+  </data>
+  <data name="MovieAndNavigation">
+    <value>Film</value>
+  </data>
+  <data name="MovieAndNavigationTooltip">
+    <value>Film</value>
+  </data>
+  <data name="MovieCycleBackward">
+    <value>Afspil cyklus bagud</value>
+  </data>
+  <data name="MovieCycleBackwardToolTip">
+    <value>Afspil cyklus bagud</value>
+  </data>
+  <data name="MovieCycleBounce">
+    <value>Bounce</value>
+  </data>
+  <data name="MovieCycleBounceToolTip">
+    <value>Bounce</value>
+  </data>
+  <data name="MovieCycleForward">
+    <value>Afspil cyklus fremad</value>
+  </data>
+  <data name="MovieCycleForwardToolTip">
+    <value>Afspil cyklus fremad</value>
+  </data>
+  <data name="MovieFrameRateTooltip">
+    <value>Rammehastighed</value>
+  </data>
+  <data name="MovieSpeedUnit">
+    <value>b/s</value>
+  </data>
+  <data name="MultiStation">
+    <value>MultiStation</value>
+  </data>
+  <data name="NavigationDimensionChemicalShift">
+    <value>Kemisk skift</value>
+  </data>
+  <data name="NavigationDimensionDiffusion">
+    <value>Diffusion</value>
+  </data>
+  <data name="NavigationDimensionDynamics">
+    <value>Dynamik</value>
+  </data>
+  <data name="NavigationDimensionEcg">
+    <value>EKG</value>
+  </data>
+  <data name="NavigationDimensionEchoes">
+    <value>Ekkoer</value>
+  </data>
+  <data name="NavigationDimensionImageType">
+    <value>Billedtype</value>
+  </data>
+  <data name="NavigationDimensionInversionDelay">
+    <value>Inversionsforsinkelse</value>
+  </data>
+  <data name="NavigationDimensionPhaseDelay">
+    <value>Faseforsinkelse</value>
+  </data>
+  <data name="NavigationDimensionPhases">
+    <value>Faser</value>
+  </data>
+  <data name="NavigationDimensionSlices">
+    <value>Skiver</value>
+  </data>
+  <data name="NavigationDimensionSpectral">
+    <value>Spektral</value>
+  </data>
+  <data name="NavigationDimensionStacks">
+    <value>Stabler</value>
+  </data>
+  <data name="NewClassification">
+    <value>Ny klassifikation {0}</value>
+  </data>
+  <data name="NextImage">
+    <value>Næste billede</value>
+  </data>
+  <data name="NextImageToolTip">
+    <value>Næste billede</value>
+  </data>
+  <data name="NextMask">
+    <value>Næste billede som maske</value>
+  </data>
+  <data name="NextMaskTooltip">
+    <value>Næste billede som maske</value>
+  </data>
+  <data name="NextPageTooltip">
+    <value>Næste side</value>
+  </data>
+  <data name="NextRow">
+    <value>Næste række</value>
+  </data>
+  <data name="NextRowToolTip">
+    <value>Næste række</value>
+  </data>
+  <data name="NextRun">
+    <value>Næste kørsel</value>
+  </data>
+  <data name="NextRunToolTip">
+    <value>Næste kørsel</value>
+  </data>
+  <data name="NextSequenceTooltip">
+    <value>Næste sekvens</value>
+  </data>
+  <data name="NextSeriesTooltip">
+    <value>Flyt til næste serie</value>
+  </data>
+  <data name="NextStack">
+    <value>Næste stabel</value>
+  </data>
+  <data name="NextStackToolTip">
+    <value>Næste stabel</value>
+  </data>
+  <data name="NextStageTooltip">
+    <value>Næste trin</value>
+  </data>
+  <data name="NextStation">
+    <value>Næste station</value>
+  </data>
+  <data name="NextStationToolTip">
+    <value>Næste station</value>
+  </data>
+  <data name="NextViewTooltip">
+    <value>Næste visning</value>
+  </data>
+  <data name="Number">
+    <value>Talværdi</value>
+  </data>
+  <data name="NumberLabel">
+    <value>Nummer: {0}</value>
+  </data>
+  <data name="Occlusion">
+    <value>Okklusion:</value>
+  </data>
+  <data name="OpacityInteractionTooltip">
+    <value>Opacitet</value>
+  </data>
+  <data name="OpacityMap">
+    <value>Kort over ugennemsigtighed</value>
+  </data>
+  <data name="OpenBracket">
+    <value>(</value>
+  </data>
+  <data name="OpenInNewTabViewMode">
+    <value>Tilføj som fanevisning</value>
+  </data>
+  <data name="OpenParamsDialog">
+    <value>Åbn dialogboksen Spatelparametre</value>
+  </data>
+  <data name="Ortho">
+    <value>Ortho</value>
+  </data>
+  <data name="OrthoViewAxialPlane">
+    <value>Skjul aksialplan</value>
+  </data>
+  <data name="OrthoViewCoronalPlane">
+    <value>Skjul koronalplan</value>
+  </data>
+  <data name="OrthoViewMode">
+    <value>Tilføj Ortho-visning</value>
+  </data>
+  <data name="OrthoViewPlaneVisibility">
+    <value>Synlighed i plan</value>
+  </data>
+  <data name="OrthoViewSagittalPlane">
+    <value>Skjul sagittalplan</value>
+  </data>
+  <data name="PETWindowHigh">
+    <value>ØN:</value>
+  </data>
+  <data name="PETWindowLow">
+    <value>NN:</value>
+  </data>
+  <data name="PSTool.PSGroup">
+    <value>Spejlvend/rotér</value>
+  </data>
+  <data name="Pan">
+    <value>Panorering</value>
+  </data>
+  <data name="PanDown">
+    <value>Panorer ned</value>
+  </data>
+  <data name="PanDownToolTip">
+    <value>Panorer ned</value>
+  </data>
+  <data name="PanInteraction">
+    <value>Panorer</value>
+  </data>
+  <data name="PanInteractionTooltip">
+    <value>Panorering</value>
+  </data>
+  <data name="PanLeft">
+    <value>Panorer venstre</value>
+  </data>
+  <data name="PanLeftToolTip">
+    <value>Panorer venstre</value>
+  </data>
+  <data name="PanRegistrationInteractionTooltip">
+    <value>Panorer til registrering</value>
+  </data>
+  <data name="PanRight">
+    <value>Panorer højre</value>
+  </data>
+  <data name="PanRightToolTip">
+    <value>Panorer højre</value>
+  </data>
+  <data name="PanToolTip">
+    <value>Panorering</value>
+  </data>
+  <data name="PanUp">
+    <value>Panorer op</value>
+  </data>
+  <data name="PanUpToolTip">
+    <value>Panorer op</value>
+  </data>
+  <data name="Paste">
+    <value>Sæt ind</value>
+  </data>
+  <data name="PasteTooltip">
+    <value>Sæt ind</value>
+  </data>
+  <data name="PatientCoordinates">
+    <value>Patientplacering</value>
+  </data>
+  <data name="PatientCoordinatesToolTip">
+    <value>Patientplacering</value>
+  </data>
+  <data name="Pause">
+    <value>Pause</value>
+  </data>
+  <data name="PauseMovieTooltip">
+    <value>Sæt film på pause</value>
+  </data>
+  <data name="PauseTooltip">
+    <value>Pause</value>
+  </data>
+  <data name="Pelvis">
+    <value>Bækken</value>
+  </data>
+  <data name="PerformAntiSeed">
+    <value>Udfør sletning fra udspring</value>
+  </data>
+  <data name="PerformAntiSeedTooltip">
+    <value>Udfør sletning fra udspring</value>
+  </data>
+  <data name="PerformSeedTooltip">
+    <value>Udfør fra udspring</value>
+  </data>
+  <data name="PictorialOtherStudies">
+    <value>Andre studier</value>
+  </data>
+  <data name="PictorialOtherStudiesTooltip">
+    <value>Andre studier</value>
+  </data>
+  <data name="PictorialSeries">
+    <value>Serie</value>
+  </data>
+  <data name="PictorialSeriesTooltip">
+    <value>Serie</value>
+  </data>
+  <data name="PixelLocation">
+    <value>Placering</value>
+  </data>
+  <data name="PixelLocationInImageCoordinate">
+    <value>Billedplacering</value>
+  </data>
+  <data name="PixelLocationInPatientCoordinate">
+    <value>Patientplacering</value>
+  </data>
+  <data name="PixelShiftInteraction">
+    <value>Pixelforskydning</value>
+  </data>
+  <data name="PixelShiftInteractionTooltip">
+    <value>Pixelforskydning</value>
+  </data>
+  <data name="PlaceSeed">
+    <value>Placér udspring</value>
+  </data>
+  <data name="PlaceSeedTooltip">
+    <value>Placér en udspringsmarkør på et volumen som et startpunkt for en segmenteret sektion af volumenet.</value>
+  </data>
+  <data name="PlanarMode">
+    <value>Plantilstand</value>
+  </data>
+  <data name="PlaneOpacity">
+    <value>Opacitet for plan</value>
+  </data>
+  <data name="PlaneOpacityAllPlanes">
+    <value>Opacitet for plan</value>
+  </data>
+  <data name="PlaneOpacitySelectedPlane">
+    <value>Opacitet for plan for valgte plan</value>
+  </data>
+  <data name="PlanePosition">
+    <value>Position for plan</value>
+  </data>
+  <data name="PlayBackward">
+    <value>Afspil baglæns</value>
+  </data>
+  <data name="PlayBackwardToolTip">
+    <value>Afspil baglæns</value>
+  </data>
+  <data name="PlayForward">
+    <value>Afspil forlæns</value>
+  </data>
+  <data name="PlayForwardToolTip">
+    <value>Afspil forlæns</value>
+  </data>
+  <data name="PlayMovie">
+    <value>Afspil film</value>
+  </data>
+  <data name="PlayMovieToolTip">
+    <value>Afspil film</value>
+  </data>
+  <data name="PositionThicknessInteraction">
+    <value>Position</value>
+  </data>
+  <data name="PositionThicknessInteractionTooltip">
+    <value>Position</value>
+  </data>
+  <data name="PosteriorFossa">
+    <value>PF</value>
+  </data>
+  <data name="PreDefinedAnnotationSettings">
+    <value>Anmærkninger</value>
+  </data>
+  <data name="PredefinedTextCategoryDefaultName">
+    <value>Ny kategori</value>
+  </data>
+  <data name="PredefinedTextDefaultName">
+    <value>Uden titel</value>
+  </data>
+  <data name="PresentationStateTool.PresentationStateReplaceAction">
+    <value>Udskift præsentationsstatus</value>
+  </data>
+  <data name="PresetNameAlreadyExistsMessage">
+    <value>Navnet på forudindstillingen findes allerede.</value>
+  </data>
+  <data name="PresetNameRequired">
+    <value>Navnet på forudindstillingen kan ikke være tomt.</value>
+  </data>
+  <data name="PreviewNewSeries">
+    <value>Forhåndsvisning af ny serie</value>
+  </data>
+  <data name="PreviewToggleCommand">
+    <value>Vis udskrift</value>
+  </data>
+  <data name="PreviousImage">
+    <value>Forrige billede</value>
+  </data>
+  <data name="PreviousImageToolTip">
+    <value>Forrige billede</value>
+  </data>
+  <data name="PreviousMask">
+    <value>Forrige billede som maske</value>
+  </data>
+  <data name="PreviousMaskTooltip">
+    <value>Forrige billede som maske</value>
+  </data>
+  <data name="PreviousPageTooltip">
+    <value>Tidligere side</value>
+  </data>
+  <data name="PreviousRow">
+    <value>Forrige række</value>
+  </data>
+  <data name="PreviousRowToolTip">
+    <value>Forrige række</value>
+  </data>
+  <data name="PreviousRun">
+    <value>Forrige kørsel</value>
+  </data>
+  <data name="PreviousRunToolTip">
+    <value>Tidligere kørsel</value>
+  </data>
+  <data name="PreviousSequenceTooltip">
+    <value>Forrige sekvens</value>
+  </data>
+  <data name="PreviousSeriesTooltip">
+    <value>Flyt til forrige serie</value>
+  </data>
+  <data name="PreviousStack">
+    <value>Forrige stabel</value>
+  </data>
+  <data name="PreviousStackToolTip">
+    <value>Forrige stabel</value>
+  </data>
+  <data name="PreviousStageTooltip">
+    <value>Forrige trin</value>
+  </data>
+  <data name="PreviousStation">
+    <value>Forrige station</value>
+  </data>
+  <data name="PreviousStationToolTip">
+    <value>Forrige station</value>
+  </data>
+  <data name="PreviousViewTooltip">
+    <value>Forrige visning</value>
+  </data>
+  <data name="Print">
+    <value>Udskriv...</value>
+  </data>
+  <data name="PrintSeries">
+    <value>Udskriv serie</value>
+  </data>
+  <data name="PrintSeriesTooltip">
+    <value>Udskriv den valgte serie.</value>
+  </data>
+  <data name="Processed">
+    <value>Behandlet</value>
+  </data>
+  <data name="PropagateCalibrationToEntireStudy">
+    <value>Udbred kalibrering til hele undersøgelsen</value>
+  </data>
+  <data name="PropagateCalibrationToEntireStudyWarning">
+    <value>Den målingskalibrering, du har udført, anvendes kun på den aktuelle kørsel. Vil du anvende den på alle kørsler i den aktuelle undersøgelse?</value>
+  </data>
+  <data name="PropagateCalibrationToEntireStudyWarningTitle">
+    <value>Bekræft målingskalibrering</value>
+  </data>
+  <data name="PropagateLeftRight">
+    <value>Alle billeder i den aktuelle serie</value>
+  </data>
+  <data name="PropagationChemicalShifts">
+    <value>Alle kemiske skift</value>
+  </data>
+  <data name="PropagationDifussions">
+    <value>Alle diffusionstyper</value>
+  </data>
+  <data name="PropagationDynamics">
+    <value>Alle dynamiske</value>
+  </data>
+  <data name="PropagationEchoes">
+    <value>Alle ekkoer</value>
+  </data>
+  <data name="PropagationImageTypes">
+    <value>Alle billedtyper</value>
+  </data>
+  <data name="PropagationInversionDelays">
+    <value>Alle inversionsforsinkelser</value>
+  </data>
+  <data name="PropagationLabelTypes">
+    <value>Alle mærkattyper</value>
+  </data>
+  <data name="PropagationPhaseDelays">
+    <value>Alle faseforsinkelser</value>
+  </data>
+  <data name="PropagationPhases">
+    <value>Alle faser</value>
+  </data>
+  <data name="PropagationSlices">
+    <value>Alle skiver</value>
+  </data>
+  <data name="PropagationStacks">
+    <value>Alle stabler</value>
+  </data>
+  <data name="PropagationToAllAvailableDimensions">
+    <value>Alle</value>
+  </data>
+  <data name="PropagationToDefaultDimensions">
+    <value>Standard</value>
+  </data>
+  <data name="PropagationUnknownDimension">
+    <value>Ukendt dimension</value>
+  </data>
+  <data name="Properties">
+    <value>Egenskaber...</value>
+  </data>
+  <data name="RFPropagationScopeTool.RFCalibrationPropagationScopeToolCombo">
+    <value>Kalibreringsomfang</value>
+  </data>
+  <data name="RFPropagationScopeTool.RFPropagationScopeToolCombo">
+    <value>Udbredelsesområde</value>
+  </data>
+  <data name="ROIAccumulationPrefix">
+    <value>ROI</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongAxis">
+    <value>LA: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongAxisViaCentroid">
+    <value>LA via geometrisk tyngdepunkt: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongAxisViaCentroid_Invalid">
+    <value>LA via geometrisk tyngdepunkt: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongAxis_Invalid">
+    <value>LA: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongShortAxes">
+    <value>LA: {0} {1} SA: {2} {3} </value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongShortAxesViaCentroid">
+    <value>SA via geometrisk tyngdepunkt: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongShortAxesViaCentroid_Invalid">
+    <value>SA via geometrisk tyngdepunkt: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongShortAxes_Invalid">
+    <value>SA: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxDiameter">
+    <value>MaxD: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxDiameter_Invalid">
+    <value>MaksD: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxMinDiameter">
+    <value>MaksD: {0} {1} MinD: {2} {3} </value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxMinDiameter_Invalid">
+    <value>MaksD: *** MinD: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxPixelValue">
+    <value>Maks: {0}{1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxPixelValue_Invalid">
+    <value>Maks.: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MinDiameter">
+    <value>MinD: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MinDiameter_Invalid">
+    <value>MinD: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MinPixelValue">
+    <value>Min: {0}{1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MinPixelValue_Invalid">
+    <value>Min.: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_ShortAxis">
+    <value>SA: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_ShortAxisViaCentroid">
+    <value>SA via geometrisk tyngdepunkt: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_ShortAxisViaCentroid_Invalid">
+    <value>SA via geometrisk tyngdepunkt: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_ShortAxis_Invalid">
+    <value>SA: ***</value>
+  </data>
+  <data name="ROIAreaPercentageExcluded">
+    <value>Område ekskluderet</value>
+  </data>
+  <data name="ROIAreaProperty_Area">
+    <value>Ar: {0} {1}</value>
+  </data>
+  <data name="ROIAreaProperty_Area_Invalid">
+    <value>Ar: ***</value>
+  </data>
+  <data name="ROIAverageProperty_Average">
+    <value>Gns.: {0}{1}</value>
+  </data>
+  <data name="ROIAverageProperty_Average_Invalid">
+    <value>Gns.: ***</value>
+  </data>
+  <data name="ROIMedianProperty_Median">
+    <value>Median: {0}{1}</value>
+  </data>
+  <data name="ROIMedianProperty_Median_Invalid">
+    <value>Median: ***</value>
+  </data>
+  <data name="ROIPerimeterProperty_Perim">
+    <value>Perim: {0} {1}</value>
+  </data>
+  <data name="ROIPerimeterProperty_Perim_Invalid">
+    <value>Perim: ***</value>
+  </data>
+  <data name="ROISDProperty_SD">
+    <value>SD: {0}{1}</value>
+  </data>
+  <data name="ROISDProperty_SD_Invalid">
+    <value>SD: ***</value>
+  </data>
+  <data name="RadialBatchRotateDownToolTip">
+    <value>Rotér ned</value>
+  </data>
+  <data name="RadialBatchRotateLeftToolTip">
+    <value>Rotér til venstre</value>
+  </data>
+  <data name="RadialBatchRotateRightToolTip">
+    <value>Rotér til højre</value>
+  </data>
+  <data name="RadialBatchRotateUpToolTip">
+    <value>Rotér op</value>
+  </data>
+  <data name="RadialBatchStepAngle">
+    <value>Trinvinkel</value>
+  </data>
+  <data name="RadialBatchTotalAngle">
+    <value>Samlet vinkel</value>
+  </data>
+  <data name="Range">
+    <value>Interval</value>
+  </data>
+  <data name="RectangularPropertySize">
+    <value>Størrelse</value>
+  </data>
+  <data name="RectangularPropertyX">
+    <value>X</value>
+  </data>
+  <data name="RectangularPropertyY">
+    <value>J</value>
+  </data>
+  <data name="RectangularShutter">
+    <value>Rektangulær lukker</value>
+  </data>
+  <data name="RectangularShutterToolTip">
+    <value>Rektangulær lukker</value>
+  </data>
+  <data name="Redo">
+    <value>Gentag</value>
+  </data>
+  <data name="RedoToolTip">
+    <value>Gentag</value>
+  </data>
+  <data name="RefreshArrangement">
+    <value>Opdater</value>
+  </data>
+  <data name="RegistrationToolLoadLatest">
+    <value>Indlæs seneste</value>
+  </data>
+  <data name="RegistrationToolPan">
+    <value>Panorer</value>
+  </data>
+  <data name="RegistrationToolRedo">
+    <value>Annuller fortryd</value>
+  </data>
+  <data name="RegistrationToolReset">
+    <value>Nulstil</value>
+  </data>
+  <data name="RegistrationToolRotate">
+    <value>Roter</value>
+  </data>
+  <data name="RegistrationToolStore">
+    <value>Gem nuværende</value>
+  </data>
+  <data name="RegistrationToolUndo">
+    <value>Fortryd</value>
+  </data>
+  <data name="RegistrationTool_GroupName">
+    <value>Registreringsværktøjer</value>
+  </data>
+  <data name="RelateTool.Remove">
+    <value>Fjern relatering</value>
+  </data>
+  <data name="RelateTool.ScenesAction">
+    <value>Relater scener</value>
+  </data>
+  <data name="RelateTool.ViewPortsAction">
+    <value>Relater visningsfelter</value>
+  </data>
+  <data name="RelativeAngulationAxial">
+    <value>Relativ vinkling (aksial)</value>
+  </data>
+  <data name="RelativeAngulationCoronal">
+    <value>Relativ vinkling (koronal)</value>
+  </data>
+  <data name="RelativeAngulationSagittal">
+    <value>Relativ vinkling (sagittal)</value>
+  </data>
+  <data name="RelativeXRayExposureUnit">
+    <value>KB</value>
+  </data>
+  <data name="RemoveFromAccumulation">
+    <value>Fjern fra akkumulator</value>
+  </data>
+  <data name="RemoveFromAccumulationTooltip">
+    <value>Fjern en del fra en segmenteret sektion af et volumen.</value>
+  </data>
+  <data name="Rename">
+    <value>Omdøb</value>
+  </data>
+  <data name="RenameToolTip">
+    <value>Omdøb</value>
+  </data>
+  <data name="RenderModeAverageIntensityProjection">
+    <value>Gennemsnit</value>
+  </data>
+  <data name="RenderModeClosestVesselProjection">
+    <value>CVP</value>
+  </data>
+  <data name="RenderModeIsosurface">
+    <value>Isooverflade</value>
+  </data>
+  <data name="RenderModeIsosurfaceBones">
+    <value>IsooverfladeKnogle</value>
+  </data>
+  <data name="RenderModeMaximumIntensityProjection">
+    <value>MIP</value>
+  </data>
+  <data name="RenderModeMinimumIntensityProjection">
+    <value>MinIP</value>
+  </data>
+  <data name="RenderModeMipFade">
+    <value>VIP</value>
+  </data>
+  <data name="RenderModeOpacityBlend">
+    <value>Vol.visn.</value>
+  </data>
+  <data name="RenderModeOrthoview">
+    <value>Orthovisning</value>
+  </data>
+  <data name="RenderModeShadedSurfaceDisplay">
+    <value>SSD</value>
+  </data>
+  <data name="RenderModeSummedIntensityProjection">
+    <value>Opsummeret</value>
+  </data>
+  <data name="RenderModeSurfaceAverage">
+    <value>Overfladegennemsnit</value>
+  </data>
+  <data name="RenderModeSurfaceMip">
+    <value>Overflade-MIP</value>
+  </data>
+  <data name="RenderingTool_LightTissuesRenderingStateDisabled">
+    <value>Lys og vævsgengivelse er deaktiveret.</value>
+  </data>
+  <data name="ReplaceImageViewingSettings">
+    <value>Udskift billedvisningsindstillinger</value>
+  </data>
+  <data name="ReplaceImageViewingSettingsTooltip">
+    <value>Gem billedvisningsindstillinger og erstat de gamle indstillinger (hvis sådanne findes)</value>
+  </data>
+  <data name="Reset">
+    <value>Nulstil</value>
+  </data>
+  <data name="ResetAll">
+    <value>Nulstil alle</value>
+  </data>
+  <data name="ResetAllToolTip">
+    <value>Nulstil alle</value>
+  </data>
+  <data name="ResetLandmarking">
+    <value>Nulstil landemærkning</value>
+  </data>
+  <data name="ResetLandmarkingToolTip">
+    <value>Nulstil landemærkning</value>
+  </data>
+  <data name="ResetPixelShift">
+    <value>Nulstil pixelforskydning</value>
+  </data>
+  <data name="ResetPixelShiftToolTip">
+    <value>Nulstil pixelforskydning</value>
+  </data>
+  <data name="ResetRotationCenter">
+    <value>Nulstil rotationspunkt</value>
+  </data>
+  <data name="ResetRotationCenterToolTip">
+    <value>Nulstil rotationspunkt</value>
+  </data>
+  <data name="ResetToolTip">
+    <value>Nulstil</value>
+  </data>
+  <data name="ResetViewingOperations">
+    <value>Nulstil visningsindstillinger</value>
+  </data>
+  <data name="ResetViewingOperationsTooltip">
+    <value>Nulstil visningsindstillinger</value>
+  </data>
+  <data name="ResetViewingSettings">
+    <value>Nulstil visningsindstillinger</value>
+  </data>
+  <data name="ResetViewingSettingsTooltip">
+    <value>Nulstil visningsindstillinger</value>
+  </data>
+  <data name="ResetWindowing">
+    <value>Nulstil vindue</value>
+  </data>
+  <data name="ResetZoomPan">
+    <value>Nulstil zoom/panorering</value>
+  </data>
+  <data name="ReverseSliceOrder">
+    <value>Omvendt skiverækkefølge</value>
+  </data>
+  <data name="ReverseSliceOrderToolTip">
+    <value>Omvendt skiverækkefølge</value>
+  </data>
+  <data name="RightTextLabel">
+    <value>Højre</value>
+  </data>
+  <data name="RollRotateInteraction">
+    <value>Rul/roter</value>
+  </data>
+  <data name="RollRotateInteractionTooltip">
+    <value>Rul/roter</value>
+  </data>
+  <data name="Rotate">
+    <value>Roter</value>
+  </data>
+  <data name="RotateAndMirror">
+    <value>Roter/spejlvend</value>
+  </data>
+  <data name="RotateClockwise">
+    <value>Roter med uret</value>
+  </data>
+  <data name="RotateClockwiseToolTip">
+    <value>Roter med uret</value>
+  </data>
+  <data name="RotateCounterclockwise">
+    <value>Roter mod uret</value>
+  </data>
+  <data name="RotateCounterclockwiseToolTip">
+    <value>Roter mod uret</value>
+  </data>
+  <data name="RotateRegistrationInteractionTooltip">
+    <value>Roter til registrering</value>
+  </data>
+  <data name="RotateStepDown">
+    <value>Rotér ned 90 grader</value>
+  </data>
+  <data name="RotateStepDownToolTip">
+    <value>Rotér ned 90 grader</value>
+  </data>
+  <data name="RotateStepLeft">
+    <value>Rotér til venstre 90 grader</value>
+  </data>
+  <data name="RotateStepLeftToolTip">
+    <value>Rotér til venstre 90 grader</value>
+  </data>
+  <data name="RotateStepRight">
+    <value>Rotér til højre 90 grader</value>
+  </data>
+  <data name="RotateStepRightToolTip">
+    <value>Rotér til højre 90 grader</value>
+  </data>
+  <data name="RotateStepUp">
+    <value>Rotér op 90 grader</value>
+  </data>
+  <data name="RotateStepUpToolTip">
+    <value>Rotér op 90 grader</value>
+  </data>
+  <data name="ST">
+    <value>Skanningstid:</value>
+  </data>
+  <data name="SUM">
+    <value>Sum:</value>
+  </data>
+  <data name="SUV">
+    <value>SUV</value>
+  </data>
+  <data name="SUVUnits">
+    <value>SUV</value>
+  </data>
+  <data name="SUV_BMI">
+    <value>SUVbmi</value>
+  </data>
+  <data name="SUV_BSA">
+    <value>SUVbsa</value>
+  </data>
+  <data name="SUV_BW">
+    <value>SUVkrv</value>
+  </data>
+  <data name="SUV_LBM">
+    <value>SUVmlm</value>
+  </data>
+  <data name="SagittalLeftOrientationTooltip">
+    <value>Sagittal venstre</value>
+  </data>
+  <data name="SagittalRightOrientationTooltip">
+    <value>Sagittal højre</value>
+  </data>
+  <data name="Save">
+    <value>Gem</value>
+  </data>
+  <data name="SaveAsPreset">
+    <value>Gem som forudindstilling</value>
+  </data>
+  <data name="SaveAsPresetToolTip">
+    <value>Gemme som forudindstilling</value>
+  </data>
+  <data name="SaveBatchAs">
+    <value>Gem batch som...</value>
+  </data>
+  <data name="SaveDialogLabel">
+    <value>Filnavn (Beskrivelse):</value>
+  </data>
+  <data name="SaveDisplay">
+    <value>Optagelsesfremviserområde</value>
+  </data>
+  <data name="SaveDisplayAs">
+    <value>Gem skærmbillede som...</value>
+  </data>
+  <data name="SaveDisplayTooltip">
+    <value>Optagelsesfremviserområde</value>
+  </data>
+  <data name="SaveImageAs">
+    <value>Gem valgte billeder som... (Shift+S)</value>
+  </data>
+  <data name="SaveImageViewingSettings">
+    <value>Gem billedvisningsindstillinger</value>
+  </data>
+  <data name="SaveImageViewingSettingsTooltip">
+    <value>Gem billedvisningsindstillinger</value>
+  </data>
+  <data name="SavePreset">
+    <value>Gem</value>
+  </data>
+  <data name="SavePresetToolTip">
+    <value>Gem forudindstilling</value>
+  </data>
+  <data name="SaveResults">
+    <value>Gemmer resultater...</value>
+  </data>
+  <data name="SaveSeriesAs">
+    <value>Gem serie som...</value>
+  </data>
+  <data name="SaveSeriesAsTooltip">
+    <value>Gem serien i et andet (fil)format.</value>
+  </data>
+  <data name="ScaleCM">
+    <value>{0} cm</value>
+  </data>
+  <data name="ScaleMM">
+    <value>{0} mm</value>
+  </data>
+  <data name="Scan">
+    <value>Scanningsnr.</value>
+  </data>
+  <data name="ScanLength">
+    <value>Scanningslængde</value>
+  </data>
+  <data name="ScrollImageByImage">
+    <value>Billede for billede</value>
+  </data>
+  <data name="ScrollInteraction">
+    <value>Rul</value>
+  </data>
+  <data name="ScrollInteractionTooltip">
+    <value>Rul</value>
+  </data>
+  <data name="ScrollRowByRow">
+    <value>Vertikal bladring: rækkevis</value>
+  </data>
+  <data name="Scrolling1DAll">
+    <value>Alle billeder (sekventiel sortering)</value>
+  </data>
+  <data name="Scrolling1DStacked">
+    <value>1D-billedsortering</value>
+  </data>
+  <data name="Scrolling2DMatrix">
+    <value>2D-billedsortering</value>
+  </data>
+  <data name="ScrollingAdditional">
+    <value>Yderligere tastaturfunktion</value>
+  </data>
+  <data name="ScrollingHorizontal">
+    <value>Vandret muse-/tastaturfunktion</value>
+  </data>
+  <data name="ScrollingVertical">
+    <value>Lodret muse-/tastaturfunktion</value>
+  </data>
+  <data name="SculptingAccept">
+    <value>Acceptér</value>
+  </data>
+  <data name="SculptingAcceptTooltip">
+    <value>Konstruér vævet</value>
+  </data>
+  <data name="SculptingCancel">
+    <value>Annuller</value>
+  </data>
+  <data name="SculptingCircleExcludeTooltip">
+    <value>Udeluk cirkelformet ROI</value>
+  </data>
+  <data name="SculptingCircleIncludeTooltip">
+    <value>Medtag cirkelformet ROI</value>
+  </data>
+  <data name="SculptingFreeHandExcludeTooltip">
+    <value>Udeluk frihånds-ROI</value>
+  </data>
+  <data name="SculptingFreeHandIncludeTooltip">
+    <value>Medtag frihånds-ROI</value>
+  </data>
+  <data name="SculptingPolygonExcludeTooltip">
+    <value>Udeluk polygonformet ROI</value>
+  </data>
+  <data name="SculptingPolygonIncludeTooltip">
+    <value>Medtag polygonformet ROI</value>
+  </data>
+  <data name="SculptingRectangleExcludeTooltip">
+    <value>Udeluk rektangulært ROI</value>
+  </data>
+  <data name="SculptingRectangleIncludeTooltip">
+    <value>Medtag rektangulært ROI</value>
+  </data>
+  <data name="SculptingRedo">
+    <value>Gentag</value>
+  </data>
+  <data name="SculptingRedoTooltip">
+    <value>Gentag seneste handling</value>
+  </data>
+  <data name="SculptingReset">
+    <value>Nulstil</value>
+  </data>
+  <data name="SculptingResetTooltip">
+    <value>Nulstil alle modelleringshandlinger</value>
+  </data>
+  <data name="SculptingTool_CircleExclude">
+    <value>Udeluk cirkelformet ROI</value>
+  </data>
+  <data name="SculptingTool_CircleInclude">
+    <value>Medtag cirkelformet ROI</value>
+  </data>
+  <data name="SculptingTool_FreeHandExclude">
+    <value>Udeluk frihånds-ROI</value>
+  </data>
+  <data name="SculptingTool_FreeHandInclude">
+    <value>Medtag frihånds-ROI</value>
+  </data>
+  <data name="SculptingTool_GroupName">
+    <value>Modelleringsværktøjer</value>
+  </data>
+  <data name="SculptingTool_PolygonExclude">
+    <value>Udeluk polygonformet ROI</value>
+  </data>
+  <data name="SculptingTool_PolygonInclude">
+    <value>Medtag polygonformet ROI</value>
+  </data>
+  <data name="SculptingTool_RectangleExclude">
+    <value>Udeluk rektangulært ROI</value>
+  </data>
+  <data name="SculptingTool_RectangleInclude">
+    <value>Medtag rektangulært ROI</value>
+  </data>
+  <data name="SculptingUndo">
+    <value>Fortryd</value>
+  </data>
+  <data name="SculptingUndoTooltip">
+    <value>Fortryd seneste handling</value>
+  </data>
+  <data name="SelectAndSortDimensionChemicalShift">
+    <value>Kemisk skift</value>
+  </data>
+  <data name="SelectAndSortDimensionDiffusion">
+    <value>Diffusion</value>
+  </data>
+  <data name="SelectAndSortDimensionDynamic">
+    <value>Dynamisk</value>
+  </data>
+  <data name="SelectAndSortDimensionEcho">
+    <value>Ekko</value>
+  </data>
+  <data name="SelectAndSortDimensionImageLabelType">
+    <value>Mærkattype</value>
+  </data>
+  <data name="SelectAndSortDimensionPTTimeSlice">
+    <value>Ramme</value>
+  </data>
+  <data name="SelectAndSortDimensionPTTimeSlot">
+    <value>Bin</value>
+  </data>
+  <data name="SelectAndSortDimensionPhase">
+    <value>Fase</value>
+  </data>
+  <data name="SelectAndSortDimensionSlice">
+    <value>Skive</value>
+  </data>
+  <data name="SelectAndSortDimensionStack">
+    <value>Stabel</value>
+  </data>
+  <data name="SelectAndSortDimensionTime">
+    <value>Tidsdimension</value>
+  </data>
+  <data name="SelectAndSortDimensionType">
+    <value>Type</value>
+  </data>
+  <data name="SelectColorScale">
+    <value>Vælg farveskala</value>
+  </data>
+  <data name="SelectColorScaleTooltip">
+    <value>Vælg farveskala</value>
+  </data>
+  <data name="SelectUnderLay">
+    <value>Vælg underlægning</value>
+  </data>
+  <data name="SelectUnderLayTooltip">
+    <value>Vælg et farvekort til underlægning</value>
+  </data>
+  <data name="SelectWindowPreset">
+    <value>Vælg vinduesforudindstillinger</value>
+  </data>
+  <data name="SelectWindowPresetTooltip">
+    <value>Vælg vinduesforudindstillinger</value>
+  </data>
+  <data name="Series">
+    <value>Serie</value>
+  </data>
+  <data name="SeriesOverviewTooltip">
+    <value>Serieoversigt</value>
+  </data>
+  <data name="SeriesScanCompletedMessage">
+    <value>Hele serien kan vises. Vil du indlæse hele serien?</value>
+  </data>
+  <data name="SeriesScanCompletedTitle">
+    <value>Scanning af serie fuldført</value>
+  </data>
+  <data name="SetAsOverlay">
+    <value>Indstil som overlejring</value>
+  </data>
+  <data name="SetAsOverlayTooltip">
+    <value>Indstil som overlejring</value>
+  </data>
+  <data name="SetAsUnderlay">
+    <value>Indstil som underlejring</value>
+  </data>
+  <data name="SetAsUnderlayTooltip">
+    <value>Indstil som underlejring</value>
+  </data>
+  <data name="SetDefaultSortSelection">
+    <value>Indstil standardsortering</value>
+  </data>
+  <data name="SetRotationCenter">
+    <value>Indstille rotationscenter</value>
+  </data>
+  <data name="SetRotationCenterToolTip">
+    <value>Indstille rotationspunkt</value>
+  </data>
+  <data name="SetTileLayout">
+    <value>Indstil rudelayout</value>
+  </data>
+  <data name="SetTileLayoutToolTip">
+    <value>Indstil rudelayout</value>
+  </data>
+  <data name="ShiftedCurveDistanceMsg">
+    <value>Parallel for CL, {0} mm</value>
+  </data>
+  <data name="ShiftedCurve_ResetShift">
+    <value>Gå til den oprindelige kurve</value>
+  </data>
+  <data name="ShowCalibrationLine">
+    <value>Vis kalibreringslinje</value>
+  </data>
+  <data name="ShowFiber">
+    <value>Vis fibre</value>
+  </data>
+  <data name="ShowHideDirectionalFiberColorToolTip">
+    <value>Vis/skljul retningsfarver</value>
+  </data>
+  <data name="ShowHideFibers">
+    <value>Vis/skjul fibre</value>
+  </data>
+  <data name="ShowHideFibersToolTip">
+    <value>Vis/skjul fibre</value>
+  </data>
+  <data name="ShowHistogram">
+    <value>Vis histogram</value>
+  </data>
+  <data name="ShowLess">
+    <value>Vis færre</value>
+  </data>
+  <data name="ShowMore">
+    <value>Vis flere</value>
+  </data>
+  <data name="ShowRotationCenter">
+    <value>Vis rotationspunkt</value>
+  </data>
+  <data name="ShowRotationCenterToolTip">
+    <value>Vis rotationspunkt</value>
+  </data>
+  <data name="ShowShutterLines">
+    <value>Vis lukkerlinjer</value>
+  </data>
+  <data name="ShowShutterLinesToolTip">
+    <value>Vis lukkerlinjer</value>
+  </data>
+  <data name="ShowTransparentTool.GlassViewAction">
+    <value>Glasvisning</value>
+  </data>
+  <data name="ShowTransparentTool.ShowTransparentAction">
+    <value>Vis transparent</value>
+  </data>
+  <data name="Shutters">
+    <value>Aktiver lukkere</value>
+  </data>
+  <data name="ShuttersToolTip">
+    <value>Aktiver lukkere</value>
+  </data>
+  <data name="SimplicitSegmentationTool.AttractToCurve">
+    <value>Tilføj væv til kurve (3D)</value>
+  </data>
+  <data name="SimplicitSegmentationTool.AttractToPoint">
+    <value>Tilføj væv til punkt (3D)</value>
+  </data>
+  <data name="SimplicitSegmentationTool.AutoBalloon">
+    <value>Tegn med auto-centreret ballon (3D)</value>
+  </data>
+  <data name="SimplicitSegmentationTool.DragToPoint">
+    <value>Træk væv til punkt (3D)</value>
+  </data>
+  <data name="SimplicitSegmentationTool.SubtractFromCurve">
+    <value>Fratræk væv fra kurve (3D)</value>
+  </data>
+  <data name="SingleMode">
+    <value>Single Mode</value>
+  </data>
+  <data name="Slab">
+    <value>Slab</value>
+  </data>
+  <data name="SlabPosition">
+    <value>Slabplacering</value>
+  </data>
+  <data name="Slice">
+    <value>Skive</value>
+  </data>
+  <data name="SliceBySliceAdd">
+    <value>Tilføj skive for skive</value>
+  </data>
+  <data name="SliceBySliceAddTooltip">
+    <value>Definer en segmenteret sektion af et volumen manuelt, skive for skive.</value>
+  </data>
+  <data name="SliceBySliceRemove">
+    <value>Fjern skive for skive</value>
+  </data>
+  <data name="SliceBySliceRemoveTooltip">
+    <value>Definer en segmenteret sektion af et volumen manuelt, skive for skive.</value>
+  </data>
+  <data name="SliceBySliceWithInterpolation">
+    <value>Skive for skive med interpolation</value>
+  </data>
+  <data name="SliceBySliceWithInterpolationTooltip">
+    <value>Definer en segmenteret sektion af et volumen manuelt, skive for skive, med interpolering mellem skiver.</value>
+  </data>
+  <data name="SliceOrder">
+    <value>Skiverækkefølge</value>
+  </data>
+  <data name="SliceThickness">
+    <value>Skivetykkelse</value>
+  </data>
+  <data name="SliceViewMode">
+    <value>Tilføj 2D-visning</value>
+  </data>
+  <data name="SliceViewModeTooltip">
+    <value>Tilføj en 2D-visning</value>
+  </data>
+  <data name="SmartLink">
+    <value>Smart-link</value>
+  </data>
+  <data name="Spatial">
+    <value>Rumlig</value>
+  </data>
+  <data name="SpatulaEditing_SpikeProbability">
+    <value>Sandsynlighed for spids:</value>
+  </data>
+  <data name="Spine">
+    <value>Rygrad</value>
+  </data>
+  <data name="SplitStacks">
+    <value>Opdel skiver i separate stabler</value>
+  </data>
+  <data name="StringFormatAngleInDegrees">
+    <value>0°</value>
+  </data>
+  <data name="StringFormatAngleInDegreesWithPrecisionOfOneDecimal">
+    <value>0.0°</value>
+  </data>
+  <data name="StringFormatMillimeterWithPrecisionOfOneDecimal">
+    <value>0.0 mm</value>
+  </data>
+  <data name="StructuredReportAbbreviation">
+    <value>SR</value>
+  </data>
+  <data name="Study">
+    <value>Undersøgelse:</value>
+  </data>
+  <data name="StudyMode">
+    <value>Studie</value>
+  </data>
+  <data name="StudyModeToolTip">
+    <value>Studie</value>
+  </data>
+  <data name="StudyOverviewTooltip">
+    <value>Studieoversigt</value>
+  </data>
+  <data name="Subdural">
+    <value>Subdural</value>
+  </data>
+  <data name="Submitted">
+    <value>Sendt</value>
+  </data>
+  <data name="Subtraction">
+    <value>Subtraktion</value>
+  </data>
+  <data name="SubtractionTooltip">
+    <value>Subtraktion</value>
+  </data>
+  <data name="SuspendResumeSmartLink">
+    <value>Ophæv/genoptag Smart-link</value>
+  </data>
+  <data name="SuspendSmartLinkingTooltip">
+    <value>Ophæv viewer for smart-linking</value>
+  </data>
+  <data name="SwapViews">
+    <value>Byt visninger</value>
+  </data>
+  <data name="SwapViewsToolTip">
+    <value>Byt visninger</value>
+  </data>
+  <data name="SwivelTool.SwivelAction">
+    <value>Rul/roter</value>
+  </data>
+  <data name="TScore">
+    <value>T-Score</value>
+  </data>
+  <data name="TextLabel">
+    <value>Tekstetiket</value>
+  </data>
+  <data name="TextOnly">
+    <value>Kun tekst</value>
+  </data>
+  <data name="TextPlusArrow">
+    <value>Tekst + pil</value>
+  </data>
+  <data name="ThinSlabMprViewMode">
+    <value>Tilføj skivevisning</value>
+  </data>
+  <data name="ThinSlabMprViewModeTooltip">
+    <value>Tilføj en skivevisning.</value>
+  </data>
+  <data name="ThresholdCenterTextModel">
+    <value>T  C</value>
+  </data>
+  <data name="ThresholdWidthTextModel">
+    <value>T B</value>
+  </data>
+  <data name="TimeMode">
+    <value>Tid</value>
+  </data>
+  <data name="TimeModeToolTip">
+    <value>Tid</value>
+  </data>
+  <data name="TissueAddContourTool.TissueAddContourAction">
+    <value>Tegn kontur</value>
+  </data>
+  <data name="TissueAddContourTool.TissueAddContourGroup">
+    <value>Tilføj konturer</value>
+  </data>
+  <data name="TissueAddContourTool_TissueEditContoursGroup">
+    <value>Redigér konturer</value>
+  </data>
+  <data name="TissueDefTool_GroupName">
+    <value>Vævdefineringsværktøjer</value>
+  </data>
+  <data name="TissueDefTool_SliceBySliceWithInterpolation_MessageLineWarning">
+    <value>Oprettelse af frihåndskonturanmærkning er afsluttet.</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_Air">
+    <value>Luft</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_Body">
+    <value>Krop</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_Bone">
+    <value>Knogle</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_Modified">
+    <value>Ændret</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_None">
+    <value>Ingen</value>
+  </data>
+  <data name="TissueDef_TissueDefaultName">
+    <value>Væv</value>
+  </data>
+  <data name="TissueEditContoursTool.TissueEditContoursAction">
+    <value>Redigér konturer</value>
+  </data>
+  <data name="TissueEditContoursTool.TissueEditContoursWithCutToolAction">
+    <value>Redigér konturer</value>
+  </data>
+  <data name="TissueEditContoursTool.TissueEditContoursWithSpatulaAction">
+    <value>Redigér konturer</value>
+  </data>
+  <data name="TissueSaveTool.SaveAsAction">
+    <value>Gem resultater som...</value>
+  </data>
+  <data name="TissueUndoEditContourTool_GroupName">
+    <value>Værktøjer til fortryd/gentag vævsredigering</value>
+  </data>
+  <data name="TitleCompressionQuality">
+    <value>Lossy</value>
+  </data>
+  <data name="TitleEnhance">
+    <value>TF</value>
+  </data>
+  <data name="ToggleColorScalDualMode">
+    <value>Slå Dual Mode Color Scale til/fra</value>
+  </data>
+  <data name="ToggleCrosshairTooltip">
+    <value>Vis trådkors</value>
+  </data>
+  <data name="ToggleSubtractionTooltip">
+    <value>Subtraktion til/fra</value>
+  </data>
+  <data name="TransparencyTextModel">
+    <value>Transparens {0}%</value>
+  </data>
+  <data name="USCineLinkModeFrameNumber">
+    <value>Synkronisér til rammenummer</value>
+  </data>
+  <data name="USCineLinkModeFrameTime">
+    <value>Synkronisér til start</value>
+  </data>
+  <data name="USCineLinkModeFreeRun">
+    <value>Usynkroniseret kørsel</value>
+  </data>
+  <data name="USCineLinkModeRelativeFrameTime">
+    <value>Synkronisér til begge ender</value>
+  </data>
+  <data name="USCineMode">
+    <value>Ultralyd cine-link-tilstand</value>
+  </data>
+  <data name="USTimeLabel">
+    <value>Tid</value>
+  </data>
+  <data name="USVelocityLabel">
+    <value>Hastighed</value>
+  </data>
+  <data name="UltraSoundElapsedTimePrefix">
+    <value>Forløbet tid</value>
+  </data>
+  <data name="UltraSoundTimerNamePrefix">
+    <value>Timer</value>
+  </data>
+  <data name="UncalibratedUnit">
+    <value>enheder</value>
+  </data>
+  <data name="UncalibratedUnitSquared">
+    <value>enheder</value>
+  </data>
+  <data name="Undo">
+    <value>Fortryd</value>
+  </data>
+  <data name="UndoToolTip">
+    <value>Fortryd</value>
+  </data>
+  <data name="UnitAngleDegreeShort">
+    <value>°</value>
+  </data>
+  <data name="UnitBeatsPerMinuteShort">
+    <value>SPM</value>
+  </data>
+  <data name="UnitCentimeterCubedShort">
+    <value>cm³</value>
+  </data>
+  <data name="UnitCentimeterShort">
+    <value>cm</value>
+  </data>
+  <data name="UnitCentimeterSquaredShort">
+    <value>cm²</value>
+  </data>
+  <data name="UnitHeartRateShort">
+    <value>HF</value>
+  </data>
+  <data name="UnitHertzShort">
+    <value>Hz</value>
+  </data>
+  <data name="UnitKilovoltageShort">
+    <value>kV</value>
+  </data>
+  <data name="UnitMilliampereSecondShort">
+    <value>mAs</value>
+  </data>
+  <data name="UnitMilliampereShort">
+    <value>mA</value>
+  </data>
+  <data name="UnitMilliliterPerHundredGrams">
+    <value>ml/100 g</value>
+  </data>
+  <data name="UnitMilliliterPerHundredGramsPerMin">
+    <value>ml/100 g/min</value>
+  </data>
+  <data name="UnitMillimeterCubedShort">
+    <value>mm³</value>
+  </data>
+  <data name="UnitMillimeterShort">
+    <value>mm</value>
+  </data>
+  <data name="UnitMillimeterSquaredShort">
+    <value>mm²</value>
+  </data>
+  <data name="UnitMillimeterTimesSecond">
+    <value>mm*s</value>
+  </data>
+  <data name="UnitMillisecondPowMinusOne">
+    <value>ms⁻¹</value>
+  </data>
+  <data name="UnitMillisecondShort">
+    <value>ms</value>
+  </data>
+  <data name="UnitMinuteShort">
+    <value>min</value>
+  </data>
+  <data name="UnitMmSquarePerSec">
+    <value>mm²/s</value>
+  </data>
+  <data name="UnitPerSecond">
+    <value>/s</value>
+  </data>
+  <data name="UnitSecondPowMinusOne">
+    <value>s⁻¹</value>
+  </data>
+  <data name="UnitSecondShort">
+    <value>s</value>
+  </data>
+  <data name="UnitTenPowMinus3MmSquarePerSec">
+    <value>× 10⁻³ mm²/s</value>
+  </data>
+  <data name="UnitTenPowMinus6MmSquarePerSec">
+    <value>× 10⁻⁶ mm²/s</value>
+  </data>
+  <data name="UnitTenPowMinusThree">
+    <value>× 10⁻³</value>
+  </data>
+  <data name="UnitTenPowMinusThreePerMin">
+    <value>× 10⁻³/min</value>
+  </data>
+  <data name="Unknown">
+    <value>Ukendt</value>
+  </data>
+  <data name="UnmergeStacks">
+    <value>Ophæv fletning af stakke</value>
+  </data>
+  <data name="UnmergeStacksToolTip">
+    <value>Ophæv fletning af stakke</value>
+  </data>
+  <data name="UseEnhancedTransparency">
+    <value>Brug forstærket transparens</value>
+  </data>
+  <data name="UseNamesInCalibrationLine">
+    <value>Vis kateternavn med kalibrering</value>
+  </data>
+  <data name="UseSymmetricalShutters">
+    <value>Anvend Symmetrisk lukker</value>
+  </data>
+  <data name="UseSymmetricalShuttersToolTip">
+    <value>Anvend Symmetrisk lukker</value>
+  </data>
+  <data name="ValueLabel">
+    <value>Værdi: {0}</value>
+  </data>
+  <data name="VertexAlreadyExists">
+    <value>Vertex {0} findes allerede.</value>
+  </data>
+  <data name="VerticalFlip">
+    <value>Drej 180° lodret</value>
+  </data>
+  <data name="ViewModeIsr">
+    <value>ISR</value>
+  </data>
+  <data name="ViewModeMinip">
+    <value>mIP</value>
+  </data>
+  <data name="ViewModeMip">
+    <value>MIP</value>
+  </data>
+  <data name="ViewModeMpr">
+    <value>MPR</value>
+  </data>
+  <data name="ViewModeSum">
+    <value>SUM</value>
+  </data>
+  <data name="ViewModeSvr">
+    <value>SVR</value>
+  </data>
+  <data name="ViewModeVr">
+    <value>VR</value>
+  </data>
+  <data name="ViewPortAngle">
+    <value>Vinkel </value>
+  </data>
+  <data name="ViewPortBlending">
+    <value>Blanding </value>
+  </data>
+  <data name="ViewPortCenter">
+    <value>Midte </value>
+  </data>
+  <data name="ViewPortDegree">
+    <value> gr.</value>
+  </data>
+  <data name="ViewPortDistance">
+    <value>Afstand </value>
+  </data>
+  <data name="ViewPortOpacity">
+    <value>Opacitet </value>
+  </data>
+  <data name="ViewPortThreshold">
+    <value>Tærskel </value>
+  </data>
+  <data name="ViewPortWidth">
+    <value>Bredde </value>
+  </data>
+  <data name="ViewPortmm">
+    <value> mm</value>
+  </data>
+  <data name="ViewerLayout">
+    <value>Fremviserlayout</value>
+  </data>
+  <data name="ViewerLayoutTooltip">
+    <value>Fremviserlayout</value>
+  </data>
+  <data name="Volume">
+    <value>Volumen</value>
+  </data>
+  <data name="VolumeConstructionWarning">
+    <value>Volumenkonstruktion kræver interpolation.</value>
+  </data>
+  <data name="VolumeMinipViewMode">
+    <value>Volumen/MinIP-visning</value>
+  </data>
+  <data name="VolumeMinipViewModeTooltip">
+    <value>Tilføj en volumen/MinIP-visning.</value>
+  </data>
+  <data name="VolumeMipViewMode">
+    <value>Tilføj 3D-visning</value>
+  </data>
+  <data name="VolumeMipViewModeTooltip">
+    <value>Tilføj en 3D-visning.</value>
+  </data>
+  <data name="VolumeOrientationTool.AxialOrientation">
+    <value>Aksial</value>
+  </data>
+  <data name="VolumeOrientationTool.CoronalOrientation">
+    <value>Koronal</value>
+  </data>
+  <data name="VolumeOrientationTool.GroupName">
+    <value>Orientering</value>
+  </data>
+  <data name="VolumeOrientationTool.SagittalOrientation">
+    <value>Sagittal</value>
+  </data>
+  <data name="VolumeOrientationTool.UseCurrentOrientation">
+    <value>Anvend aktuel orientering</value>
+  </data>
+  <data name="VolumeOrientationTool.VolumeFlipAction">
+    <value>Vend</value>
+  </data>
+  <data name="VolumeShadedOpacityBlendViewMode">
+    <value>Volumen</value>
+  </data>
+  <data name="VolumeShadedOpacityBlendViewModeTooltip">
+    <value>Tilføj en volumenvisning.</value>
+  </data>
+  <data name="VolumeTissueTooltip">
+    <value>Volumen</value>
+  </data>
+  <data name="VolumeTracingTool.Erode">
+    <value>Formindsk injiceret væv (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.Expand">
+    <value>Udvid injiceret væv (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.Fill">
+    <value>Udfyld huller (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.HideOverlay">
+    <value>Skjul overlejring (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.InjectDye">
+    <value>Injicér farvestof (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.LargeErase">
+    <value>Stort sfærisk viskelæder (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.MediumErase">
+    <value>Medium sfærisk viskelæder (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.ShowOnlyTissue">
+    <value>Kun væv</value>
+  </data>
+  <data name="VolumeTracingTool.ShowOverlay">
+    <value>Overlejring</value>
+  </data>
+  <data name="VolumeTracingTool.SmallErase">
+    <value>Lille sfærisk viskelæder (3D)</value>
+  </data>
+  <data name="Warning">
+    <value>Advarsel</value>
+  </data>
+  <data name="WindowPresetDefault">
+    <value>Standard</value>
+  </data>
+  <data name="WindowPresetNone">
+    <value>Ingen</value>
+  </data>
+  <data name="WindowingPresetLabel">
+    <value>B/L</value>
+  </data>
+  <data name="WindowingToolWindowingAction">
+    <value>Vindue</value>
+  </data>
+  <data name="Zoom">
+    <value>Zoom</value>
+  </data>
+  <data name="ZoomBestFit">
+    <value>Bedste tilpasning</value>
+  </data>
+  <data name="ZoomBestFitToolTip">
+    <value>Bedste tilpasning</value>
+  </data>
+  <data name="ZoomFactor">
+    <value>Zoom {0:f2}</value>
+  </data>
+  <data name="ZoomFactorToolTip">
+    <value>Zoom {0:f2}</value>
+  </data>
+  <data name="ZoomIn">
+    <value>Zoom ind</value>
+  </data>
+  <data name="ZoomInToolTip">
+    <value>Zoom ind</value>
+  </data>
+  <data name="ZoomInteraction">
+    <value>Zoom</value>
+  </data>
+  <data name="ZoomInteractionTooltip">
+    <value>Zoom</value>
+  </data>
+  <data name="ZoomOut">
+    <value>Zoom ud</value>
+  </data>
+  <data name="ZoomOutToolTip">
+    <value>Zoom ud</value>
+  </data>
+  <data name="ZoomTarget">
+    <value>Zoom til punkt</value>
+  </data>
+  <data name="ZoomTargetToolTip">
+    <value>Zoom til punkt</value>
+  </data>
+  <data name="ZoomTextModel">
+    <value>Z {0}</value>
+  </data>
+  <data name="ZoomToolTip">
+    <value>Zoom</value>
+  </data>
+  <data name="mCi">
+    <value>mCi</value>
+  </data>
+</root>

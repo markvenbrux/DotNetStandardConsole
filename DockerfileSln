@@ -1,0 +1,38 @@
+
+# Use the official Microsoft .NET 6 SDK image as the base image
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+ 
+WORKDIR /src
+ 
+# Copy the solution file
+COPY ["DotNetStandardConsole.sln", "./"]
+ 
+# Copy each .csproj file and restore it individually
+COPY ["App/DotNet.Docker.csproj", "App/"]
+COPY ["DotNetStanderd2Library/DotNetStanderd2Library.csproj", "MyLibrary/"]
+
+RUN dotnet restore "App/DotNet.Docker.csproj"
+RUN dotnet restore "MyLibrary/DotNetStanderd2Library.csproj"
+ 
+# Copy the rest of the source code
+COPY . .
+ 
+# Build the solution
+RUN dotnet build "DotNetStandardConsole.sln" -c Release -o /app/build
+
+ 
+# Publish the .NET 6 console application
+FROM build AS publish
+RUN dotnet publish "App\DotNet.Docker.csproj" -c Release -o /app/publish
+ 
+
+# Use the official Microsoft .NET 6 runtime image as the base image for the final stage
+FROM mcr.microsoft.com/dotnet/runtime:6.0
+ 
+WORKDIR /App
+ 
+# Copy the published .NET 6 console application to the final image
+COPY --from=publish /app/publish .
+ 
+# Set the entry point for the final image
+ENTRYPOINT ["dotnet", "DotNet.Docker.dll"]

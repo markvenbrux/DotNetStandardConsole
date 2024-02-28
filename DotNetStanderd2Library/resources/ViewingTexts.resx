@@ -1,0 +1,3838 @@
+<root>
+  <schema id="root">
+    <import namespace="http://www.w3.org/XML/1998/namespace" />
+    <element name="root" IsDataSet="true">
+      <complexType>
+        <choice maxOccurs="unbounded">
+          <element name="metadata">
+            <complexType>
+              <sequence>
+                <element name="value" type="xsd:string" minOccurs="0" />
+              </sequence>
+              <attribute name="name" use="required" type="xsd:string" />
+              <attribute name="type" type="xsd:string" />
+              <attribute name="mimetype" type="xsd:string" />
+              <attribute ref="xml:space" />
+            </complexType>
+          </element>
+          <element name="assembly">
+            <complexType>
+              <attribute name="alias" type="xsd:string" />
+              <attribute name="name" type="xsd:string" />
+            </complexType>
+          </element>
+          <element name="data">
+            <complexType>
+              <sequence>
+                <element name="value" type="xsd:string" minOccurs="0" Ordinal="1" />
+                <element name="comment" type="xsd:string" minOccurs="0" Ordinal="2" />
+              </sequence>
+              <attribute name="name" type="xsd:string" use="required" Ordinal="1" />
+              <attribute name="type" type="xsd:string" Ordinal="3" />
+              <attribute name="mimetype" type="xsd:string" Ordinal="4" />
+              <attribute ref="xml:space" />
+            </complexType>
+          </element>
+          <element name="resheader">
+            <complexType>
+              <sequence>
+                <element name="value" type="xsd:string" minOccurs="0" Ordinal="1" />
+              </sequence>
+              <attribute name="name" type="xsd:string" use="required" />
+            </complexType>
+          </element>
+        </choice>
+      </complexType>
+    </element>
+  </schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="Abdomen">
+    <value>Abdomen</value>
+  </data>
+  <data name="AcceptTissue">
+    <value>Accept Tissue</value>
+  </data>
+  <data name="AcceptTissueToolTip">
+    <value>Accept Tissue</value>
+  </data>
+  <data name="AcquisitionVoxelSize">
+    <value>Acq</value>
+  </data>
+  <data name="ActivityConcentrationUnitsBQML">
+    <value>Bq/ml</value>
+  </data>
+  <data name="ActivityConcentrationUnitsNCIML">
+    <value>nCi/ml</value>
+  </data>
+  <data name="AdcUnit">
+    <value>10⁻³ mm²/s</value>
+  </data>
+  <data name="AddSeriesToPrintComposer">
+    <value>Add Series to Print Composer</value>
+  </data>
+  <data name="AddSeriesToPrintComposerTooltip">
+    <value>Add selected series to print composer.</value>
+  </data>
+  <data name="AddToAccumulation">
+    <value>Add to Accumulator</value>
+  </data>
+  <data name="AddToAccumulationTooltip">
+    <value>Add a new part to a segmented section of a volume.</value>
+  </data>
+  <data name="AlignViewToMeasurement">
+    <value>Align View To Measurement</value>
+  </data>
+  <data name="AlphaBlending">
+    <value>Opacity</value>
+  </data>
+  <data name="AlphaBlendingInteractionTooltip">
+    <value>Opacity</value>
+  </data>
+  <data name="AlphaBlendingPercentagePrefix">
+    <value>Alpha</value>
+  </data>
+  <data name="AlphaBlendingToolTip">
+    <value>Opacity</value>
+  </data>
+  <data name="AlternateWindow">
+    <value>Alternate Window</value>
+  </data>
+  <data name="AlternateWindowToolTip">
+    <value>Alternate Window</value>
+  </data>
+  <data name="AnnotationAddLateralDisplacementPoint">
+    <value>Lateral Displacement Point</value>
+  </data>
+  <data name="AnnotationAddLateralDisplacementPointToolTip">
+    <value>Add a lateral displacement point</value>
+  </data>
+  <data name="AnnotationAngle">
+    <value>Angle</value>
+  </data>
+  <data name="AnnotationAngleToolTip">
+    <value>Angle</value>
+  </data>
+  <data name="AnnotationArrowText">
+    <value>Arrow + Text Annotation</value>
+  </data>
+  <data name="AnnotationArrowTextToolTip">
+    <value>Arrow + Text Annotation</value>
+  </data>
+  <data name="AnnotationAutoContour">
+    <value>Auto Contour</value>
+  </data>
+  <data name="AnnotationAutoContourToolTip">
+    <value>Auto Contour</value>
+  </data>
+  <data name="AnnotationBezier">
+    <value>Bézier Curve</value>
+  </data>
+  <data name="AnnotationBezierToolTip">
+    <value>Create a Bézier curve annotation.</value>
+  </data>
+  <data name="AnnotationCalibrationLine">
+    <value>Pixel Size Calibration</value>
+  </data>
+  <data name="AnnotationCalibrationLine100">
+    <value>Pixel Size Calibration (100 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine100ToolTip">
+    <value>Pixel Size Calibration (100 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine150">
+    <value>Pixel Size Calibration (150 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine150ToolTip">
+    <value>Pixel Size Calibration (150 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine200">
+    <value>Pixel Size Calibration (200 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLine200ToolTip">
+    <value>Pixel Size Calibration (200 mm)</value>
+  </data>
+  <data name="AnnotationCalibrationLineToolTip">
+    <value>Pixel Size Calibration</value>
+  </data>
+  <data name="AnnotationCircle">
+    <value>Circle</value>
+  </data>
+  <data name="AnnotationCircleToolTip">
+    <value>Circle</value>
+  </data>
+  <data name="AnnotationDeleteAllGraphics">
+    <value>Delete All Graphics</value>
+  </data>
+  <data name="AnnotationDeleteAllGraphicsToolTip">
+    <value>Delete All Graphics</value>
+  </data>
+  <data name="AnnotationDoubleCobbAngle">
+    <value>Double Cobb Angle</value>
+  </data>
+  <data name="AnnotationDoubleCobbAngleToolTip">
+    <value>Create a double Cobb angle</value>
+  </data>
+  <data name="AnnotationDoubleLine">
+    <value>Double Line</value>
+  </data>
+  <data name="AnnotationDoubleLineLengthRatio">
+    <value>Double Line Length Ratio</value>
+  </data>
+  <data name="AnnotationDoubleLineLengthRatioToolTip">
+    <value>Create a double line length ratio annotation</value>
+  </data>
+  <data name="AnnotationDoubleLineToolTip">
+    <value>Double Line</value>
+  </data>
+  <data name="AnnotationEdgeFinder">
+    <value>Edge Finder</value>
+  </data>
+  <data name="AnnotationEdgeFinderToolTip">
+    <value>Edge Finder</value>
+  </data>
+  <data name="AnnotationEllipse">
+    <value>Ellipse</value>
+  </data>
+  <data name="AnnotationEllipseToolTip">
+    <value>Ellipse</value>
+  </data>
+  <data name="AnnotationFemoralHeightDifference">
+    <value>Femoral Head Height Difference</value>
+  </data>
+  <data name="AnnotationFemoralHeightDifferenceToolTip">
+    <value>Create an annotation for height difference in the femoral head.</value>
+  </data>
+  <data name="AnnotationFlexiContour">
+    <value>Flexi Contour</value>
+  </data>
+  <data name="AnnotationFlexiContourToolTip">
+    <value>Flexi Contour</value>
+  </data>
+  <data name="AnnotationFreehand">
+    <value>Freehand Line</value>
+  </data>
+  <data name="AnnotationFreehandContour">
+    <value>Freehand Contour</value>
+  </data>
+  <data name="AnnotationFreehandContourToolTip">
+    <value>Freehand Contour</value>
+  </data>
+  <data name="AnnotationFreehandToolTip">
+    <value>Freehand Line</value>
+  </data>
+  <data name="AnnotationGrid">
+    <value>Grid</value>
+  </data>
+  <data name="AnnotationGridToolTip">
+    <value>Grid</value>
+  </data>
+  <data name="AnnotationGridTypeBottomLeft">
+    <value>Grid Type Bottom Left</value>
+  </data>
+  <data name="AnnotationGridTypeISOCenter">
+    <value>Grid Type Isocenter</value>
+  </data>
+  <data name="AnnotationGridTypeImageCenter">
+    <value>Grid Type Image Center</value>
+  </data>
+  <data name="AnnotationGridTypeViewportCenter">
+    <value>Grid Type Viewport Center</value>
+  </data>
+  <data name="AnnotationHideAllGraphics">
+    <value>Hide All Graphics</value>
+  </data>
+  <data name="AnnotationHideAllGraphicsToolTip">
+    <value>Hide Annotations</value>
+  </data>
+  <data name="AnnotationLine">
+    <value>Distance</value>
+  </data>
+  <data name="AnnotationLineToolTip">
+    <value>Distance</value>
+  </data>
+  <data name="AnnotationOpenAngle">
+    <value>Open Angle</value>
+  </data>
+  <data name="AnnotationOpenAngleToolTip">
+    <value>Open Angle</value>
+  </data>
+  <data name="AnnotationPixelValue">
+    <value>Pixel Value</value>
+  </data>
+  <data name="AnnotationPixelValueToolTip">
+    <value>Pixel Value</value>
+  </data>
+  <data name="AnnotationPolyLine">
+    <value>Polyline</value>
+  </data>
+  <data name="AnnotationPolyLineToolTip">
+    <value>Polyline</value>
+  </data>
+  <data name="AnnotationPolygon">
+    <value>Polygon</value>
+  </data>
+  <data name="AnnotationPolygonToolTip">
+    <value>Polygon</value>
+  </data>
+  <data name="AnnotationPredefinedArrowText">
+    <value>Arrow + Predefined Text</value>
+  </data>
+  <data name="AnnotationPredefinedArrowTextToolTip">
+    <value>Arrow + Predefined Text</value>
+  </data>
+  <data name="AnnotationPredefinedCategory">
+    <value>Add New...</value>
+  </data>
+  <data name="AnnotationPredefinedText">
+    <value>Predefined Text</value>
+  </data>
+  <data name="AnnotationPredefinedTextToolTip">
+    <value>Predefined Text</value>
+  </data>
+  <data name="AnnotationRectangle">
+    <value>Rectangle</value>
+  </data>
+  <data name="AnnotationRectangleToolTip">
+    <value>Rectangle</value>
+  </data>
+  <data name="AnnotationRemoveAllGraphics">
+    <value>Remove All Graphics</value>
+  </data>
+  <data name="AnnotationRemoveAllGraphicsToolTip">
+    <value>Remove All Graphics</value>
+  </data>
+  <data name="AnnotationRemoveFromGroup">
+    <value>Remove from Group</value>
+  </data>
+  <data name="AnnotationRemoveGraphicsFromSelectedImages">
+    <value>Remove Graphics from Selected Images</value>
+  </data>
+  <data name="AnnotationRemoveGraphicsFromSelectedImagesToolTip">
+    <value>Remove Graphics from Selected Images</value>
+  </data>
+  <data name="AnnotationShowAllGraphics">
+    <value>Show All Graphics</value>
+  </data>
+  <data name="AnnotationShowAllGraphicsToolTip">
+    <value>Show All Graphics</value>
+  </data>
+  <data name="AnnotationShowAngle">
+    <value>Angle</value>
+  </data>
+  <data name="AnnotationSpineLateralDisplacement">
+    <value>Vertical Alignment</value>
+  </data>
+  <data name="AnnotationSpineLateralDisplacementToolTip">
+    <value>Create a lateral displacement annotation</value>
+  </data>
+  <data name="AnnotationSpline">
+    <value>Smooth Polyline</value>
+  </data>
+  <data name="AnnotationSplineContour">
+    <value>Smooth Polygon</value>
+  </data>
+  <data name="AnnotationSplineContourToolTip">
+    <value>Smooth Polygon</value>
+  </data>
+  <data name="AnnotationSplineToolTip">
+    <value>Smooth Polyline</value>
+  </data>
+  <data name="AnnotationStenosis">
+    <value>Stenosis</value>
+  </data>
+  <data name="AnnotationStenosisToolTip">
+    <value>Create a stenosis annotation</value>
+  </data>
+  <data name="AnnotationText">
+    <value>Text Annotation</value>
+  </data>
+  <data name="AnnotationTextToolTip">
+    <value>Text Annotation</value>
+  </data>
+  <data name="AnnotationsMenu_Copy">
+    <value>Copy</value>
+  </data>
+  <data name="AnnotationsMenu_CopyToAll">
+    <value>Copy to All</value>
+  </data>
+  <data name="AnnotationsMenu_Cut">
+    <value>Cut</value>
+  </data>
+  <data name="AnnotationsMenu_Delete">
+    <value>Delete</value>
+  </data>
+  <data name="AnnotationsMenu_DeleteGroup">
+    <value>Delete Group</value>
+  </data>
+  <data name="AnnotationsMenu_GroupAnnotations">
+    <value>Annotations</value>
+  </data>
+  <data name="AnnotationsMenu_Hide">
+    <value>Hide</value>
+  </data>
+  <data name="AnnotationsMenu_Paste">
+    <value>Paste Graphic</value>
+  </data>
+  <data name="AnnotationsMenu_PasteToSelection">
+    <value>Paste Graphic to Selection</value>
+  </data>
+  <data name="AnnotationsTool.Graph">
+    <value>Graph</value>
+  </data>
+  <data name="AnnotationsTool.OthersGroup">
+    <value>Others</value>
+  </data>
+  <data name="AnnotationsTool.ROIToolsGroup">
+    <value>ROI</value>
+  </data>
+  <data name="AnnotationsTool.Rotate">
+    <value>Rotate</value>
+  </data>
+  <data name="AnnotationsTool.ToolsGroup">
+    <value>Annotations</value>
+  </data>
+  <data name="ApplyColorMap">
+    <value>Color Map</value>
+  </data>
+  <data name="ApplyfMRIColorMap">
+    <value>fMRI Color Map</value>
+  </data>
+  <data name="ArcballRegistrationInteractionTooltip">
+    <value>Registration ArcBall</value>
+  </data>
+  <data name="ArrowDown">
+    <value>Down Arrow</value>
+  </data>
+  <data name="ArrowLeft">
+    <value>Left Arrow</value>
+  </data>
+  <data name="ArrowRight">
+    <value>Right Arrow</value>
+  </data>
+  <data name="ArrowUp">
+    <value>Up Arrow</value>
+  </data>
+  <data name="AutoContour_ThresholdContourErrMsg">
+    <value>Threshold center of the contour is not within a valid blood vessels range.</value>
+  </data>
+  <data name="AutoLayout">
+    <value>Auto Layout</value>
+  </data>
+  <data name="AutoLayoutTooltip">
+    <value>Auto Layout</value>
+  </data>
+  <data name="AutomaticReferenceLines">
+    <value>Automatic Reference Lines</value>
+  </data>
+  <data name="AverageAbsoluteDeviationProperty_AAD">
+    <value>AAD: {0}{1}</value>
+  </data>
+  <data name="AverageAbsoluteDeviationProperty_AAD_Invalid">
+    <value>AAD: ***</value>
+  </data>
+  <data name="AxialFeetOrientationTooltip">
+    <value>Axial Feet</value>
+  </data>
+  <data name="AxialHeadOrientationTooltip">
+    <value>Axial Head</value>
+  </data>
+  <data name="Backward">
+    <value>Backward</value>
+  </data>
+  <data name="BaseCurveController_DefaultCurveName">
+    <value>Curve</value>
+  </data>
+  <data name="Batch2DTool.PreviewCommand">
+    <value>Preview</value>
+  </data>
+  <data name="Batch2DTool.SaveAsBatch">
+    <value>Add Batch</value>
+  </data>
+  <data name="BatchBValues">
+    <value>b-values</value>
+  </data>
+  <data name="BatchClear">
+    <value>Clear Batch</value>
+  </data>
+  <data name="BatchDiffusionDirections">
+    <value>Diffusion Directions</value>
+  </data>
+  <data name="BatchDynamics">
+    <value>Dynamics</value>
+  </data>
+  <data name="BatchFlip">
+    <value>Flip Batch</value>
+  </data>
+  <data name="BatchFollowing">
+    <value>Following</value>
+  </data>
+  <data name="BatchImageAnnotator.BATCH">
+    <value>BATCH</value>
+  </data>
+  <data name="BatchImageTypes">
+    <value>Image Types</value>
+  </data>
+  <data name="BatchMode">
+    <value>Batch</value>
+  </data>
+  <data name="BatchModeToolTip">
+    <value>Batch</value>
+  </data>
+  <data name="BatchNamePrefix">
+    <value>V_</value>
+  </data>
+  <data name="BatchPhases">
+    <value>Phases</value>
+  </data>
+  <data name="BatchPreceding">
+    <value>Preceding</value>
+  </data>
+  <data name="BatchRangeEnd">
+    <value>End:</value>
+  </data>
+  <data name="BatchRangeStart">
+    <value>Start:</value>
+  </data>
+  <data name="BatchSaveTool.DialogTitle">
+    <value>Save Batch As...</value>
+  </data>
+  <data name="BatchStations">
+    <value>Stations</value>
+  </data>
+  <data name="BatchTypeParallel">
+    <value>Parallel</value>
+  </data>
+  <data name="BatchTypeRadial">
+    <value>Radial</value>
+  </data>
+  <data name="Bone">
+    <value>Bone</value>
+  </data>
+  <data name="Bone_Default">
+    <value>Bone (Default)</value>
+  </data>
+  <data name="Bone_with_Metal_InOut">
+    <value>Bone with Metal In/Out</value>
+  </data>
+  <data name="Bone_with_Metal_inside">
+    <value>Bone with Metal inside</value>
+  </data>
+  <data name="Bone_with_Metal_outside">
+    <value>Bone with Metal outside</value>
+  </data>
+  <data name="BoneRemovalTool.RemoveClutter">
+    <value>Remove Clutter</value>
+  </data>
+  <data name="BoneRemovalTool_GroupName">
+    <value>Bone Removal Tools</value>
+  </data>
+  <data name="BothSidesLabel">
+    <value>Both Sides</value>
+  </data>
+  <data name="BoundingTool.BoundingBox">
+    <value>Target Volume</value>
+  </data>
+  <data name="BoundingTool.BoundingCube">
+    <value>Bounding Cube</value>
+  </data>
+  <data name="BoundingTool.BoundingSphere">
+    <value>Bounding Sphere</value>
+  </data>
+  <data name="BoundingTool.ClippingPlane">
+    <value>Tooltip associated with the command to activate the plane for clipping the volume.</value>
+  </data>
+  <data name="BoundingTool.Group">
+    <value>Bounding Tools</value>
+  </data>
+  <data name="BoundingTool.Hide">
+    <value>Hide/Show</value>
+  </data>
+  <data name="BoundingTool.Lock">
+    <value>Lock Box</value>
+  </data>
+  <data name="BoundingTool.LockPlane">
+    <value>Lock Plane on Screen</value>
+  </data>
+  <data name="BoundingTool.Reset">
+    <value>Reset</value>
+  </data>
+  <data name="Brain">
+    <value>Brain</value>
+  </data>
+  <data name="BrainEnhanceMentTool.PresetName.medium">
+    <value>Medium</value>
+  </data>
+  <data name="BrainEnhanceMentTool.PresetName.soft">
+    <value>Soft</value>
+  </data>
+  <data name="BrainEnhanceMentTool.PresetName.strong">
+    <value>Strong</value>
+  </data>
+  <data name="BrainEnhancementTool.GroupName">
+    <value>Brain Processing Algorithm</value>
+  </data>
+  <data name="BrainEnhancementTool.OnOffAction">
+    <value>Brain Processing Algorithm</value>
+  </data>
+  <data name="Calculate">
+    <value>Calculate</value>
+  </data>
+  <data name="CalculateThresholdedTissue">
+    <value>Calculate Thresholded Tissue</value>
+  </data>
+  <data name="CalculateThresholdedTissueToolTip">
+    <value>Calculate Thresholded Tissue</value>
+  </data>
+  <data name="CalculateVolume">
+    <value>Calculate Volume</value>
+  </data>
+  <data name="CalibrationCatheterNameLabelText">
+    <value>Catheter Name (optional)</value>
+  </data>
+  <data name="CalibrationLengthLabelText">
+    <value>Length (mm)</value>
+  </data>
+  <data name="CalibrationLineSettings">
+    <value>Calibration</value>
+  </data>
+  <data name="CalibrationTooltip">
+    <value>Pixel Size Calibration</value>
+  </data>
+  <data name="CancelRoiIntensityVolume">
+    <value>Cancel</value>
+  </data>
+  <data name="CaptureScreen">
+    <value>Capture Screen</value>
+  </data>
+  <data name="CaptureScreenTooltip">
+    <value>Capture Screen: create a screen capture of the viewing area.</value>
+  </data>
+  <data name="Cardiac">
+    <value>Cardiac</value>
+  </data>
+  <data name="Center_cursor">
+    <value>Center Cursor</value>
+  </data>
+  <data name="CineTool.CineGroup">
+    <value>Cine</value>
+  </data>
+  <data name="CineTool.WholeCurve">
+    <value>Whole Curve</value>
+  </data>
+  <data name="CineTool.WholeStudy">
+    <value>Whole Study</value>
+  </data>
+  <data name="CircularShutter">
+    <value>Circular Shutter</value>
+  </data>
+  <data name="CircularShutterToolTip">
+    <value>Circular Shutter</value>
+  </data>
+  <data name="CloseAllViewPorts">
+    <value>Close All Viewports</value>
+  </data>
+  <data name="CloseBracket">
+    <value>)</value>
+  </data>
+  <data name="CollapsedRuns">
+    <value>Collapsed Runs</value>
+  </data>
+  <data name="Colon">
+    <value>Colon</value>
+  </data>
+  <data name="ColorBlue">
+    <value>Blue</value>
+  </data>
+  <data name="ColorGreen">
+    <value>Green</value>
+  </data>
+  <data name="ColorMagenta">
+    <value>Magenta</value>
+  </data>
+  <data name="ColorOrange">
+    <value>Orange</value>
+  </data>
+  <data name="ColorRed">
+    <value>Red</value>
+  </data>
+  <data name="ColorScale">
+    <value>Color Scale</value>
+  </data>
+  <data name="ColorScaleAptw">
+    <value>APT</value>
+  </data>
+  <data name="ColorScaleAutumn">
+    <value>Autumn</value>
+  </data>
+  <data name="ColorScaleBlueToRed">
+    <value>Blue to Red</value>
+  </data>
+  <data name="ColorScaleCardiac">
+    <value>Cardiac</value>
+  </data>
+  <data name="ColorScaleClear">
+    <value>Clear Color Scale</value>
+  </data>
+  <data name="ColorScaleContour">
+    <value>Contour</value>
+  </data>
+  <data name="ColorScaleCool">
+    <value>Cool</value>
+  </data>
+  <data name="ColorScaleCustom">
+    <value>Custom</value>
+  </data>
+  <data name="ColorScaleFusion">
+    <value>Fusion</value>
+  </data>
+  <data name="ColorScaleGeneral">
+    <value>General</value>
+  </data>
+  <data name="ColorScaleGrayscale">
+    <value>Original Grayscale</value>
+  </data>
+  <data name="ColorScaleHide">
+    <value>Hide Color Scale</value>
+  </data>
+  <data name="ColorScaleHotmetal">
+    <value>Hot Metal</value>
+  </data>
+  <data name="ColorScaleHotmetal2">
+    <value>Hot Metal 2</value>
+  </data>
+  <data name="ColorScaleIce">
+    <value>Ice</value>
+  </data>
+  <data name="ColorScaleInvertedGrayscale">
+    <value>Inverted Grayscale</value>
+  </data>
+  <data name="ColorScaleJet">
+    <value>Jet</value>
+  </data>
+  <data name="ColorScaleMreStiffness">
+    <value>MRE Stiffness</value>
+  </data>
+  <data name="ColorScaleMreWave">
+    <value>MRE Wave</value>
+  </data>
+  <data name="ColorScaleRainbow1">
+    <value>Rainbow 1</value>
+  </data>
+  <data name="ColorScaleRainbow2">
+    <value>Rainbow 2</value>
+  </data>
+  <data name="ColorScaleRainbow3">
+    <value>Rainbow 3</value>
+  </data>
+  <data name="ColorScaleRedTemperature">
+    <value>Red Temperature</value>
+  </data>
+  <data name="ColorScaleShow">
+    <value>Show Color Scale</value>
+  </data>
+  <data name="ColorScaleSmart">
+    <value>Smart</value>
+  </data>
+  <data name="ColorScaleSuv1">
+    <value>SUV 1</value>
+  </data>
+  <data name="ColorScaleSuv2">
+    <value>SUV 2</value>
+  </data>
+  <data name="ColorScaleSuv3">
+    <value>SUV 3</value>
+  </data>
+  <data name="ColorScaleTenband">
+    <value>Ten Bands</value>
+  </data>
+  <data name="ColorScaleThermal">
+    <value>Thermal</value>
+  </data>
+  <data name="ColorScaleWarm">
+    <value>Warm</value>
+  </data>
+  <data name="ColorWhite">
+    <value>White</value>
+  </data>
+  <data name="ColorYellow">
+    <value>Yellow</value>
+  </data>
+  <data name="Colors">
+    <value>Colors</value>
+  </data>
+  <data name="CombineTool.CombineNone">
+    <value>None</value>
+  </data>
+  <data name="CombineTool_NoImage">
+    <value>No Image</value>
+  </data>
+  <data name="CompressionQualityAnnotation">
+    <value>Q {0}</value>
+  </data>
+  <data name="ContinuousScrollConfiguratorTool.DecreaseSpeed">
+    <value>Decrease Speed</value>
+  </data>
+  <data name="ContinuousScrollConfiguratorTool.IncreaseSpeed">
+    <value>Increase Speed</value>
+  </data>
+  <data name="ContrastStretch">
+    <value>Contrast Stretch</value>
+  </data>
+  <data name="ContrastStretchTooltip">
+    <value>Contrast Stretch</value>
+  </data>
+  <data name="ControlShift">
+    <value>Ctrl+Shift+</value>
+  </data>
+  <data name="Copy">
+    <value>Copy</value>
+  </data>
+  <data name="CopyTooltip">
+    <value>Copy</value>
+  </data>
+  <data name="CoronalBackOrientationTooltip">
+    <value>Coronal Back</value>
+  </data>
+  <data name="CoronalFrontOrientationTooltip">
+    <value>Coronal Front</value>
+  </data>
+  <data name="Create">
+    <value>Create</value>
+  </data>
+  <data name="CreateAngleTooltip">
+    <value>Measure Angle Between Two Lines</value>
+  </data>
+  <data name="CreateArrowTextTooltip">
+    <value>Add an annotation with an arrow to the image</value>
+  </data>
+  <data name="CreateCircleTooltip">
+    <value>Circle</value>
+  </data>
+  <data name="CreateCircularShutterTooltip">
+    <value>Create Circular Shutter</value>
+  </data>
+  <data name="CreateEllipseTooltip">
+    <value>Ellipse</value>
+  </data>
+  <data name="CreateEllipticalShutterTooltip">
+    <value>Create Elliptical Shutter</value>
+  </data>
+  <data name="CreateFreehandContourTooltip">
+    <value>Freehand Contour</value>
+  </data>
+  <data name="CreateFreehandPolyLineTooltip">
+    <value>Open Contour</value>
+  </data>
+  <data name="CreateLeftTextTooltip">
+    <value>Add a marker to indicate the left side of the image</value>
+  </data>
+  <data name="CreateLineTooltip">
+    <value>Line</value>
+  </data>
+  <data name="CreatePointTooltip">
+    <value>Point</value>
+  </data>
+  <data name="CreatePolyLineTooltip">
+    <value>Polyline</value>
+  </data>
+  <data name="CreatePolygonTooltip">
+    <value>Polygon</value>
+  </data>
+  <data name="CreateRectangleTooltip">
+    <value>Rectangle</value>
+  </data>
+  <data name="CreateRectangularShutterTooltip">
+    <value>Create Rectangular Shutter</value>
+  </data>
+  <data name="CreateRightTextTooltip">
+    <value>Add a marker to indicate the right side of the image</value>
+  </data>
+  <data name="CreateTextTooltip">
+    <value>Add an annotation to the image</value>
+  </data>
+  <data name="CurrentAsMask">
+    <value>Current Image As Mask</value>
+  </data>
+  <data name="CurrentAsMaskTooltip">
+    <value>Current Image As Mask</value>
+  </data>
+  <data name="CurveViewMode">
+    <value>Add Curve View</value>
+  </data>
+  <data name="Cut">
+    <value>Cut</value>
+  </data>
+  <data name="CutTooltip">
+    <value>Cut</value>
+  </data>
+  <data name="CycleExam">
+    <value>Cycle Exam</value>
+  </data>
+  <data name="CycleExamToolTip">
+    <value>Cycle Exam</value>
+  </data>
+  <data name="CycleRun">
+    <value>Cycle Run</value>
+  </data>
+  <data name="CycleRunToolTip">
+    <value>Cycle Run</value>
+  </data>
+  <data name="CycleStudy">
+    <value>Cycle Study</value>
+  </data>
+  <data name="CycleStudyToolTip">
+    <value>Cycle Study</value>
+  </data>
+  <data name="DataCorruptError">
+    <value>Error loading data.</value>
+  </data>
+  <data name="DateAndTime">
+    <value>Date and Time</value>
+  </data>
+  <data name="DateOfBirth">
+    <value>DOB:</value>
+  </data>
+  <data name="Delete">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteCategory">
+    <value>Delete category "{0}" and all its annotations?</value>
+  </data>
+  <data name="DeletePreset">
+    <value>Delete Preset</value>
+  </data>
+  <data name="DeleteToolTip">
+    <value>Delete</value>
+  </data>
+  <data name="Description">
+    <value>Description</value>
+  </data>
+  <data name="DeselectAllImages">
+    <value>Deselect All</value>
+  </data>
+  <data name="DetectorSensitivityValue">
+    <value>S:{0}</value>
+  </data>
+  <data name="DicomInformation">
+    <value>DICOM Information</value>
+  </data>
+  <data name="DicomInformationToolTip">
+    <value>DICOM Information</value>
+  </data>
+  <data name="DicomTagWithNoValue">
+    <value>(no value)</value>
+  </data>
+  <data name="Difference">
+    <value>Difference:</value>
+  </data>
+  <data name="Dilate">
+    <value>Dilate</value>
+  </data>
+  <data name="DilateTooltip">
+    <value>Expand a segmented section of a volume.</value>
+  </data>
+  <data name="DirectionalColors">
+    <value>Directional Colors</value>
+  </data>
+  <data name="DisplayImageNumbers">
+    <value>Display Image Numbers</value>
+  </data>
+  <data name="DisplayMode">
+    <value>Display Mode</value>
+  </data>
+  <data name="DisplayModeBySequence">
+    <value>Display by Sequence</value>
+  </data>
+  <data name="DisplayModeByStage">
+    <value>Display by Stage</value>
+  </data>
+  <data name="DisplayModeByView">
+    <value>Display by Views</value>
+  </data>
+  <data name="DisplaySaveTool.DialogTitle">
+    <value>Save Display As...</value>
+  </data>
+  <data name="DoNotMeasureAnnotation">
+    <value>DO NOT MEASURE</value>
+  </data>
+  <data name="DrawCurveTool.DrawCurve">
+    <value>Draw Curve</value>
+  </data>
+  <data name="DrawCurveTool.EditControlPoints">
+    <value>Edit Control Points</value>
+  </data>
+  <data name="DrawCurveTool.ShowPath">
+    <value>Show Curve</value>
+  </data>
+  <data name="DrawCurveTool_MoveCurve">
+    <value>Move Curve</value>
+  </data>
+  <data name="DrawRoiEraseFreehandContour">
+    <value>ROI Erase</value>
+  </data>
+  <data name="DrawRoiIntensityFill">
+    <value>ROI Intensity Fill</value>
+  </data>
+  <data name="DrawRoiIntensityVolume">
+    <value>ROI Intensity Volume</value>
+  </data>
+  <data name="DualMode">
+    <value>Dual Mode</value>
+  </data>
+  <data name="EdgeEnhancementInteraction">
+    <value>Edge Enhancement</value>
+  </data>
+  <data name="EdgeEnhancementInteractionTooltip">
+    <value>Edge Enhancement</value>
+  </data>
+  <data name="Ediam_ED">
+    <value>ED: </value>
+  </data>
+  <data name="EnableAutomaticReferenceLinesTooltip">
+    <value>Enable Automatic Reference Lines</value>
+  </data>
+  <data name="EnablePredefinedTextAnnotations">
+    <value>Enable predefined text annotations</value>
+  </data>
+  <data name="EnableSmartLinkingTooltip">
+    <value>Link</value>
+  </data>
+  <data name="EnableUserPredefinedTextAnnotations">
+    <value>Enable user predefined text annotations</value>
+  </data>
+  <data name="EndoNavigationTool_GroupName">
+    <value>Endo Navigation Tools</value>
+  </data>
+  <data name="EndoPresets_Normal">
+    <value>Normal</value>
+  </data>
+  <data name="EnhanceTool.EnhanceAction">
+    <value>Enhance</value>
+  </data>
+  <data name="EnhanceTool.Group">
+    <value>Enhancement</value>
+  </data>
+  <data name="EnhanceTool.NoEnhanceAction">
+    <value>No Enhancement</value>
+  </data>
+  <data name="EnhancedBrainContrastTitle">
+    <value>Brain Processing Algorithm</value>
+  </data>
+  <data name="EntireVolume">
+    <value>Entire Volume</value>
+  </data>
+  <data name="Erode">
+    <value>Erode</value>
+  </data>
+  <data name="ErodeTooltip">
+    <value>Decrease a segmented section of a volume.</value>
+  </data>
+  <data name="ExpandedRuns">
+    <value>Expanded Runs</value>
+  </data>
+  <data name="ExportImagesToFilm">
+    <value>Add Images to Print</value>
+  </data>
+  <data name="ExportImagesToFilmToolTip">
+    <value>Send the selected images to the Print application.</value>
+  </data>
+  <data name="ExportSeriesToFilm">
+    <value>Add Series to Print</value>
+  </data>
+  <data name="ExportSeriesToFilmToolTip">
+    <value>Add Series to Print</value>
+  </data>
+  <data name="Fill">
+    <value>Fill</value>
+  </data>
+  <data name="FillMode1DAll">
+    <value>All Images (Sequentially)</value>
+  </data>
+  <data name="FillMode1DAllToolTip">
+    <value>All Images (Sequentially)</value>
+  </data>
+  <data name="FillMode1DStacked">
+    <value>1 Dimension</value>
+  </data>
+  <data name="FillMode1DStackedFreePositions">
+    <value>1 Dimension Stacked Free Position</value>
+  </data>
+  <data name="FillMode1DStackedToolTip">
+    <value>1 Dimension</value>
+  </data>
+  <data name="FillModeMatrix">
+    <value>2 Dimensions (Matrix Layout)</value>
+  </data>
+  <data name="FillModeMatrixToolTip">
+    <value>2 Dimensions (Matrix Layout)</value>
+  </data>
+  <data name="FillTooltip">
+    <value>Fill</value>
+  </data>
+  <data name="FitToView">
+    <value>Fit To View</value>
+  </data>
+  <data name="FitToViewTooltip">
+    <value>Fit To View</value>
+  </data>
+  <data name="FlexiRenderTool_AddToAllViewersInTaskAction">
+    <value>Add to All Viewers in Task</value>
+  </data>
+  <data name="FlexiRenderTool_NewConfigAction">
+    <value>Set New Width/Height</value>
+  </data>
+  <data name="Flip">
+    <value>Flip</value>
+  </data>
+  <data name="FlipToolTip">
+    <value>Flip the currently selected image with over a horizontal axis</value>
+  </data>
+  <data name="Font">
+    <value>Font</value>
+  </data>
+  <data name="FontCambria">
+    <value>Cambria</value>
+  </data>
+  <data name="FontColor">
+    <value>Font Color</value>
+  </data>
+  <data name="FontPhilipsHealthcare">
+    <value>Philips Healthcare</value>
+  </data>
+  <data name="FontSegoeUI">
+    <value>Segoe UI</value>
+  </data>
+  <data name="FontSize">
+    <value>Font Size</value>
+  </data>
+  <data name="FontStyleBold">
+    <value>Bold</value>
+  </data>
+  <data name="FontStyleItalic">
+    <value>Italic</value>
+  </data>
+  <data name="FontStyleUnderline">
+    <value>Underline</value>
+  </data>
+  <data name="FontTahoma">
+    <value>Tahoma</value>
+  </data>
+  <data name="Forward">
+    <value>Forward</value>
+  </data>
+  <data name="GLWCenter">
+    <value>WL</value>
+  </data>
+  <data name="GLWWidth">
+    <value>WW</value>
+  </data>
+  <data name="GenderFemaleShort">
+    <value>F</value>
+  </data>
+  <data name="GenderMaleShort">
+    <value>M</value>
+  </data>
+  <data name="GenderOtherShort">
+    <value>O</value>
+  </data>
+  <data name="GenderUnknown">
+    <value>Unknown</value>
+  </data>
+  <data name="GeneralPredefinedTextAnnotationsCategory">
+    <value>General</value>
+  </data>
+  <data name="Generate">
+    <value>Generate</value>
+  </data>
+  <data name="GenerateReferenceViews">
+    <value>Generate Reference Views</value>
+  </data>
+  <data name="GenerateSecondaryCapture">
+    <value>Create Secondary Capture</value>
+  </data>
+  <data name="GeometryCorrection">
+    <value>GeoCorr</value>
+  </data>
+  <data name="GrayLevelInteraction">
+    <value>Gray Level</value>
+  </data>
+  <data name="GrayLevelInteractionTooltip">
+    <value>Gray Level</value>
+  </data>
+  <data name="HideHistogram">
+    <value>Hide Histogram</value>
+  </data>
+  <data name="HideRotationCenter">
+    <value>Hide Rotation Center</value>
+  </data>
+  <data name="HideRotationCenterToolTip">
+    <value>Hide Rotation Center</value>
+  </data>
+  <data name="HistogramLabelName">
+    <value>Histogram {0:F1} mm²</value>
+  </data>
+  <data name="HistogramTitle">
+    <value>Histogram</value>
+  </data>
+  <data name="HistogramValue">
+    <value>Value</value>
+  </data>
+  <data name="HorizontalFlip">
+    <value>Rotate 180° Horizontal</value>
+  </data>
+  <data name="IAC">
+    <value>IAC</value>
+  </data>
+  <data name="ImageInfoCompressionLossy">
+    <value>Lossy Q{0}</value>
+  </data>
+  <data name="ImageInfoGateDelayTime">
+    <value>Gd</value>
+  </data>
+  <data name="ImageInfoLevelsTooltip">
+    <value>Image Info Levels</value>
+  </data>
+  <data name="ImageInfoTextAnterior">
+    <value>A</value>
+  </data>
+  <data name="ImageInfoTextCaudal">
+    <value>Caudal</value>
+  </data>
+  <data name="ImageInfoTextChemicalShiftNumber">
+    <value>CS</value>
+  </data>
+  <data name="ImageInfoTextContrast">
+    <value>Contrast</value>
+  </data>
+  <data name="ImageInfoTextCranial">
+    <value>Cranial</value>
+  </data>
+  <data name="ImageInfoTextDiffusionBValueNumber">
+    <value>b</value>
+  </data>
+  <data name="ImageInfoTextDynamicScanBeginTime">
+    <value>Dt</value>
+  </data>
+  <data name="ImageInfoTextEchoNumber">
+    <value>Ec</value>
+  </data>
+  <data name="ImageInfoTextEchoTime">
+    <value>TE</value>
+  </data>
+  <data name="ImageInfoTextFeet">
+    <value>F</value>
+  </data>
+  <data name="ImageInfoTextFilter">
+    <value>Filter</value>
+  </data>
+  <data name="ImageInfoTextFlipAngle">
+    <value>Flip Angle</value>
+  </data>
+  <data name="ImageInfoTextFov">
+    <value>FOV</value>
+  </data>
+  <data name="ImageInfoTextFrame">
+    <value>Frame</value>
+  </data>
+  <data name="ImageInfoTextFrameRate">
+    <value>Frame Rate</value>
+  </data>
+  <data name="ImageInfoTextFrontal">
+    <value>Frontal</value>
+  </data>
+  <data name="ImageInfoTextGrid">
+    <value>Grid</value>
+  </data>
+  <data name="ImageInfoTextHead">
+    <value>H</value>
+  </data>
+  <data name="ImageInfoTextImage">
+    <value>Image</value>
+  </data>
+  <data name="ImageInfoTextIndex">
+    <value>Index</value>
+  </data>
+  <data name="ImageInfoTextInversionDelayFormatString">
+    <value>TI{0} (TI = {1}ms)</value>
+  </data>
+  <data name="ImageInfoTextLao">
+    <value>LAO</value>
+  </data>
+  <data name="ImageInfoTextLateral">
+    <value>Lateral</value>
+  </data>
+  <data name="ImageInfoTextLeft">
+    <value>L</value>
+  </data>
+  <data name="ImageInfoTextLowerLevel">
+    <value>LL</value>
+  </data>
+  <data name="ImageInfoTextMaskImage">
+    <value>Mask Image Number</value>
+  </data>
+  <data name="ImageInfoTextMechanicalIndex">
+    <value>MI</value>
+  </data>
+  <data name="ImageInfoTextMrePhaseDelay">
+    <value>MREp</value>
+  </data>
+  <data name="ImageInfoTextNegativeIntegral">
+    <value>NI</value>
+  </data>
+  <data name="ImageInfoTextOrientationCoronal">
+    <value>Coronal</value>
+  </data>
+  <data name="ImageInfoTextOrientationSagittal">
+    <value>Sagittal</value>
+  </data>
+  <data name="ImageInfoTextOrientationTransversal">
+    <value>Transversal</value>
+  </data>
+  <data name="ImageInfoTextPitch">
+    <value>Pitch</value>
+  </data>
+  <data name="ImageInfoTextPixelToPixel">
+    <value>Pixel-to-pixel</value>
+  </data>
+  <data name="ImageInfoTextPosAlongCl">
+    <value>Pos. along CL</value>
+  </data>
+  <data name="ImageInfoTextPosterior">
+    <value>P</value>
+  </data>
+  <data name="ImageInfoTextProtocolName">
+    <value>Protocol</value>
+  </data>
+  <data name="ImageInfoTextRao">
+    <value>RAO</value>
+  </data>
+  <data name="ImageInfoTextRepetitionTime">
+    <value>TR</value>
+  </data>
+  <data name="ImageInfoTextRight">
+    <value>R</value>
+  </data>
+  <data name="ImageInfoTextRun">
+    <value>Run</value>
+  </data>
+  <data name="ImageInfoTextSid">
+    <value>SID</value>
+  </data>
+  <data name="ImageInfoTextSlicePos">
+    <value>Slice pos</value>
+  </data>
+  <data name="ImageInfoTextStage">
+    <value>Stage</value>
+  </data>
+  <data name="ImageInfoTextThermalIndex">
+    <value>TI</value>
+  </data>
+  <data name="ImageInfoTextThickness">
+    <value>Thickness</value>
+  </data>
+  <data name="ImageInfoTextThicknessAbbreviated">
+    <value>Thk</value>
+  </data>
+  <data name="ImageInfoTextTilt">
+    <value>Tilt</value>
+  </data>
+  <data name="ImageInfoTextTriggerTime">
+    <value>Td</value>
+  </data>
+  <data name="ImageInfoTextUpperLevel">
+    <value>UL</value>
+  </data>
+  <data name="ImageInfoTextVelocityEncoding">
+    <value>Venc</value>
+  </data>
+  <data name="ImageInfoTextView">
+    <value>View</value>
+  </data>
+  <data name="ImageInfoTextViewerFov">
+    <value>Viewer FOV</value>
+  </data>
+  <data name="ImageInfoTextWindowLevel">
+    <value>L</value>
+  </data>
+  <data name="ImageInfoTextWindowWidth">
+    <value>W</value>
+  </data>
+  <data name="ImageInfoTextZoom">
+    <value>Zoom</value>
+  </data>
+  <data name="ImageInformation">
+    <value>Image Information</value>
+  </data>
+  <data name="ImageInformationCustom">
+    <value>Custom Image Information</value>
+  </data>
+  <data name="ImageInformationEditableOnly">
+    <value>Editable Image Info Only</value>
+  </data>
+  <data name="ImageInformationFull">
+    <value>Full Image Information</value>
+  </data>
+  <data name="ImageInformationFullTooltip">
+    <value>Full Image Information</value>
+  </data>
+  <data name="ImageInformationInteractiveOnly">
+    <value>Interactive Image Info Only</value>
+  </data>
+  <data name="ImageInformationIntermediate">
+    <value>Intermediate Image Information</value>
+  </data>
+  <data name="ImageInformationIntermediateTooltip">
+    <value>Intermediate Image Information</value>
+  </data>
+  <data name="ImageInformationLevels">
+    <value>Image Info Levels</value>
+  </data>
+  <data name="ImageInformationLimited">
+    <value>Limited Image Information</value>
+  </data>
+  <data name="ImageInformationLimitedTooltip">
+    <value>Displays limited image information.</value>
+  </data>
+  <data name="ImageInformationNone">
+    <value>No Image Information</value>
+  </data>
+  <data name="ImageInformationNoneTooltip">
+    <value>No Image Information</value>
+  </data>
+  <data name="ImagesSaveTool.SaveAsAction">
+    <value>Save Selected Images As...</value>
+  </data>
+  <data name="InjectionTime">
+    <value>Injection Time:</value>
+  </data>
+  <data name="InjectionTool.Group">
+    <value>Injection</value>
+  </data>
+  <data name="InjectionTool_GroupName">
+    <value>Injection Tools</value>
+  </data>
+  <data name="InnerLayout">
+    <value>Inner Layout</value>
+  </data>
+  <data name="InteractiveSegmentationTool.AddBalloon">
+    <value>Add Smart ROI to Tissue (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.AddBrush">
+    <value>Add Brush to Tissue (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.CreateAutocenterBrush">
+    <value>Draw with Auto-Centered Brush (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.CreateBalloon">
+    <value>Draw Smart ROI (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.CreateBrush">
+    <value>Draw Smart Brush (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.RemoveAutocenterBrush">
+    <value>Subtract Auto-Centered Brush from Tissue (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.RemoveBalloon">
+    <value>Subtract Smart ROI from Tissue (3D)</value>
+  </data>
+  <data name="InteractiveSegmentationTool.RemoveBrush">
+    <value>Subtract Brush from Tissue (3D)</value>
+  </data>
+  <data name="Invert">
+    <value>Invert</value>
+  </data>
+  <data name="InvertGrayLevel">
+    <value>Invert Gray Scale</value>
+  </data>
+  <data name="InvertGrayLevelTooltip">
+    <value>Invert Gray Level</value>
+  </data>
+  <data name="InvertToolTip">
+    <value>Invert Gray Scale</value>
+  </data>
+  <data name="KeyImageNotesExporter_Saving">
+    <value>Saving Key Images</value>
+  </data>
+  <data name="KeyImageTitle_ForConference">
+    <value>For Conference</value>
+  </data>
+  <data name="KeyImageTitle_ForPatient">
+    <value>For Patient</value>
+  </data>
+  <data name="KeyImageTitle_ForPeerReview">
+    <value>For Collaboration</value>
+  </data>
+  <data name="KeyImageTitle_ForPrinting">
+    <value>For Printing</value>
+  </data>
+  <data name="KeyImageTitle_ForReferringProvider">
+    <value>For Referring Physician</value>
+  </data>
+  <data name="KeyImageTitle_ForReportAttachment">
+    <value>For Report</value>
+  </data>
+  <data name="KeyImageTitle_ForResearch">
+    <value>For Research</value>
+  </data>
+  <data name="KeyImageTitle_ForSurgery">
+    <value>For Surgery</value>
+  </data>
+  <data name="KeyImageTitle_ForTeaching">
+    <value>For Teaching</value>
+  </data>
+  <data name="KeyImageTitle_ForTherapy">
+    <value>For Therapy</value>
+  </data>
+  <data name="KeyImageTitle_OfInterest">
+    <value>Of Interest</value>
+  </data>
+  <data name="KeyImagesTool_AddDisplay">
+    <value>Key Display Image</value>
+  </data>
+  <data name="KeyImagesTool_AddingKeyImages">
+    <value>Capturing Key Images</value>
+  </data>
+  <data name="KeyImagesTool_ClearAllAction">
+    <value>Clear All</value>
+  </data>
+  <data name="KeyImagesTool_ClearSelectedAction">
+    <value>Clear Selected</value>
+  </data>
+  <data name="KeyImagesTool_GroupName">
+    <value>Key Images</value>
+  </data>
+  <data name="KeyImagesTool_SaveAction">
+    <value>Save Key Images</value>
+  </data>
+  <data name="KeyImagesTool_SaveSelectedAction">
+    <value>Save Selected Key Images</value>
+  </data>
+  <data name="KeyImagesTool_TooManyImagesCaption">
+    <value>Large number of key images warning</value>
+  </data>
+  <data name="KeyImagesTool_TooManyImagesWarning">
+    <value>It is not possible to send more than 50 images to the key images bucket. Please reselect the key images and send them again.</value>
+  </data>
+  <data name="KeyImagesTool_TooManyImagesWarning1">
+    <value>The number of the key images in the bucket cannot exceed 100. Please save the current content and clear the bucket before adding more images.</value>
+  </data>
+  <data name="Keyboard">
+    <value>Keyboard</value>
+  </data>
+  <data name="KeyboardControlShiftUpDownArrowKeys">
+    <value>Keyboard: Ctrl + Shift + Up/Down Arrow Keys</value>
+  </data>
+  <data name="KeyboardLeftRightArrowKeys">
+    <value>Keyboard: Left/Right Arrow Keys</value>
+  </data>
+  <data name="KeyboardUpDownArrowKeys">
+    <value>Keyboard: Up/Down Arrow Keys</value>
+  </data>
+  <data name="KnownPresetsAutomatic">
+    <value>Automatic</value>
+  </data>
+  <data name="KnownPresetsDefault">
+    <value>Default</value>
+  </data>
+  <data name="KnownPresetsModified">
+    <value>Modified</value>
+  </data>
+  <data name="LandmarkingInteractionTooltip">
+    <value>Landmarking</value>
+  </data>
+  <data name="Layout">
+    <value>Layout</value>
+  </data>
+  <data name="Layout1x1">
+    <value>1x1</value>
+  </data>
+  <data name="Layout1x1ToolTip">
+    <value>Layout 1x1</value>
+  </data>
+  <data name="Layout1x2">
+    <value>1x2</value>
+  </data>
+  <data name="Layout1x2ToolTip">
+    <value>Layout 1x2</value>
+  </data>
+  <data name="Layout1x3">
+    <value>1x3</value>
+  </data>
+  <data name="Layout1x3ToolTip">
+    <value>Layout 1x3</value>
+  </data>
+  <data name="Layout1x4">
+    <value>1x4</value>
+  </data>
+  <data name="Layout1x4ToolTip">
+    <value>Layout 1x4</value>
+  </data>
+  <data name="Layout2x1">
+    <value>2x1</value>
+  </data>
+  <data name="Layout2x1ToolTip">
+    <value>Layout 2x1</value>
+  </data>
+  <data name="Layout2x2">
+    <value>2x2</value>
+  </data>
+  <data name="Layout2x2ToolTip">
+    <value>Layout 2x2</value>
+  </data>
+  <data name="Layout2x3">
+    <value>2x3</value>
+  </data>
+  <data name="Layout2x3ToolTip">
+    <value>Layout 2x3</value>
+  </data>
+  <data name="Layout2x4">
+    <value>2x4</value>
+  </data>
+  <data name="Layout2x4ToolTip">
+    <value>Layout 2x4</value>
+  </data>
+  <data name="Layout3x1">
+    <value>3x1</value>
+  </data>
+  <data name="Layout3x1ToolTip">
+    <value>Layout 3x1</value>
+  </data>
+  <data name="Layout3x2">
+    <value>3x2</value>
+  </data>
+  <data name="Layout3x2ToolTip">
+    <value>Layout 3x2</value>
+  </data>
+  <data name="Layout3x3">
+    <value>3x3</value>
+  </data>
+  <data name="Layout3x3ToolTip">
+    <value>Layout 3x3</value>
+  </data>
+  <data name="Layout3x4">
+    <value>3x4</value>
+  </data>
+  <data name="Layout3x4ToolTip">
+    <value>Layout 3x4</value>
+  </data>
+  <data name="Layout4x4">
+    <value>4x4</value>
+  </data>
+  <data name="Layout4x4ToolTip">
+    <value>Layout 4x4</value>
+  </data>
+  <data name="LayoutAddColumn">
+    <value>Add Column</value>
+  </data>
+  <data name="LayoutAddColumnTooltip">
+    <value>Add Column</value>
+  </data>
+  <data name="LayoutAddRow">
+    <value>Add Row</value>
+  </data>
+  <data name="LayoutAddRowTooltip">
+    <value>Add Row</value>
+  </data>
+  <data name="LayoutReferencesAtBottom">
+    <value>References at Bottom</value>
+  </data>
+  <data name="LayoutReferencesOnRight">
+    <value>References on Right</value>
+  </data>
+  <data name="LayoutRemoveColumn">
+    <value>Remove Column</value>
+  </data>
+  <data name="LayoutRemoveColumnTooltip">
+    <value>Remove Column</value>
+  </data>
+  <data name="LayoutRemoveRow">
+    <value>Remove Row</value>
+  </data>
+  <data name="LayoutRemoveRowTooltip">
+    <value>Remove Row</value>
+  </data>
+  <data name="LeafSelectTool.ContinuousScrollAction">
+    <value>Continuous Scroll (slower: F10, faster: F11)</value>
+  </data>
+  <data name="LeafSelectTool.LeafSelectAction">
+    <value>Scroll (may skip slices)</value>
+  </data>
+  <data name="LeftTextLabel">
+    <value>Left</value>
+  </data>
+  <data name="Length">
+    <value>Length:</value>
+  </data>
+  <data name="Light1">
+    <value>Light 1</value>
+  </data>
+  <data name="Light2">
+    <value>Light 2</value>
+  </data>
+  <data name="Light3">
+    <value>Light 3</value>
+  </data>
+  <data name="LightSource">
+    <value>Light Source</value>
+  </data>
+  <data name="LineAccumulationPrefix">
+    <value>Line</value>
+  </data>
+  <data name="LineColor">
+    <value>Line Color</value>
+  </data>
+  <data name="LineProfileHidden">
+    <value>Hide Profile</value>
+  </data>
+  <data name="LineProfileTitle">
+    <value>Line Profile</value>
+  </data>
+  <data name="LineProfileVisible">
+    <value>Show Profile</value>
+  </data>
+  <data name="LineProfileXAxis">
+    <value>Millimeters</value>
+  </data>
+  <data name="LineProfileYAxis">
+    <value>Pixel Value</value>
+  </data>
+  <data name="LineStyle">
+    <value>Line Style</value>
+  </data>
+  <data name="LineStyleDashed">
+    <value>Dash</value>
+  </data>
+  <data name="LineStyleDashedDotted">
+    <value>Dash Dot</value>
+  </data>
+  <data name="LineStyleDotted">
+    <value>Dot</value>
+  </data>
+  <data name="LineStyleSolid">
+    <value>Solid</value>
+  </data>
+  <data name="LineThickness">
+    <value>Line Thickness</value>
+  </data>
+  <data name="LineThicknessOnePoint">
+    <value>1 pt</value>
+  </data>
+  <data name="LineThicknessOnePointFivePoints">
+    <value>1.5 pt</value>
+  </data>
+  <data name="Liver">
+    <value>Liver</value>
+  </data>
+  <data name="LnaMarkSeedTool_GroupName">
+    <value>Mark Seed Tools</value>
+  </data>
+  <data name="LoadFibers">
+    <value>Load Fibers</value>
+  </data>
+  <data name="LoadImageViewingSettings">
+    <value>Load Image Viewing Settings</value>
+  </data>
+  <data name="LoadImageViewingSettingsTooltip">
+    <value>Load Image Viewing Settings</value>
+  </data>
+  <data name="LoadPresentationStateAsAcquired">
+    <value>As Acquired Presentation State</value>
+  </data>
+  <data name="LoadPresentationStateAsAcquiredToolTip">
+    <value>Reset To As Acquired Presentation State</value>
+  </data>
+  <data name="LoadPresentationStateAsLastSeen">
+    <value>As Last Seen Presentation State</value>
+  </data>
+  <data name="LoadPresentationStateAsLastSeenToolTip">
+    <value>Reset To As Last Seen Presentation State</value>
+  </data>
+  <data name="LoadPresentationStateToScopeAsAcquired">
+    <value>As Acquired Presentation State</value>
+  </data>
+  <data name="LoadPresentationStateToScopeAsAcquiredToolTip">
+    <value>Reset the images in the current propagation scope to As Acquired Presentation State.</value>
+  </data>
+  <data name="Loading">
+    <value>Loading...</value>
+  </data>
+  <data name="LocationTime">
+    <value>Location Time</value>
+  </data>
+  <data name="LocationTimeToolTip">
+    <value>Location Time</value>
+  </data>
+  <data name="Lung">
+    <value>Lung</value>
+  </data>
+  <data name="MBq">
+    <value>MBq</value>
+  </data>
+  <data name="MakingFinalImage">
+    <value>Making Final Image</value>
+  </data>
+  <data name="ManualLinkOnGrayLevel">
+    <value>Window Link</value>
+  </data>
+  <data name="ManualLinkOnGrayLevelToolTip">
+    <value>Window Link</value>
+  </data>
+  <data name="ManualSelection">
+    <value>Manual Selection</value>
+  </data>
+  <data name="Masking">
+    <value>Masking</value>
+  </data>
+  <data name="MeasurementLabelAngle">
+    <value>Angle:</value>
+  </data>
+  <data name="MeasurementLabelArea">
+    <value>Area:</value>
+  </data>
+  <data name="MeasurementLabelDiffInTime">
+    <value>Time</value>
+  </data>
+  <data name="MeasurementLabelLength">
+    <value>Length:</value>
+  </data>
+  <data name="MeasurementLabelMaxPixelValue">
+    <value>Max:</value>
+  </data>
+  <data name="MeasurementLabelMeanPixelValue">
+    <value>Mean:</value>
+  </data>
+  <data name="MeasurementLabelMinPixelValue">
+    <value>Min:</value>
+  </data>
+  <data name="MeasurementLabelPerimeter">
+    <value>Perimeter:</value>
+  </data>
+  <data name="MeasurementLabelPixelStandardDeviation">
+    <value>StdDev:</value>
+  </data>
+  <data name="MeasurementLabelVelEnd">
+    <value>Velocity2</value>
+  </data>
+  <data name="MeasurementLabelVelStart">
+    <value>Velocity1</value>
+  </data>
+  <data name="MemoryError">
+    <value>Out of memory.</value>
+  </data>
+  <data name="MenuAnnotationPropertyAverageAbsoluteDeviation">
+    <value>Average Absolute Deviation</value>
+  </data>
+  <data name="MenuAnnotationPropertyLongShortAxes">
+    <value>Long/Short Axes</value>
+  </data>
+  <data name="MenuAnnotationPropertyLongShortAxesViaCentroid">
+    <value>Long/Short Axes using Centroid</value>
+  </data>
+  <data name="MenuAnnotationPropertyMaxMinDiameter">
+    <value>Max/Min Diameter</value>
+  </data>
+  <data name="Menu_AnnotProperties">
+    <value>Properties</value>
+  </data>
+  <data name="Menu_AnnotProperties_Length">
+    <value>Length</value>
+  </data>
+  <data name="Menu_AnnotProperties_ShowDiamDiff">
+    <value>Diam. Diff: </value>
+  </data>
+  <data name="Menu_AnnotProperties_ShowText">
+    <value>Show Text</value>
+  </data>
+  <data name="Menu_Color">
+    <value>Color</value>
+  </data>
+  <data name="Menu_Color_Blue">
+    <value>Blue</value>
+  </data>
+  <data name="Menu_Color_Green">
+    <value>Green</value>
+  </data>
+  <data name="Menu_Color_Red">
+    <value>Red</value>
+  </data>
+  <data name="Menu_Color_White">
+    <value>White</value>
+  </data>
+  <data name="Menu_Color_Yellow">
+    <value>Yellow</value>
+  </data>
+  <data name="Menu_EditText">
+    <value>Edit</value>
+  </data>
+  <data name="Menu_ExportValues">
+    <value>Export Values</value>
+  </data>
+  <data name="Menu_ExtendCurve">
+    <value>Extend Curve</value>
+  </data>
+  <data name="Menu_FillColor">
+    <value>Fill Color</value>
+  </data>
+  <data name="Menu_FillColor_Gray">
+    <value>Gray</value>
+  </data>
+  <data name="Menu_FillColor_NoFill">
+    <value>No Fill</value>
+  </data>
+  <data name="Menu_FillColor_Red">
+    <value>Red</value>
+  </data>
+  <data name="Menu_FillColor_White">
+    <value>White</value>
+  </data>
+  <data name="Menu_FontSize">
+    <value>Font Size</value>
+  </data>
+  <data name="Menu_FontSize_Large">
+    <value>Large</value>
+  </data>
+  <data name="Menu_FontSize_Regular">
+    <value>Normal</value>
+  </data>
+  <data name="Menu_FontSize_Small">
+    <value>Small</value>
+  </data>
+  <data name="Menu_GraphicsProperties">
+    <value>Graphics Properties</value>
+  </data>
+  <data name="Menu_HideText">
+    <value>Hide</value>
+  </data>
+  <data name="Menu_LineWidth">
+    <value>Line Width</value>
+  </data>
+  <data name="Menu_LineWidth_Bold">
+    <value>Thick</value>
+  </data>
+  <data name="Menu_LineWidth_Regular">
+    <value>Medium</value>
+  </data>
+  <data name="Menu_LineWidth_Thin">
+    <value>Thin</value>
+  </data>
+  <data name="Menu_ShowDiameters">
+    <value>Show Diameters</value>
+  </data>
+  <data name="Menu_Subtract">
+    <value>Subtract</value>
+  </data>
+  <data name="Menu_Sum">
+    <value>Show Text Sum</value>
+  </data>
+  <data name="Menu_Ticks">
+    <value>Show Ticks</value>
+  </data>
+  <data name="MergeStacks">
+    <value>Merge Stacks</value>
+  </data>
+  <data name="MergeStacksToolTip">
+    <value>Merge Stacks</value>
+  </data>
+  <data name="MetalReduction">
+    <value>Metal Artifact Reduction</value>
+  </data>
+  <data name="Mirror">
+    <value>Mirror</value>
+  </data>
+  <data name="MirrorToolTip">
+    <value>Mirror</value>
+  </data>
+  <data name="Modality">
+    <value>Modality</value>
+  </data>
+  <data name="Mouse">
+    <value>Mouse</value>
+  </data>
+  <data name="MoveDown">
+    <value>Move Down</value>
+  </data>
+  <data name="MoveUp">
+    <value>Move Up</value>
+  </data>
+  <data name="MovieAndNavigation">
+    <value>Movie</value>
+  </data>
+  <data name="MovieAndNavigationTooltip">
+    <value>Movie</value>
+  </data>
+  <data name="MovieCycleBackward">
+    <value>Cycle Backward</value>
+  </data>
+  <data name="MovieCycleBackwardToolTip">
+    <value>Cycle Backward</value>
+  </data>
+  <data name="MovieCycleBounce">
+    <value>Bounce</value>
+  </data>
+  <data name="MovieCycleBounceToolTip">
+    <value>Bounce</value>
+  </data>
+  <data name="MovieCycleForward">
+    <value>Cycle Forward</value>
+  </data>
+  <data name="MovieCycleForwardToolTip">
+    <value>Cycle Forward</value>
+  </data>
+  <data name="MovieFrameRateTooltip">
+    <value>Frame Rate</value>
+  </data>
+  <data name="MovieSpeedUnit">
+    <value>fps</value>
+  </data>
+  <data name="MultiStation">
+    <value>MultiStation</value>
+  </data>
+  <data name="NavigationDimensionChemicalShift">
+    <value>Chemical Shift</value>
+  </data>
+  <data name="NavigationDimensionDiffusion">
+    <value>Diffusion</value>
+  </data>
+  <data name="NavigationDimensionDynamics">
+    <value>Dynamics</value>
+  </data>
+  <data name="NavigationDimensionEcg">
+    <value>ECG</value>
+  </data>
+  <data name="NavigationDimensionEchoes">
+    <value>Echoes</value>
+  </data>
+  <data name="NavigationDimensionImageType">
+    <value>Image Type</value>
+  </data>
+  <data name="NavigationDimensionInversionDelay">
+    <value>Inversion Delay</value>
+  </data>
+  <data name="NavigationDimensionPhaseDelay">
+    <value>Phase Delay</value>
+  </data>
+  <data name="NavigationDimensionPhases">
+    <value>Phases</value>
+  </data>
+  <data name="NavigationDimensionCTGatingDelay">
+    <value>CTGatingDelay</value>
+  </data>
+  <data name="NavigationDimensionSlices">
+    <value>Slices</value>
+  </data>
+  <data name="NavigationDimensionSpectral">
+    <value>Spectral</value>
+  </data>
+  <data name="NavigationDimensionStacks">
+    <value>Stacks</value>
+  </data>
+  <data name="NewClassification">
+    <value>New Classification {0}</value>
+  </data>
+  <data name="NextImage">
+    <value>Next Image</value>
+  </data>
+  <data name="NextImageToolTip">
+    <value>Next Image</value>
+  </data>
+  <data name="NextMask">
+    <value>Next Image As Mask</value>
+  </data>
+  <data name="NextMaskTooltip">
+    <value>Next Image As Mask</value>
+  </data>
+  <data name="NextPageTooltip">
+    <value>Next Page</value>
+  </data>
+  <data name="NextRow">
+    <value>Next Row</value>
+  </data>
+  <data name="NextRowToolTip">
+    <value>Next Row</value>
+  </data>
+  <data name="NextRun">
+    <value>Next Run</value>
+  </data>
+  <data name="NextRunToolTip">
+    <value>Next Run</value>
+  </data>
+  <data name="NextSequenceTooltip">
+    <value>Next Sequence</value>
+  </data>
+  <data name="NextSeriesTooltip">
+    <value>Move to next series</value>
+  </data>
+  <data name="NextStack">
+    <value>Next Stack</value>
+  </data>
+  <data name="NextStackToolTip">
+    <value>Next Stack</value>
+  </data>
+  <data name="NextStageTooltip">
+    <value>Next Stage</value>
+  </data>
+  <data name="NextStation">
+    <value>Next Station</value>
+  </data>
+  <data name="NextStationToolTip">
+    <value>Next Station</value>
+  </data>
+  <data name="NextViewTooltip">
+    <value>Next View</value>
+  </data>
+  <data name="Number">
+    <value>Number</value>
+  </data>
+  <data name="NumberLabel">
+    <value>Number: {0}</value>
+  </data>
+  <data name="NumberOfSignalsAveraged">
+    <value>NSA</value>
+  </data>
+  <data name="Occlusion">
+    <value>Occlusion:</value>
+  </data>
+  <data name="OpacityInteractionTooltip">
+    <value>Opacity</value>
+  </data>
+  <data name="OpacityMap">
+    <value>Opacity Map</value>
+  </data>
+  <data name="OpenBracket">
+    <value>(</value>
+  </data>
+  <data name="OpenCurveViewMode">
+    <value>Curve</value>
+  </data>
+  <data name="OpenInNewTabViewMode">
+    <value>Add as Tabbed View</value>
+  </data>
+  <data name="OpenOrthoViewMode">
+    <value>Orthoview</value>
+  </data>
+  <data name="OpenOrthogonalViewMode">
+    <value>Orthoview</value>
+  </data>
+  <data name="OpenParamsDialog">
+    <value>Open Spatula Parameters dialog box</value>
+  </data>
+  <data name="OpenPicturePlusViewMode">
+    <value>PicturePlus</value>
+  </data>
+  <data name="OpenSliceViewMode">
+    <value>2D</value>
+  </data>
+  <data name="OpenSliceViewModeTooltip">
+    <value>2D</value>
+  </data>
+  <data name="OpenThinSlabMprViewMode">
+    <value>Slab</value>
+  </data>
+  <data name="OpenThinSlabMprViewModeTooltip">
+    <value>Slab</value>
+  </data>
+  <data name="OpenVolumeMipViewMode">
+    <value>3D</value>
+  </data>
+  <data name="OpenVolumeMipViewModeTooltip">
+    <value>3D</value>
+  </data>
+  <data name="Ortho">
+    <value>Ortho</value>
+  </data>
+  <data name="OrthoViewAxialPlane">
+    <value>Hide Axial Plane</value>
+  </data>
+  <data name="OrthoViewCoronalPlane">
+    <value>Hide Coronal Plane</value>
+  </data>
+  <data name="OrthoViewMode">
+    <value>Add Ortho View</value>
+  </data>
+  <data name="OrthoViewPlaneVisibility">
+    <value>Plane Visibility</value>
+  </data>
+  <data name="OrthoViewSagittalPlane">
+    <value>Hide Sagittal Plane</value>
+  </data>
+  <data name="PETWindowHigh">
+    <value>UL:</value>
+  </data>
+  <data name="PETWindowLow">
+    <value>LL:</value>
+  </data>
+  <data name="PSTool.PSGroup">
+    <value>Flip/Rotate</value>
+  </data>
+  <data name="Pan">
+    <value>Pan</value>
+  </data>
+  <data name="PanDown">
+    <value>Pan Down</value>
+  </data>
+  <data name="PanDownToolTip">
+    <value>Pan Down</value>
+  </data>
+  <data name="PanInteraction">
+    <value>Pan</value>
+  </data>
+  <data name="PanInteractionTooltip">
+    <value>Pan</value>
+  </data>
+  <data name="PanLeft">
+    <value>Pan Left</value>
+  </data>
+  <data name="PanLeftToolTip">
+    <value>Pan Left</value>
+  </data>
+  <data name="PanRegistrationInteractionTooltip">
+    <value>Registration Pan</value>
+  </data>
+  <data name="PanRight">
+    <value>Pan Right</value>
+  </data>
+  <data name="PanRightToolTip">
+    <value>Pan Right</value>
+  </data>
+  <data name="PanToolTip">
+    <value>Pan</value>
+  </data>
+  <data name="PanUp">
+    <value>Pan Up</value>
+  </data>
+  <data name="PanUpToolTip">
+    <value>Pan Up</value>
+  </data>
+  <data name="Paste">
+    <value>Paste</value>
+  </data>
+  <data name="PasteTooltip">
+    <value>Paste</value>
+  </data>
+  <data name="PatientCoordinates">
+    <value>Patient Location</value>
+  </data>
+  <data name="PatientCoordinatesToolTip">
+    <value>Patient Location</value>
+  </data>
+  <data name="Pause">
+    <value>Pause</value>
+  </data>
+  <data name="PauseMovieTooltip">
+    <value>Pause Movie</value>
+  </data>
+  <data name="PauseTooltip">
+    <value>Pause</value>
+  </data>
+  <data name="Pelvis">
+    <value>Pelvis</value>
+  </data>
+  <data name="PerformAntiSeed">
+    <value>Perform Anti-Seed</value>
+  </data>
+  <data name="PerformAntiSeedTooltip">
+    <value>Perform anti seed</value>
+  </data>
+  <data name="PerformSeedTooltip">
+    <value>Perform seed</value>
+  </data>
+  <data name="PictorialOtherStudies">
+    <value>Other Studies</value>
+  </data>
+  <data name="PictorialOtherStudiesTooltip">
+    <value>Other Studies</value>
+  </data>
+  <data name="PictorialSeries">
+    <value>Series</value>
+  </data>
+  <data name="PictorialSeriesTooltip">
+    <value>Series</value>
+  </data>
+  <data name="PixelLocation">
+    <value>Location</value>
+  </data>
+  <data name="PixelLocationInImageCoordinate">
+    <value>Image Location</value>
+  </data>
+  <data name="PixelLocationInPatientCoordinate">
+    <value>Patient Location</value>
+  </data>
+  <data name="PixelShiftInteraction">
+    <value>Pixel Shift</value>
+  </data>
+  <data name="PixelShiftInteractionTooltip">
+    <value>Pixel Shift</value>
+  </data>
+  <data name="PlaceSeed">
+    <value>Place Seed</value>
+  </data>
+  <data name="PlaceSeedTooltip">
+    <value>Place a seed on a volume as a starting point for a segmented section of the volume.</value>
+  </data>
+  <data name="PlanarMode">
+    <value>Planar Mode</value>
+  </data>
+  <data name="PlaneOpacity">
+    <value>Plane Opacity</value>
+  </data>
+  <data name="PlaneOpacityAllPlanes">
+    <value>Plane Opacity</value>
+  </data>
+  <data name="PlaneOpacitySelectedPlane">
+    <value>Plane Opacity of Selected Plane</value>
+  </data>
+  <data name="PlanePosition">
+    <value>Plane Position</value>
+  </data>
+  <data name="PlayBackward">
+    <value>Play Backward</value>
+  </data>
+  <data name="PlayBackwardToolTip">
+    <value>Play Backward</value>
+  </data>
+  <data name="PlayForward">
+    <value>Play Forward</value>
+  </data>
+  <data name="PlayForwardToolTip">
+    <value>Play Forward</value>
+  </data>
+  <data name="PlayMovie">
+    <value>Play Movie</value>
+  </data>
+  <data name="PlayMovieToolTip">
+    <value>Play Movie</value>
+  </data>
+  <data name="PositionThicknessInteraction">
+    <value>Position</value>
+  </data>
+  <data name="PositionThicknessInteractionTooltip">
+    <value>Position</value>
+  </data>
+  <data name="PosteriorFossa">
+    <value>PF</value>
+  </data>
+  <data name="PreDefinedAnnotationSettings">
+    <value>Annotations</value>
+  </data>
+  <data name="PredefinedTextCategoryDefaultName">
+    <value>New Category</value>
+  </data>
+  <data name="PredefinedTextDefaultName">
+    <value>Untitled</value>
+  </data>
+  <data name="PresentationStateTool.PresentationStateReplaceAction">
+    <value>Replace Presentation State</value>
+  </data>
+  <data name="PresetNameAlreadyExistsMessage">
+    <value>The preset name already exists.</value>
+  </data>
+  <data name="PresetNameRequired">
+    <value>The preset name cannot be empty.</value>
+  </data>
+  <data name="PreviewNewSeries">
+    <value>Preview of New Series</value>
+  </data>
+  <data name="PreviewToggleCommand">
+    <value>Preview</value>
+  </data>
+  <data name="PreviousImage">
+    <value>Previous Image</value>
+  </data>
+  <data name="PreviousImageToolTip">
+    <value>Previous Image</value>
+  </data>
+  <data name="PreviousMask">
+    <value>Previous Image As Mask</value>
+  </data>
+  <data name="PreviousMaskTooltip">
+    <value>Previous Image As Mask</value>
+  </data>
+  <data name="PreviousPageTooltip">
+    <value>Previous Page</value>
+  </data>
+  <data name="PreviousRow">
+    <value>Previous Row</value>
+  </data>
+  <data name="PreviousRowToolTip">
+    <value>Previous Row</value>
+  </data>
+  <data name="PreviousRun">
+    <value>Previous Run</value>
+  </data>
+  <data name="PreviousRunToolTip">
+    <value>Previous Run</value>
+  </data>
+  <data name="PreviousSequenceTooltip">
+    <value>Previous Sequence</value>
+  </data>
+  <data name="PreviousSeriesTooltip">
+    <value>Move to previous series</value>
+  </data>
+  <data name="PreviousStack">
+    <value>Previous Stack</value>
+  </data>
+  <data name="PreviousStackToolTip">
+    <value>Previous Stack</value>
+  </data>
+  <data name="PreviousStageTooltip">
+    <value>Previous Stage</value>
+  </data>
+  <data name="PreviousStation">
+    <value>Previous Station</value>
+  </data>
+  <data name="PreviousStationToolTip">
+    <value>Previous Station</value>
+  </data>
+  <data name="PreviousViewTooltip">
+    <value>Previous View</value>
+  </data>
+  <data name="Print">
+    <value>Print...</value>
+  </data>
+  <data name="PrintSeries">
+    <value>Print Series</value>
+  </data>
+  <data name="PrintSeriesTooltip">
+    <value>Print the selected series.</value>
+  </data>
+  <data name="Processed">
+    <value>Processed</value>
+  </data>
+  <data name="PropagateCalibrationToEntireStudy">
+    <value>Propagate Calibration to Entire Study</value>
+  </data>
+  <data name="PropagateCalibrationToEntireStudyWarning">
+    <value>The measurement calibration that you made applies only to the current run. Do you want to apply it to all the runs in the current study?</value>
+  </data>
+  <data name="PropagateCalibrationToEntireStudyWarningTitle">
+    <value>Confirm Measurement Calibration</value>
+  </data>
+  <data name="PropagateLeftRight">
+    <value>All Images Of Current Series</value>
+  </data>
+  <data name="PropagationChemicalShifts">
+    <value>All Chemical Shifts</value>
+  </data>
+  <data name="PropagationDifussions">
+    <value>All Diffusion Types</value>
+  </data>
+  <data name="PropagationDynamics">
+    <value>All Dynamics</value>
+  </data>
+  <data name="PropagationEchoes">
+    <value>All Echoes</value>
+  </data>
+  <data name="PropagationImageTypes">
+    <value>All Image Types</value>
+  </data>
+  <data name="PropagationInversionDelays">
+    <value>All Inversion Delays</value>
+  </data>
+  <data name="PropagationLabelTypes">
+    <value>All Label Types</value>
+  </data>
+  <data name="PropagationPhaseDelays">
+    <value>All Phase Delays</value>
+  </data>
+  <data name="PropagationPhases">
+    <value>All Phases</value>
+  </data>
+  <data name="PropagationSlices">
+    <value>All Slices</value>
+  </data>
+  <data name="PropagationStacks">
+    <value>All Stacks</value>
+  </data>
+  <data name="PropagationToAllAvailableDimensions">
+    <value>All</value>
+  </data>
+  <data name="PropagationToDefaultDimensions">
+    <value>Default</value>
+  </data>
+  <data name="PropagationUnknownDimension">
+    <value>Unknown Dimension</value>
+  </data>
+  <data name="Properties">
+    <value>Properties...</value>
+  </data>
+  <data name="RFPropagationScopeTool.RFCalibrationPropagationScopeToolCombo">
+    <value>Calibration Scope</value>
+  </data>
+  <data name="RFPropagationScopeTool.RFPropagationScopeToolCombo">
+    <value>Propagation Scope</value>
+  </data>
+  <data name="ROIAccumulationPrefix">
+    <value>ROI</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongAxis">
+    <value>LA: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongAxisViaCentroid">
+    <value>LA via centroid: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongAxisViaCentroid_Invalid">
+    <value>LA via centroid: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongAxis_Invalid">
+    <value>LA: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongShortAxes">
+    <value>LA: {0} {1} SA: {2} {3} </value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongShortAxesViaCentroid">
+    <value>SA via centroid: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongShortAxesViaCentroid_Invalid">
+    <value>SA via centroid: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_LongShortAxes_Invalid">
+    <value>SA: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxDiameter">
+    <value>MaxD: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxDiameter_Invalid">
+    <value>MaxD: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxMinDiameter">
+    <value>MaxD: {0} {1} MinD: {2} {3} </value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxMinDiameter_Invalid">
+    <value>MaxD: *** MinD: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxPixelValue">
+    <value>Max: {0}{1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MaxPixelValue_Invalid">
+    <value>Max: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MinDiameter">
+    <value>MinD: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MinDiameter_Invalid">
+    <value>MinD: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MinPixelValue">
+    <value>Min: {0}{1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_MinPixelValue_Invalid">
+    <value>Min: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_ShortAxis">
+    <value>SA: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_ShortAxisViaCentroid">
+    <value>SA via centroid: {0} {1}</value>
+  </data>
+  <data name="ROIAnnotator_Properties_ShortAxisViaCentroid_Invalid">
+    <value>SA via centroid: ***</value>
+  </data>
+  <data name="ROIAnnotator_Properties_ShortAxis_Invalid">
+    <value>SA: ***</value>
+  </data>
+  <data name="ROIAreaPercentageExcluded">
+    <value>Area excluded</value>
+  </data>
+  <data name="ROIAreaProperty_Area">
+    <value>Ar: {0} {1}</value>
+  </data>
+  <data name="ROIAreaProperty_Area_Invalid">
+    <value>Ar: ***</value>
+  </data>
+  <data name="ROIAverageProperty_Average">
+    <value>Av: {0}{1}</value>
+  </data>
+  <data name="ROIAverageProperty_Average_Invalid">
+    <value>Av: ***</value>
+  </data>
+  <data name="ROIMedianProperty_Median">
+    <value>Median: {0}{1}</value>
+  </data>
+  <data name="ROIMedianProperty_Median_Invalid">
+    <value>Median: ***</value>
+  </data>
+  <data name="ROIPerimeterProperty_Perim">
+    <value>Perim: {0} {1}</value>
+  </data>
+  <data name="ROIPerimeterProperty_Perim_Invalid">
+    <value>Perim: ***</value>
+  </data>
+  <data name="ROISDProperty_SD">
+    <value>SD: {0}{1}</value>
+  </data>
+  <data name="ROISDProperty_SD_Invalid">
+    <value>SD: ***</value>
+  </data>
+  <data name="RadialBatchRotateDownToolTip">
+    <value>Rotate Down</value>
+  </data>
+  <data name="RadialBatchRotateLeftToolTip">
+    <value>Rotate Left</value>
+  </data>
+  <data name="RadialBatchRotateRightToolTip">
+    <value>Rotate Right</value>
+  </data>
+  <data name="RadialBatchRotateUpToolTip">
+    <value>Rotate Up</value>
+  </data>
+  <data name="RadialBatchStepAngle">
+    <value>Step Angle</value>
+  </data>
+  <data name="RadialBatchTotalAngle">
+    <value>Total Angle</value>
+  </data>
+  <data name="Range">
+    <value>Range</value>
+  </data>
+  <data name="RectangularPropertySize">
+    <value>Size</value>
+  </data>
+  <data name="RectangularPropertyX">
+    <value>X</value>
+  </data>
+  <data name="RectangularPropertyY">
+    <value>Y</value>
+  </data>
+  <data name="RectangularShutter">
+    <value>Rectangular Shutter</value>
+  </data>
+  <data name="RectangularShutterToolTip">
+    <value>Rectangular Shutter</value>
+  </data>
+  <data name="Redo">
+    <value>Redo</value>
+  </data>
+  <data name="RedoToolTip">
+    <value>Redo</value>
+  </data>
+  <data name="RefreshArrangement">
+    <value>Refresh</value>
+  </data>
+  <data name="RegistrationToolLoadLatest">
+    <value>Load Latest</value>
+  </data>
+  <data name="RegistrationToolPan">
+    <value>Pan</value>
+  </data>
+  <data name="RegistrationToolRedo">
+    <value>Redo</value>
+  </data>
+  <data name="RegistrationToolReset">
+    <value>Reset</value>
+  </data>
+  <data name="RegistrationToolRotate">
+    <value>Rotate</value>
+  </data>
+  <data name="RegistrationToolStore">
+    <value>Store Current</value>
+  </data>
+  <data name="RegistrationToolUndo">
+    <value>Undo</value>
+  </data>
+  <data name="RegistrationTool_GroupName">
+    <value>Registration Tools</value>
+  </data>
+  <data name="RelateTool.Remove">
+    <value>Remove Relate</value>
+  </data>
+  <data name="RelateTool.ScenesAction">
+    <value>Relate Scenes</value>
+  </data>
+  <data name="RelateTool.ViewPortsAction">
+    <value>Relate Viewports</value>
+  </data>
+  <data name="RelativeAngulationAxial">
+    <value>Relative Angulation (Axial)</value>
+  </data>
+  <data name="RelativeAngulationCoronal">
+    <value>Relative Angulation (Coronal)</value>
+  </data>
+  <data name="RelativeAngulationSagittal">
+    <value>Relative Angulation (Sagittal)</value>
+  </data>
+  <data name="RelativeXRayExposureUnit">
+    <value>KB</value>
+  </data>
+  <data name="RemoveFromAccumulation">
+    <value>Remove from Accumulator</value>
+  </data>
+  <data name="RemoveFromAccumulationTooltip">
+    <value>Remove a part from a segmented section of a volume.</value>
+  </data>
+  <data name="Rename">
+    <value>Rename</value>
+  </data>
+  <data name="RenameToolTip">
+    <value>Rename</value>
+  </data>
+  <data name="RenderModeAverageIntensityProjection">
+    <value>Average</value>
+  </data>
+  <data name="RenderModeClosestVesselProjection">
+    <value>CVP</value>
+  </data>
+  <data name="RenderModeIsosurface">
+    <value>Isosurface</value>
+  </data>
+  <data name="RenderModeIsosurfaceBones">
+    <value>IsosurfaceBones</value>
+  </data>
+  <data name="RenderModeMaximumIntensityProjection">
+    <value>MIP</value>
+  </data>
+  <data name="RenderModeMinimumIntensityProjection">
+    <value>MinIP</value>
+  </data>
+  <data name="RenderModeMipFade">
+    <value>VIP</value>
+  </data>
+  <data name="RenderModeOpacityBlend">
+    <value>Vol. Rend.</value>
+  </data>
+  <data name="RenderModePRVR">
+    <value>PRVR</value>
+  </data>
+  <data name="RenderModeOrthoview">
+    <value>Orthoview</value>
+  </data>
+  <data name="RenderModeShadedSurfaceDisplay">
+    <value>SSD</value>
+  </data>
+  <data name="RenderModeSummedIntensityProjection">
+    <value>Summed</value>
+  </data>
+  <data name="RenderModeSurfaceAverage">
+    <value>Surface Average</value>
+  </data>
+  <data name="RenderModeSurfaceMip">
+    <value>Surface MIP</value>
+  </data>
+  <data name="RenderingTool_LightTissuesRenderingStateDisabled">
+    <value>Lighting and tissues rendering is disabled.</value>
+  </data>
+  <data name="ReplaceImageViewingSettings">
+    <value>Replace Image Viewing Settings</value>
+  </data>
+  <data name="ReplaceImageViewingSettingsTooltip">
+    <value>Save image viewing settings replacing the older settings (if present)</value>
+  </data>
+  <data name="Reset">
+    <value>Reset</value>
+  </data>
+  <data name="ResetAll">
+    <value>Reset All</value>
+  </data>
+  <data name="ResetAllToolTip">
+    <value>Reset All</value>
+  </data>
+  <data name="ResetLandmarking">
+    <value>Reset Landmarking</value>
+  </data>
+  <data name="ResetLandmarkingToolTip">
+    <value>Reset Landmarking</value>
+  </data>
+  <data name="ResetPixelShift">
+    <value>Reset Pixel Shift</value>
+  </data>
+  <data name="ResetPixelShiftToolTip">
+    <value>Reset Pixel Shift</value>
+  </data>
+  <data name="ResetRotationCenter">
+    <value>Reset Rotation Center</value>
+  </data>
+  <data name="ResetRotationCenterToolTip">
+    <value>Reset Rotation Center</value>
+  </data>
+  <data name="ResetToolTip">
+    <value>Reset</value>
+  </data>
+  <data name="ResetViewingOperations">
+    <value>Reset Viewing Settings</value>
+  </data>
+  <data name="ResetViewingOperationsTooltip">
+    <value>Reset Viewing Settings</value>
+  </data>
+  <data name="ResetViewingSettings">
+    <value>Reset Viewing Settings</value>
+  </data>
+  <data name="ResetViewingSettingsTooltip">
+    <value>Reset Viewing Settings</value>
+  </data>
+  <data name="ResetWindowing">
+    <value>Reset Window</value>
+  </data>
+  <data name="ResetZoomPan">
+    <value>Reset Zoom/Pan</value>
+  </data>
+  <data name="ReverseSliceOrder">
+    <value>Reverse Slice Order</value>
+  </data>
+  <data name="ReverseSliceOrderToolTip">
+    <value>Reverse Slice Order</value>
+  </data>
+  <data name="RightTextLabel">
+    <value>Right</value>
+  </data>
+  <data name="RollRotateInteraction">
+    <value>Roll/Rotate</value>
+  </data>
+  <data name="RollRotateInteractionTooltip">
+    <value>Roll/Rotate</value>
+  </data>
+  <data name="Rotate">
+    <value>Rotate</value>
+  </data>
+  <data name="RotateAndMirror">
+    <value>Rotate/Mirror</value>
+  </data>
+  <data name="RotateClockwise">
+    <value>Rotate Clockwise</value>
+  </data>
+  <data name="RotateClockwiseToolTip">
+    <value>Rotate Clockwise</value>
+  </data>
+  <data name="RotateCounterclockwise">
+    <value>Rotate Counter-Clockwise</value>
+  </data>
+  <data name="RotateCounterclockwiseToolTip">
+    <value>Rotate Counter-Clockwise</value>
+  </data>
+  <data name="RotateRegistrationInteractionTooltip">
+    <value>Registration Rotate</value>
+  </data>
+  <data name="RotateStepDown">
+    <value>Rotate Down 90 Degrees</value>
+  </data>
+  <data name="RotateStepDownToolTip">
+    <value>Rotate Down 90 Degrees</value>
+  </data>
+  <data name="RotateStepLeft">
+    <value>Rotate Left 90 Degrees</value>
+  </data>
+  <data name="RotateStepLeftToolTip">
+    <value>Rotate Left 90 Degrees</value>
+  </data>
+  <data name="RotateStepRight">
+    <value>Rotate Right 90 Degrees</value>
+  </data>
+  <data name="RotateStepRightToolTip">
+    <value>Rotate Right 90 Degrees</value>
+  </data>
+  <data name="RotateStepUp">
+    <value>Rotate Up 90 Degrees</value>
+  </data>
+  <data name="RotateStepUpToolTip">
+    <value>Rotate Up 90 Degrees</value>
+  </data>
+  <data name="ST">
+    <value>Scan Time:</value>
+  </data>
+  <data name="SUM">
+    <value>Sum:</value>
+  </data>
+  <data name="SUV">
+    <value>SUV</value>
+  </data>
+  <data name="SUVUnits">
+    <value>SUV</value>
+  </data>
+  <data name="SUV_BMI">
+    <value>SUVbmi</value>
+  </data>
+  <data name="SUV_BSA">
+    <value>SUVbsa</value>
+  </data>
+  <data name="SUV_BW">
+    <value>SUVbw</value>
+  </data>
+  <data name="SUV_LBM">
+    <value>SUVlbm</value>
+  </data>
+  <data name="SagittalLeftOrientationTooltip">
+    <value>Sagittal Left</value>
+  </data>
+  <data name="SagittalRightOrientationTooltip">
+    <value>Sagittal Right</value>
+  </data>
+  <data name="Save">
+    <value>Save</value>
+  </data>
+  <data name="SaveArrangementCapture">
+    <value>Capture Selected View</value>
+  </data>
+  <data name="SaveAsPreset">
+    <value>Save as Preset</value>
+  </data>
+  <data name="SaveAsPresetToolTip">
+    <value>Save as Preset</value>
+  </data>
+  <data name="SaveBatchAs">
+    <value>Save Batch As...</value>
+  </data>
+  <data name="SaveDialogLabel">
+    <value>File Name (Description):</value>
+  </data>
+  <data name="SaveDisplay">
+    <value>Capture Viewing Area</value>
+  </data>
+  <data name="SaveDisplayAs">
+    <value>Save Display As...</value>
+  </data>
+  <data name="SaveDisplayTooltip">
+    <value>Capture Viewing Area</value>
+  </data>
+  <data name="SaveImageAs">
+    <value>Save Selected Images As... (Shift+S)</value>
+  </data>
+  <data name="SaveImageViewingSettings">
+    <value>Save Image Viewing Settings</value>
+  </data>
+  <data name="SaveImageViewingSettingsTooltip">
+    <value>Save Image Viewing Settings</value>
+  </data>
+  <data name="SavePreset">
+    <value>Save</value>
+  </data>
+  <data name="SavePresetToolTip">
+    <value>Save Preset</value>
+  </data>
+  <data name="SaveResults">
+    <value>Saving Results...</value>
+  </data>
+  <data name="SaveSeriesAs">
+    <value>Save Series As...</value>
+  </data>
+  <data name="SaveSeriesAsTooltip">
+    <value>Save the series in a different format / file.</value>
+  </data>
+  <data name="ScaleCM">
+    <value>{0} cm</value>
+  </data>
+  <data name="ScaleMM">
+    <value>{0} mm</value>
+  </data>
+  <data name="Scan">
+    <value>Scan Nr.</value>
+  </data>
+  <data name="ScanDuration">
+    <value>Sc Duration</value>
+  </data>
+  <data name="ScanLength">
+    <value>Scan Length</value>
+  </data>
+  <data name="ScrollImageByImage">
+    <value>Image by Image</value>
+  </data>
+  <data name="ScrollInteraction">
+    <value>Scroll</value>
+  </data>
+  <data name="ScrollInteractionTooltip">
+    <value>Scroll</value>
+  </data>
+  <data name="ScrollRowByRow">
+    <value>Vertical Scrolling: Row-by-Row</value>
+  </data>
+  <data name="Scrolling1DAll">
+    <value>All Images (Sequential Sorting)</value>
+  </data>
+  <data name="Scrolling1DStacked">
+    <value>1D Image Sorting</value>
+  </data>
+  <data name="Scrolling2DMatrix">
+    <value>2D Image Sorting</value>
+  </data>
+  <data name="ScrollingAdditional">
+    <value>Additional Keyboard Function</value>
+  </data>
+  <data name="ScrollingHorizontal">
+    <value>Horizontal Mouse/Keyboard Function</value>
+  </data>
+  <data name="ScrollingVertical">
+    <value>Vertical Mouse/Keyboard Function</value>
+  </data>
+  <data name="SculptingAccept">
+    <value>Accept</value>
+  </data>
+  <data name="SculptingAcceptTooltip">
+    <value>Construct the tissue</value>
+  </data>
+  <data name="SculptingCancel">
+    <value>Cancel</value>
+  </data>
+  <data name="SculptingCircleExcludeTooltip">
+    <value>Exclude Circle ROI</value>
+  </data>
+  <data name="SculptingCircleIncludeTooltip">
+    <value>Include Circle ROI</value>
+  </data>
+  <data name="SculptingFreeHandExcludeTooltip">
+    <value>Exclude Freehand ROI</value>
+  </data>
+  <data name="SculptingFreeHandIncludeTooltip">
+    <value>Include Freehand ROI</value>
+  </data>
+  <data name="SculptingPolygonExcludeTooltip">
+    <value>Exclude Polygon ROI</value>
+  </data>
+  <data name="SculptingPolygonIncludeTooltip">
+    <value>Include Polygon ROI</value>
+  </data>
+  <data name="SculptingRectangleExcludeTooltip">
+    <value>Exclude Rectangle ROI</value>
+  </data>
+  <data name="SculptingRectangleIncludeTooltip">
+    <value>Include Rectangle ROI</value>
+  </data>
+  <data name="SculptingRedo">
+    <value>Redo</value>
+  </data>
+  <data name="SculptingRedoTooltip">
+    <value>Redo last action</value>
+  </data>
+  <data name="SculptingReset">
+    <value>Reset</value>
+  </data>
+  <data name="SculptingResetTooltip">
+    <value>Reset all sculpting actions</value>
+  </data>
+  <data name="SculptingTool_CircleExclude">
+    <value>Exclude Circle ROI</value>
+  </data>
+  <data name="SculptingTool_CircleInclude">
+    <value>Include Circle ROI</value>
+  </data>
+  <data name="SculptingTool_FreeHandExclude">
+    <value>Exclude Freehand ROI</value>
+  </data>
+  <data name="SculptingTool_FreeHandInclude">
+    <value>Include Freehand ROI</value>
+  </data>
+  <data name="SculptingTool_GroupName">
+    <value>Sculpting Tools</value>
+  </data>
+  <data name="SculptingTool_PolygonExclude">
+    <value>Exclude Polygon ROI</value>
+  </data>
+  <data name="SculptingTool_PolygonInclude">
+    <value>Include Polygon ROI</value>
+  </data>
+  <data name="SculptingTool_RectangleExclude">
+    <value>Exclude Rectangle ROI</value>
+  </data>
+  <data name="SculptingTool_RectangleInclude">
+    <value>Include Rectangle ROI</value>
+  </data>
+  <data name="SculptingUndo">
+    <value>Undo</value>
+  </data>
+  <data name="SculptingUndoTooltip">
+    <value>Undo last action</value>
+  </data>
+  <data name="SelectAndSortDimensionChemicalShift">
+    <value>Chemical Shift</value>
+  </data>
+  <data name="SelectAndSortDimensionDiffusion">
+    <value>Diffusion</value>
+  </data>
+  <data name="SelectAndSortDimensionDynamic">
+    <value>Dynamic</value>
+  </data>
+  <data name="SelectAndSortDimensionEcho">
+    <value>Echo</value>
+  </data>
+  <data name="SelectAndSortDimensionImageLabelType">
+    <value>Label Type</value>
+  </data>
+  <data name="SelectAndSortDimensionInversionDelay">
+    <value>TI</value>
+  </data>
+  <data name="SelectAndSortDimensionMrePhases">
+    <value>MRE Phases</value>
+  </data>
+  <data name="SelectAndSortDimensionPTTimeSlice">
+    <value>Frame</value>
+  </data>
+  <data name="SelectAndSortDimensionPTTimeSlot">
+    <value>Bin</value>
+  </data>
+  <data name="SelectAndSortDimensionPhase">
+    <value>Phase</value>
+  </data>
+  <data name="SelectAndSortDimensionSlice">
+    <value>Slice</value>
+  </data>
+  <data name="SelectAndSortDimensionStack">
+    <value>Stack</value>
+  </data>
+  <data name="SelectAndSortDimensionTime">
+    <value>Time Dimension</value>
+  </data>
+  <data name="SelectAndSortDimensionType">
+    <value>Type</value>
+  </data>
+  <data name="SelectColorScale">
+    <value>Select Color Scale</value>
+  </data>
+  <data name="SelectColorScaleTooltip">
+    <value>Select Color Scale</value>
+  </data>
+  <data name="SelectUnderLay">
+    <value>Select Underlay</value>
+  </data>
+  <data name="SelectUnderLayTooltip">
+    <value>Select a color map for the underlay</value>
+  </data>
+  <data name="SelectWindowPreset">
+    <value>Select Window Presets</value>
+  </data>
+  <data name="SelectWindowPresetTooltip">
+    <value>Select Window Presets</value>
+  </data>
+  <data name="Series">
+    <value>Series</value>
+  </data>
+  <data name="SeriesInfoSeparator">
+    <value>+</value>
+  </data>
+  <data name="SeriesOverviewTooltip">
+    <value>Series Overview</value>
+  </data>
+  <data name="SeriesScanCompletedMessage">
+    <value>The entire series is available for viewing. Do you want to load the entire series?</value>
+  </data>
+  <data name="SeriesScanCompletedTitle">
+    <value>Series Scan Complete</value>
+  </data>
+  <data name="SetAsOverlay">
+    <value>Set as Overlay</value>
+  </data>
+  <data name="SetAsOverlayTooltip">
+    <value>Set As Overlay</value>
+  </data>
+  <data name="SetAsUnderlay">
+    <value>Set As Underlay</value>
+  </data>
+  <data name="SetAsUnderlayTooltip">
+    <value>Set As Underlay</value>
+  </data>
+  <data name="SetDefaultSortSelection">
+    <value>Set Default Sort Selection</value>
+  </data>
+  <data name="SetRotationCenter">
+    <value>Set Rotation Center</value>
+  </data>
+  <data name="SetRotationCenterToolTip">
+    <value>Set Rotation Point</value>
+  </data>
+  <data name="SetTileLayout">
+    <value>Set Tile Layout</value>
+  </data>
+  <data name="SetTileLayoutToolTip">
+    <value>Set Tile Layout</value>
+  </data>
+  <data name="ShiftedCurveDistanceMsg">
+    <value>Parallel to CL, {0} mm</value>
+  </data>
+  <data name="ShiftedCurve_ResetShift">
+    <value>Go to Original Curve</value>
+  </data>
+  <data name="ShowCalibrationLine">
+    <value>Show Calibration Line</value>
+  </data>
+  <data name="ShowFiber">
+    <value>Show Fibers</value>
+  </data>
+  <data name="ShowHideDirectionalFiberColorToolTip">
+    <value>Show/Hide Directional Colors</value>
+  </data>
+  <data name="ShowHideFibers">
+    <value>Show/Hide Fibers</value>
+  </data>
+  <data name="ShowHideFibersToolTip">
+    <value>Show/Hide Fibers</value>
+  </data>
+  <data name="ShowHistogram">
+    <value>Show Histogram</value>
+  </data>
+  <data name="ShowLess">
+    <value>Show Less</value>
+  </data>
+  <data name="ShowMore">
+    <value>Show More</value>
+  </data>
+  <data name="ShowRotationCenter">
+    <value>Show Rotation Center</value>
+  </data>
+  <data name="ShowRotationCenterToolTip">
+    <value>Show Rotation Center</value>
+  </data>
+  <data name="ShowShutterLines">
+    <value>Show Shutter Lines</value>
+  </data>
+  <data name="ShowShutterLinesToolTip">
+    <value>Show Shutter Lines</value>
+  </data>
+  <data name="ShowTransparentTool.GlassViewAction">
+    <value>Glass View</value>
+  </data>
+  <data name="ShowTransparentTool.ShowTransparentAction">
+    <value>Show Transparent</value>
+  </data>
+  <data name="Shutters">
+    <value>Activate Shutters</value>
+  </data>
+  <data name="ShuttersToolTip">
+    <value>Activate Shutters</value>
+  </data>
+  <data name="SimplicitSegmentationTool.AttractToCurve">
+    <value>Add Tissue to Curve (3D)</value>
+  </data>
+  <data name="SimplicitSegmentationTool.AttractToPoint">
+    <value>Add Tissue to Point (3D)</value>
+  </data>
+  <data name="SimplicitSegmentationTool.AutoBalloon">
+    <value>Draw with Auto-Centered Balloon (3D)</value>
+  </data>
+  <data name="SimplicitSegmentationTool.DragToPoint">
+    <value>Drag Tissue to Point (3D)</value>
+  </data>
+  <data name="SimplicitSegmentationTool.SubtractFromCurve">
+    <value>Subtract Tissue from Curve (3D)</value>
+  </data>
+  <data name="SingleMode">
+    <value>Single Mode</value>
+  </data>
+  <data name="Slab">
+    <value>Slab</value>
+  </data>
+  <data name="SlabPosition">
+    <value>Slab Position</value>
+  </data>
+  <data name="Slice">
+    <value>Slice</value>
+  </data>
+  <data name="SliceBySliceAdd">
+    <value>Add Slice by Slice</value>
+  </data>
+  <data name="SliceBySliceAddTooltip">
+    <value>Manually define a segmented section of a volume slice by slice.</value>
+  </data>
+  <data name="SliceBySliceRemove">
+    <value>Remove Slice by Slice</value>
+  </data>
+  <data name="SliceBySliceRemoveTooltip">
+    <value>Manually define a segmented section of a volume slice by slice.</value>
+  </data>
+  <data name="SliceBySliceWithInterpolation">
+    <value>Slice by Slice with Interpolation</value>
+  </data>
+  <data name="SliceBySliceWithInterpolationTooltip">
+    <value>Manually define a segmented section of a volume slice by slice with interpolation between slices.</value>
+  </data>
+  <data name="SliceOrder">
+    <value>Slice Order</value>
+  </data>
+  <data name="SliceThickness">
+    <value>Slice Thickness</value>
+  </data>
+  <data name="SliceViewMode">
+    <value>Add 2D View</value>
+  </data>
+  <data name="SliceViewModeTooltip">
+    <value>Add a 2D view.</value>
+  </data>
+  <data name="SmartLink">
+    <value>Smart Link</value>
+  </data>
+  <data name="Soft_tissue">
+    <value>Soft tissue</value>
+  </data>
+  <data name="Spatial">
+    <value>Spatial</value>
+  </data>
+  <data name="SpatulaEditing_SpikeProbability">
+    <value>Spike Probability:</value>
+  </data>
+  <data name="Spine">
+    <value>Spine</value>
+  </data>
+  <data name="SplitStacks">
+    <value>Split Slices into Separate Stacks</value>
+  </data>
+  <data name="StringFormatAngleInDegrees">
+    <value>0°</value>
+  </data>
+  <data name="StringFormatAngleInDegreesWithPrecisionOfOneDecimal">
+    <value>0.0°</value>
+  </data>
+  <data name="StringFormatMillimeterWithPrecisionOfOneDecimal">
+    <value>0.0 mm</value>
+  </data>
+  <data name="StructuredReportAbbreviation">
+    <value>SR</value>
+  </data>
+  <data name="Study">
+    <value>Study:</value>
+  </data>
+  <data name="StudyMode">
+    <value>Study</value>
+  </data>
+  <data name="StudyModeToolTip">
+    <value>Study</value>
+  </data>
+  <data name="StudyOverviewTooltip">
+    <value>Study Overview</value>
+  </data>
+  <data name="Subdural">
+    <value>Subdural</value>
+  </data>
+  <data name="Submitted">
+    <value>Submitted</value>
+  </data>
+  <data name="Subtraction">
+    <value>Subtraction</value>
+  </data>
+  <data name="SubtractionTooltip">
+    <value>Subtraction</value>
+  </data>
+  <data name="SuspendResumeSmartLink">
+    <value>Suspend/Resume Smart Link</value>
+  </data>
+  <data name="SuspendSmartLinkingTooltip">
+    <value>Suspend viewer for smart linking</value>
+  </data>
+  <data name="SwapViews">
+    <value>Swap Views</value>
+  </data>
+  <data name="SwapViewsToolTip">
+    <value>Swap Views</value>
+  </data>
+  <data name="SwivelTool.SwivelAction">
+    <value>Roll/Rotate</value>
+  </data>
+  <data name="TSEfactor">
+    <value>TF</value>
+  </data>
+  <data name="TScore">
+    <value>T-Score</value>
+  </data>
+  <data name="TextLabel">
+    <value>Text Label</value>
+  </data>
+  <data name="TextOnly">
+    <value>Text Only</value>
+  </data>
+  <data name="TextPlusArrow">
+    <value>Text + Arrow</value>
+  </data>
+  <data name="ThinSlabMprViewMode">
+    <value>Add Slab View</value>
+  </data>
+  <data name="ThinSlabMprViewModeTooltip">
+    <value>Add a slab view.</value>
+  </data>
+  <data name="ThresholdCenterTextModel">
+    <value>TH C</value>
+  </data>
+  <data name="ThresholdWidthTextModel">
+    <value>TH W</value>
+  </data>
+  <data name="TimeMode">
+    <value>Time</value>
+  </data>
+  <data name="TimeModeToolTip">
+    <value>Time</value>
+  </data>
+  <data name="TissueAddContourTool.TissueAddContourAction">
+    <value>Draw Contour</value>
+  </data>
+  <data name="TissueAddContourTool.TissueAddContourGroup">
+    <value>Add Contours</value>
+  </data>
+  <data name="TissueAddContourTool_TissueEditContoursGroup">
+    <value>Edit Contours</value>
+  </data>
+  <data name="TissueDefTool_GroupName">
+    <value>Tissue Definition Tools</value>
+  </data>
+  <data name="TissueDefTool_SliceBySliceWithInterpolation_MessageLineWarning">
+    <value>Freehand contour annotation creation finished.</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_Air">
+    <value>Air</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_Body">
+    <value>Body</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_Bone">
+    <value>Bone</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_Modified">
+    <value>Modified</value>
+  </data>
+  <data name="TissueDef_ThresholdingPresets_None">
+    <value>None</value>
+  </data>
+  <data name="TissueDef_TissueDefaultName">
+    <value>Tissue</value>
+  </data>
+  <data name="TissueEditContoursTool.TissueEditContoursAction">
+    <value>Edit Contours</value>
+  </data>
+  <data name="TissueEditContoursTool.TissueEditContoursWithCutToolAction">
+    <value>Edit Contours</value>
+  </data>
+  <data name="TissueEditContoursTool.TissueEditContoursWithSpatulaAction">
+    <value>Edit Contours</value>
+  </data>
+  <data name="TissueSaveTool.SaveAsAction">
+    <value>Save Results As...</value>
+  </data>
+  <data name="TissueUndoEditContourTool_GroupName">
+    <value>Tissue Edit Undo/Redo Tools</value>
+  </data>
+  <data name="TitleCompressionQuality">
+    <value>Lossy</value>
+  </data>
+  <data name="TitleEnhance">
+    <value>IE</value>
+  </data>
+  <data name="ToggleColorScalDualMode">
+    <value>Switch Dual Mode Color Scale On/Off</value>
+  </data>
+  <data name="ToggleCrosshairTooltip">
+    <value>Show Crosshair</value>
+  </data>
+  <data name="ToggleSubtractionTooltip">
+    <value>Subtraction On/Off</value>
+  </data>
+  <data name="TransparencyTextModel">
+    <value>Transparency {0}%</value>
+  </data>
+  <data name="USCineLinkModeFrameNumber">
+    <value>Sync to Frame Number</value>
+  </data>
+  <data name="USCineLinkModeFrameTime">
+    <value>Sync to Start</value>
+  </data>
+  <data name="USCineLinkModeFreeRun">
+    <value>Free Run</value>
+  </data>
+  <data name="USCineLinkModeRelativeFrameTime">
+    <value>Sync to Both Ends</value>
+  </data>
+  <data name="USCineMode">
+    <value>Ultrasound Cine Link Mode</value>
+  </data>
+  <data name="USTimeLabel">
+    <value>Time</value>
+  </data>
+  <data name="USVelocityLabel">
+    <value>Velocity</value>
+  </data>
+  <data name="UltraSoundElapsedTimePrefix">
+    <value>Elapsed Time</value>
+  </data>
+  <data name="UltraSoundTimerNamePrefix">
+    <value>Timer</value>
+  </data>
+  <data name="UncalibratedUnit">
+    <value>units</value>
+  </data>
+  <data name="UncalibratedUnitSquared">
+    <value>units</value>
+  </data>
+  <data name="Undo">
+    <value>Undo</value>
+  </data>
+  <data name="UndoToolTip">
+    <value>Undo</value>
+  </data>
+  <data name="UnitAngleDegreeShort">
+    <value>°</value>
+  </data>
+  <data name="UnitBeatsPerMinuteShort">
+    <value>BPM</value>
+  </data>
+  <data name="UnitCc">
+    <value>cc</value>
+  </data>
+  <data name="UnitCcSec">
+    <value>cc/sec</value>
+  </data>
+  <data name="UnitCentimeterCubedShort">
+    <value>cm³</value>
+  </data>
+  <data name="UnitCentimeterShort">
+    <value>cm</value>
+  </data>
+  <data name="UnitCentimeterSquaredShort">
+    <value>cm²</value>
+  </data>
+  <data name="UnitCmSec">
+    <value>cm/sec</value>
+  </data>
+  <data name="UnitElectronDensity">
+    <value>%EDW</value>
+  </data>
+  <data name="UnitFieldStrength">
+    <value>T</value>
+  </data>
+  <data name="UnitHUStar">
+    <value>HU*</value>
+  </data>
+  <data name="UnitHeartRateShort">
+    <value>HR</value>
+  </data>
+  <data name="UnitHertzShort">
+    <value>Hz</value>
+  </data>
+  <data name="UnitHourShortInLowerCase">
+    <value>h</value>
+  </data>
+  <data name="UnitKiloEVoltShort">
+    <value>KeV</value>
+  </data>
+  <data name="UnitKilogram">
+    <value>Kg</value>
+  </data>
+  <data name="UnitKilovoltageShort">
+    <value>kV</value>
+  </data>
+  <data name="UnitM">
+    <value>M</value>
+  </data>
+  <data name="UnitMSec">
+    <value>m/sec</value>
+  </data>
+  <data name="UnitMgMl">
+    <value>mg/ml</value>
+  </data>
+  <data name="UnitMgMlStar">
+    <value>mg/ml*</value>
+  </data>
+  <data name="UnitMilliampereSecondShort">
+    <value>mAs</value>
+  </data>
+  <data name="UnitMilliampereSecondSliceShort">
+    <value>mAs/Slice</value>
+  </data>
+  <data name="UnitMilliampereShort">
+    <value>mA</value>
+  </data>
+  <data name="UnitMilliliterPerHundredGrams">
+    <value>ml/100g</value>
+  </data>
+  <data name="UnitMilliliterPerHundredGramsPerMin">
+    <value>ml/100g/min</value>
+  </data>
+  <data name="UnitMillimeterCubedShort">
+    <value>mm³</value>
+  </data>
+  <data name="UnitMillimeterShort">
+    <value>mm</value>
+  </data>
+  <data name="UnitMillimeterSquaredShort">
+    <value>mm²</value>
+  </data>
+  <data name="UnitMillimeterTimesSecond">
+    <value>mm*s</value>
+  </data>
+  <data name="UnitMillisecondPowMinusOne">
+    <value>ms⁻¹</value>
+  </data>
+  <data name="UnitMillisecondShort">
+    <value>ms</value>
+  </data>
+  <data name="UnitMinuteShort">
+    <value>min</value>
+  </data>
+  <data name="UnitMinuteShortInLowerCase">
+    <value>m</value>
+  </data>
+  <data name="UnitMl">
+    <value>ml</value>
+  </data>
+  <data name="UnitMlSec">
+    <value>ml/sec</value>
+  </data>
+  <data name="UnitMmSec">
+    <value>mm/sec</value>
+  </data>
+  <data name="UnitMmSquarePerSec">
+    <value>mm²/s</value>
+  </data>
+  <data name="UnitPerSecond">
+    <value>/s</value>
+  </data>
+  <data name="UnitPercent">
+    <value>%</value>
+  </data>
+  <data name="UnitSecShort">
+    <value>Sec</value>
+  </data>
+  <data name="UnitSecondPowMinusOne">
+    <value>s⁻¹</value>
+  </data>
+  <data name="UnitSecondShort">
+    <value>s</value>
+  </data>
+  <data name="UnitTenPowMinus3MmSquarePerSec">
+    <value>× 10⁻³ mm²/s</value>
+  </data>
+  <data name="UnitTenPowMinus6MmSquarePerSec">
+    <value>× 10⁻⁶ mm²/s</value>
+  </data>
+  <data name="UnitTenPowMinusThree">
+    <value>× 10⁻³</value>
+  </data>
+  <data name="UnitTenPowMinusThreePerMin">
+    <value>× 10⁻³/min</value>
+  </data>
+  <data name="UnitUnTagRec">
+    <value>UnTagRec</value>
+  </data>
+  <data name="UnitmGy">
+    <value>mGy</value>
+  </data>
+  <data name="UnitmGyCm">
+    <value>mGyCm</value>
+  </data>
+  <data name="Unknown">
+    <value>Unknown</value>
+  </data>
+  <data name="UnmergeStacks">
+    <value>Unmerge Stacks</value>
+  </data>
+  <data name="UnmergeStacksToolTip">
+    <value>Unmerge Stacks</value>
+  </data>
+  <data name="UseEnhancedTransparency">
+    <value>Use Enhanced Transparency</value>
+  </data>
+  <data name="UseNamesInCalibrationLine">
+    <value>Show Catheter Name with Calibration</value>
+  </data>
+  <data name="UseSymmetricalShutters">
+    <value>Use Symmetrical Shutter</value>
+  </data>
+  <data name="UseSymmetricalShuttersToolTip">
+    <value>Use Symmetrical Shutter</value>
+  </data>
+  <data name="ValueLabel">
+    <value>Value: {0}</value>
+  </data>
+  <data name="VertexAlreadyExists">
+    <value>Vertex {0} already exists.</value>
+  </data>
+  <data name="VerticalFlip">
+    <value>Rotate 180° Vertical</value>
+  </data>
+  <data name="ViewModeIsr">
+    <value>ISR</value>
+  </data>
+  <data name="ViewModeMinip">
+    <value>mIP</value>
+  </data>
+  <data name="ViewModeMip">
+    <value>MIP</value>
+  </data>
+  <data name="ViewModeMpr">
+    <value>MPR</value>
+  </data>
+  <data name="ViewModeSum">
+    <value>SUM</value>
+  </data>
+  <data name="ViewModeSvr">
+    <value>SVR</value>
+  </data>
+  <data name="ViewModeVr">
+    <value>VR</value>
+  </data>
+  <data name="ViewPortAngle">
+    <value>Angle </value>
+  </data>
+  <data name="ViewPortBlending">
+    <value>Blending </value>
+  </data>
+  <data name="ViewPortCenter">
+    <value>Center </value>
+  </data>
+  <data name="ViewPortDegree">
+    <value>deg</value>
+  </data>
+  <data name="ViewPortDistance">
+    <value>Distance </value>
+  </data>
+  <data name="ViewPortOpacity">
+    <value>Opacity </value>
+  </data>
+  <data name="ViewPortThreshold">
+    <value>Threshold </value>
+  </data>
+  <data name="ViewPortWidth">
+    <value>Width </value>
+  </data>
+  <data name="ViewPortmm">
+    <value>mm</value>
+  </data>
+  <data name="ViewerLayout">
+    <value>Viewer Layout</value>
+  </data>
+  <data name="ViewerLayoutTooltip">
+    <value>Viewer Layout</value>
+  </data>
+  <data name="Volume">
+    <value>Volume</value>
+  </data>
+  <data name="VolumeConstructionWarning">
+    <value>Volume construction requires interpolation.</value>
+  </data>
+  <data name="VolumeMinipViewMode">
+    <value>Volume / MinIP View</value>
+  </data>
+  <data name="VolumeMinipViewModeTooltip">
+    <value>Add a volume / MinIP view.</value>
+  </data>
+  <data name="VolumeMipViewMode">
+    <value>Add 3D View</value>
+  </data>
+  <data name="VolumeMipViewModeTooltip">
+    <value>Add a 3D view.</value>
+  </data>
+  <data name="VolumeOrientationTool.AxialOrientation">
+    <value>Axial</value>
+  </data>
+  <data name="VolumeOrientationTool.CoronalOrientation">
+    <value>Coronal</value>
+  </data>
+  <data name="VolumeOrientationTool.GroupName">
+    <value>Orientation</value>
+  </data>
+  <data name="VolumeOrientationTool.SagittalOrientation">
+    <value>Sagittal</value>
+  </data>
+  <data name="VolumeOrientationTool.UseCurrentOrientation">
+    <value>Use Current Orientation</value>
+  </data>
+  <data name="VolumeOrientationTool.VolumeFlipAction">
+    <value>Flip</value>
+  </data>
+  <data name="VolumeShadedOpacityBlendViewMode">
+    <value>Volume</value>
+  </data>
+  <data name="VolumeShadedOpacityBlendViewModeTooltip">
+    <value>Add a volume view.</value>
+  </data>
+  <data name="VolumeTissueTooltip">
+    <value>Volume</value>
+  </data>
+  <data name="VolumeTracingTool.Erode">
+    <value>Erode Injected Tissue (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.Expand">
+    <value>Expand Injected Tissue (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.Fill">
+    <value>Fill Holes (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.HideOverlay">
+    <value>Hide Overlay (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.InjectDye">
+    <value>Inject Dye (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.LargeErase">
+    <value>Large Spherical Eraser (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.MediumErase">
+    <value>Medium Spherical Eraser (3D)</value>
+  </data>
+  <data name="VolumeTracingTool.ShowOnlyTissue">
+    <value>Only Tissue</value>
+  </data>
+  <data name="VolumeTracingTool.ShowOverlay">
+    <value>Overlay</value>
+  </data>
+  <data name="VolumeTracingTool.SmallErase">
+    <value>Small Spherical Eraser (3D)</value>
+  </data>
+  <data name="Warning">
+    <value>Warning</value>
+  </data>
+  <data name="WindowPresetDefault">
+    <value>Default</value>
+  </data>
+  <data name="WindowPresetNone">
+    <value>None</value>
+  </data>
+  <data name="WindowingPresetLabel">
+    <value>W/L</value>
+  </data>
+  <data name="WindowingToolWindowingAction">
+    <value>Window</value>
+  </data>
+  <data name="Zoom">
+    <value>Zoom</value>
+  </data>
+  <data name="ZoomBestFit">
+    <value>Best Fit</value>
+  </data>
+  <data name="ZoomBestFitToolTip">
+    <value>Best Fit</value>
+  </data>
+  <data name="ZoomFactor">
+    <value>Zoom {0:f2}</value>
+  </data>
+  <data name="ZoomFactorToolTip">
+    <value>Zoom {0:f2}</value>
+  </data>
+  <data name="ZoomIn">
+    <value>Zoom In</value>
+  </data>
+  <data name="ZoomInToolTip">
+    <value>Zoom In</value>
+  </data>
+  <data name="ZoomInteraction">
+    <value>Zoom</value>
+  </data>
+  <data name="ZoomInteractionTooltip">
+    <value>Zoom</value>
+  </data>
+  <data name="ZoomOut">
+    <value>Zoom Out</value>
+  </data>
+  <data name="ZoomOutToolTip">
+    <value>Zoom Out</value>
+  </data>
+  <data name="ZoomTarget">
+    <value>Zoom To Point</value>
+  </data>
+  <data name="ZoomTargetToolTip">
+    <value>Zoom To Point</value>
+  </data>
+  <data name="ZoomTextModel">
+    <value>Z {0}</value>
+  </data>
+  <data name="ZoomToolTip">
+    <value>Zoom</value>
+  </data>
+  <data name="mCi">
+    <value>mCi</value>
+  </data>
+  <data name="ShowHideReferenceLines">
+    <value>Show/Hide Reference Lines</value>
+  </data>
+</root>
