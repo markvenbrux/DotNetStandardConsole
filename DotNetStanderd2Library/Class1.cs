@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-using DotNetStanderd2Library.resources;
+using DotNetStandard2Library.resources;
 
-namespace DotNetStanderd2Library {
+namespace DotNetStandard2Library {
     public static class Class1 {
         public static async Task Loop(int max) {
 
@@ -26,7 +26,7 @@ namespace DotNetStanderd2Library {
             Console.WriteLine($"Target Platform: {(IntPtr.Size == 8 ? "64-bit" : "32-bit")}");
             Console.WriteLine($"Framework: {RuntimeInformation.FrameworkDescription}");
             
-            Console.WriteLine($"RuntimeIdentifier: {RuntimeInformation.RuntimeIdentifier}");
+            Console.WriteLine($"ProcessArchitecture: {RuntimeInformation.ProcessArchitecture}");
             Console.WriteLine($"ImageRuntimeVersion: {assembly.ImageRuntimeVersion}");
         }
 

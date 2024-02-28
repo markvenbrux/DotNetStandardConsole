@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotNetStanderd2Library\DotNetStanderd2Library.csproj" />
+    <ProjectReference Include="..\DotNetStanderd2Library\DotNetStandard2Library.csproj" />
   </ItemGroup>
 
 </Project>

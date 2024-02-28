@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Docker", "App\DotNet.Docker.csproj", "{C2D59806-8907-4954-8034-0CA3A35E084F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetStanderd2Library", "DotNetStanderd2Library\DotNetStanderd2Library.csproj", "{41EE2A0C-9727-4E57-A058-415BA5103B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetStandard2Library", "DotNetStanderd2Library\DotNetStandard2Library.csproj", "{41EE2A0C-9727-4E57-A058-415BA5103B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
