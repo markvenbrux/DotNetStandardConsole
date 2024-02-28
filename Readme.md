@@ -16,13 +16,19 @@ docker images
 
 # Create container
 docker create --name core-counter counter-image
+
 docker ps -a
 
-# start, stop and remove container
+# Start, stop and remove container
+
 docker start core-counter
+
 docker attach --sig-proxy=false core-counter
+
 docker stop core-counter
+
 docker rm core-counter
 
-# create, start, stop and remove container in one go
+# Create, start, stop and remove container in one go
+
 docker run -it --rm counter-image 3
