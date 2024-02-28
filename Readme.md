@@ -12,6 +12,7 @@ Convenient docker commands to experiment with this setup:
 
 # Create image
 docker build -t counter-image -f DockerfileSln .
+
 docker images
 
 # Create container
