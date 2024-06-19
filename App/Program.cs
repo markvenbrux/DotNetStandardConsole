@@ -18,17 +18,25 @@ static class Program
         Class1.LogOs();
         Class1.LogTranslatedStrings();
 
+        // Resource handling:
+        //     Image1 is embedded in FirstDotNetStandard2Library,
+        //     Image2 is embedded in SecondDotNetStandard2Library.
+        // The ResourceFactory is implemented in FirstDotNetStandard2Library.
+        // This class supports loading resources from any assembly that has embedded resources.
+        // The assemblies must first be registered with the ResourceFactory class.
+        // By using the ResourceFactory to load Image2, loading from SecondDotNetStandard2Library is demonstrated.
+        // This is locale independent and does not use the ResourceDictionary type.
+
         // Register resources from both assemblies.
         RegisterResourcesClass1.RegisterResources();
         RegisterResourcesClass2.RegisterResources();
 
-        // Resource handling: Image1 is embedded in DotNetStandard2Library, Image2 is embedded in SecondDotNetStandard2Library.
-        // ResourceFactory is implemented in DotNetStandard2Library. By using it to load Image2, loading from another assembly is demonstrated.
-
+        // Load image1
         var imageBytes1 = ResourceFactory.GetResource("Image1.bmp");
         var bitmap1 = new Bitmap(new System.IO.MemoryStream(imageBytes1));
         bitmap1.Save(@"c:\temp\bitmap1.bmp");
 
+        // Load image2
         var imageBytes2 = ResourceFactory.GetResource("Image2.bmp");
         var bitmap2 = new Bitmap(new System.IO.MemoryStream(imageBytes2));
         bitmap2.Save(@"c:\temp\bitmap2.bmp");

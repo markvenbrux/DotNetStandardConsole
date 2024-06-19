@@ -23,7 +23,7 @@ namespace FirstDotNetStandard2Library
         #region Public methods
 
         /// <summary>
-        /// Register the specified <see cref="Assembly"/> as source of XAML Icon resources.
+        /// Register the specified <see cref="Assembly"/> as source of resources.
         /// </summary>
         public static void RegisterResourceAssembly(Assembly assembly)
         {
@@ -36,18 +36,18 @@ namespace FirstDotNetStandard2Library
 
 
         public static byte[] GetResource(string resourceName) {
-            byte[] bitmapBytes = null;
+            byte[] resourceBytes = null;
             foreach (var assembly in resourceAssemblies.Keys) {
-                bitmapBytes = GetBitmapResource(assembly, resourceName);
-                if (bitmapBytes != null) {
+                resourceBytes = GetResource(assembly, resourceName);
+                if (resourceBytes != null) {
                     break;
                 }
             }
-            return bitmapBytes;
+            return resourceBytes;
         }
 
 
-        public static byte[] GetBitmapResource(Assembly assembly, string resourceName)
+        public static byte[] GetResource(Assembly assembly, string resourceName)
         {
             // Get a list of all resources in the assembly
             var resources = assembly.GetManifestResourceNames();
@@ -55,13 +55,13 @@ namespace FirstDotNetStandard2Library
             if (fullResourceName == null) {
                 return null;
             }
-            // load the bitmap from the resources
-            var bitmapStream =
+            // load the byte array from the resources
+            var resourceStream =
                 assembly.GetManifestResourceStream(fullResourceName);
             //  convert to byte array
-            byte[] bitmapBytes = new byte[bitmapStream.Length];
-            bitmapStream.Read(bitmapBytes, 0, bitmapBytes.Length);
-            return bitmapBytes;
+            byte[] resourceBytes = new byte[resourceStream.Length];
+            resourceStream.Read(resourceBytes, 0, resourceBytes.Length);
+            return resourceBytes;
         }
 
        

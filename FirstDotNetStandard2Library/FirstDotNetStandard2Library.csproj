@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="resources\Image1 - Copy.bmp" />
     <None Remove="resources\Image1.bmp" />
   </ItemGroup>
 
@@ -14,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="resources\32x32\Image1 - Copy.bmp" />
     <EmbeddedResource Include="resources\Image1.bmp" />
   </ItemGroup>
 

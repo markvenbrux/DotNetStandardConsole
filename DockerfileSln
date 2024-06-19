@@ -9,10 +9,10 @@ COPY ["DotNetStandardConsole.sln", "./"]
  
 # Copy each .csproj file and restore it individually
 COPY ["App/DotNet.Docker.csproj", "App/"]
-COPY ["DotNetStandard2Library/DotNetStandard2Library.csproj", "DotNetStandard2Library/"]
+COPY ["FirstDotNetStandard2Library/FirstDotNetStandard2Library.csproj", "FirstDotNetStandard2Library/"]
 
 RUN dotnet restore "App/DotNet.Docker.csproj"
-RUN dotnet restore "DotNetStandard2Library/DotNetStandard2Library.csproj"
+RUN dotnet restore "FirstDotNetStandard2Library/FirstDotNetStandard2Library.csproj"
  
 # Copy the rest of the source code
 COPY . .
