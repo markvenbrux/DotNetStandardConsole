@@ -2,10 +2,11 @@
 using System.Drawing;
 using System.Threading.Tasks;
 
-using DotNetStandard2Library;
+using FirstDotNetStandard2Library;
+
 using SecondDotNetStandard2Library;
 
-using RegisterResourcesClass1 = DotNetStandard2Library.RegisterResourcesClass;
+using RegisterResourcesClass1 = FirstDotNetStandard2Library.RegisterResourcesClass;
 using RegisterResourcesClass2 = SecondDotNetStandard2Library.RegisterResourcesClass;
 
 static class Program

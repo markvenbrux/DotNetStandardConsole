@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Reflection;
-using System.Text;
+﻿using System.Reflection;
 
-using DotNetStandard2Library;
-
-namespace DotNetStandard2Library {
+namespace FirstDotNetStandard2Library {
     public static class RegisterResourcesClass {
 
         /// <summary>

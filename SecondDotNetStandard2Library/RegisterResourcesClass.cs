@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-using DotNetStandard2Library;
+using FirstDotNetStandard2Library;
 
 namespace SecondDotNetStandard2Library {
     public static class RegisterResourcesClass

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DotNetStandard2Library.resources {
+namespace FirstDotNetStandard2Library.resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DotNetStandard2Library.resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DotNetStandard2Library.resources.ViewingTexts", typeof(ViewingTexts).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FirstDotNetStandard2Library.resources.ViewingTexts", typeof(ViewingTexts).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

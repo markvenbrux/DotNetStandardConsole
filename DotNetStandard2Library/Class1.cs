@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Globalization;
-using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-using DotNetStandard2Library.resources;
+using FirstDotNetStandard2Library.resources;
 
-namespace DotNetStandard2Library {
+namespace FirstDotNetStandard2Library {
     public static class Class1 {
         public static async Task Loop(int max) {
 

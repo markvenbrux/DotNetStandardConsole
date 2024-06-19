@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotNetStandard2Library\DotNetStandard2Library.csproj" />
+    <ProjectReference Include="..\DotNetStandard2Library\FirstDotNetStandard2Library.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Docker", "App\DotNet
 		{8E15E27F-EE4C-4690-B2A8-66229115443A} = {8E15E27F-EE4C-4690-B2A8-66229115443A}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetStandard2Library", "DotNetStandard2Library\DotNetStandard2Library.csproj", "{41EE2A0C-9727-4E57-A058-415BA5103B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstDotNetStandard2Library", "DotNetStandard2Library\FirstDotNetStandard2Library.csproj", "{41EE2A0C-9727-4E57-A058-415BA5103B23}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondDotNetStandard2Library", "SecondDotNetStandard2Library\SecondDotNetStandard2Library.csproj", "{8E15E27F-EE4C-4690-B2A8-66229115443A}"
 	ProjectSection(ProjectDependencies) = postProject
