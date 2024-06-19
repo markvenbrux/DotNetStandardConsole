@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	  <!--<TargetFramework>net6.0</TargetFramework>-->
@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="resources\Image1.bmp" />
+    <None Remove="resources\Image2.bmp" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,15 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="resources\Image1.bmp" />
+    <EmbeddedResource Include="resources\Image2.bmp" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="resources\ViewingTexts.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>ViewingTexts.resx</DependentUpon>
-    </Compile>
+    <ProjectReference Include="..\DotNetStandard2Library\DotNetStandard2Library.csproj" />
   </ItemGroup>
 
   <ItemGroup>

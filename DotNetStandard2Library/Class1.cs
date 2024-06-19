@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -25,7 +26,7 @@ namespace DotNetStandard2Library {
             Console.WriteLine($"OS Platform: {Environment.OSVersion.Platform}");
             Console.WriteLine($"Target Platform: {(IntPtr.Size == 8 ? "64-bit" : "32-bit")}");
             Console.WriteLine($"Framework: {RuntimeInformation.FrameworkDescription}");
-            
+
             Console.WriteLine($"ProcessArchitecture: {RuntimeInformation.ProcessArchitecture}");
             Console.WriteLine($"ImageRuntimeVersion: {assembly.ImageRuntimeVersion}");
         }
@@ -39,8 +40,10 @@ namespace DotNetStandard2Library {
                 Thread.CurrentThread.CurrentCulture = new CultureInfo(language);
                 Thread.CurrentThread.CurrentUICulture = new CultureInfo(language);
 
-                Console.WriteLine($"String for: ViewingTexts.AcceptTissue:  {ViewingTexts.AcceptTissue}");
+                Console.WriteLine(
+                    $"String for: ViewingTexts.AcceptTissue:  {ViewingTexts.AcceptTissue}");
             }
         }
+
     }
 }

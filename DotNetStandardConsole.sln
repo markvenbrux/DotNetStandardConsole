@@ -4,8 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Docker", "App\DotNet.Docker.csproj", "{C2D59806-8907-4954-8034-0CA3A35E084F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8E15E27F-EE4C-4690-B2A8-66229115443A} = {8E15E27F-EE4C-4690-B2A8-66229115443A}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetStandard2Library", "DotNetStandard2Library\DotNetStandard2Library.csproj", "{41EE2A0C-9727-4E57-A058-415BA5103B23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondDotNetStandard2Library", "SecondDotNetStandard2Library\SecondDotNetStandard2Library.csproj", "{8E15E27F-EE4C-4690-B2A8-66229115443A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41EE2A0C-9727-4E57-A058-415BA5103B23} = {41EE2A0C-9727-4E57-A058-415BA5103B23}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,10 @@ Global
 		{41EE2A0C-9727-4E57-A058-415BA5103B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41EE2A0C-9727-4E57-A058-415BA5103B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41EE2A0C-9727-4E57-A058-415BA5103B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E15E27F-EE4C-4690-B2A8-66229115443A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E15E27F-EE4C-4690-B2A8-66229115443A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E15E27F-EE4C-4690-B2A8-66229115443A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E15E27F-EE4C-4690-B2A8-66229115443A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

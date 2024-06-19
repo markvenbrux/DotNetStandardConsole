@@ -6,7 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="8.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DotNetStandard2Library\DotNetStandard2Library.csproj" />
+    <ProjectReference Include="..\SecondDotNetStandard2Library\SecondDotNetStandard2Library.csproj" />
   </ItemGroup>
 
 </Project>
