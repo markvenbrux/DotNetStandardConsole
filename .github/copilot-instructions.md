@@ -61,7 +61,7 @@ Portable .NET 6 console application demonstrating cross-platform resource loadin
 6. **No CI/CD** - validate with `dotnet build` only
 7. **Resource files (.resx, .bmp) are embedded** - rebuild after changes
 8. **Maintain dependency chain** - App → SecondDotNetStandard2Library → FirstDotNetStandard2Library
-9. **App saves to `c:\temp\`** - Windows-specific path is expected
+9. **App saves to `c:\temp\`** - Windows-specific path in demo code; cross-platform support is in resource loading, not file paths
 10. **Trust these instructions** - search only if incomplete/incorrect
 
 ## Validation
