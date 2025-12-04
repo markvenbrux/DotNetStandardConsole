@@ -2,13 +2,13 @@
 
 ## Repository Overview
 
-Portable .NET 6 console application demonstrating cross-platform resource loading (localized text and binary resources), .NET 6 console app with .NET Standard 2.0 library references, and Docker image creation.
+Portable .NET 6 console application demonstrating cross-platform resource loading (localized text and binary resources), .NET Standard 2.0 library references, and Docker image creation.
 
-**Size**: ~11,600 lines of C# | **Type**: Console App | **Frameworks**: .NET 6.0 (app), .NET Standard 2.0 (libs) | **Runtimes**: Windows/Linux
+**Size**: ~11,600 lines (mostly auto-generated ViewingTexts.Designer.cs) | **Type**: Console App | **Frameworks**: .NET 6.0 (app), .NET Standard 2.0 (libs) | **Runtimes**: Windows/Linux
 
 ## Project Structure
 
-3 projects: **App/DotNet.Docker.csproj** (.NET 6.0 console), **FirstDotNetStandard2Library** (.NET Standard 2.0), **SecondDotNetStandard2Library** (.NET Standard 2.0 → depends on FirstDotNetStandard2Library).
+3 projects in dependency chain: **App/DotNet.Docker.csproj** (.NET 6.0 console) → **SecondDotNetStandard2Library** (.NET Standard 2.0) → **FirstDotNetStandard2Library** (.NET Standard 2.0).
 
 - `DotNetStandardConsole.sln` - Main solution (repository root)
 - `App/Program.cs` - Entry point
@@ -60,7 +60,7 @@ Portable .NET 6 console application demonstrating cross-platform resource loadin
 5. **Build is fast** (3-10s) - always build after changes
 6. **No CI/CD** - validate with `dotnet build` only
 7. **Resource files (.resx, .bmp) are embedded** - rebuild after changes
-8. **SecondDotNetStandard2Library depends on FirstDotNetStandard2Library** - maintain dependency order
+8. **Maintain dependency chain** - App → SecondDotNetStandard2Library → FirstDotNetStandard2Library
 9. **App saves to `c:\temp\`** - Windows-specific path is expected
 10. **Trust these instructions** - search only if incomplete/incorrect
 
